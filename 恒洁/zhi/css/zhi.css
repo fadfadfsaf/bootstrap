@@ -1,0 +1,465 @@
+*{
+    padding:0px;
+    margin:0px auto;
+}
+/* banner部分开始 */
+.banner>.col-md-12>img{
+    position: relative;
+    height:auto;
+    width:100%;
+    display: block;
+}
+/* banner部分结束 */
+
+/* 面包屑导航部分开始 */
+.bread>.col-md-12{
+    max-width:100%;
+    height:auto;
+    position: relative;
+    padding:20px 0px;
+    margin-bottom:20px;
+}
+.breadcrumb{
+    color: rgb(137, 137, 137);
+    background: #fff;
+}
+.breadcrumb a{
+    color: rgb(137, 137, 137);
+    text-decoration: none;
+}
+/* 面包屑导航部分结束 */
+
+/* 图片按钮部分开始 */
+.but{
+    margin:50px 0px;
+
+}
+.but>img{
+    width:100%;
+    height:auto;
+}
+.but a{
+    left: 54%;
+    top: 50%;
+    z-index: 2;
+    position: absolute;
+    text-decoration: none;
+    color:#1a355e;
+    background:#fff;
+    display: block;
+    padding:10px 20px;;
+}
+/* 图片按钮部分结束 */
+
+/* 图文内容开始 */
+
+.cont{
+    margin:20px 0px;
+}
+div.cont>ul>li{
+    list-style-type: none;
+    float: left;
+}
+.img1 p,.img2 p{
+    width:550px;
+    height:auto;
+}
+.img1{
+    margin-left:-2px;
+}
+.img2{
+    margin-right:-20px;
+}
+.img1>img,.img2>img{
+    margin-bottom:20px;
+}
+.img1 h4,.img2 h4{
+    color: #1b365d; 
+    margin-bottom:20px;
+}
+.img1>h4>p,.img2>h4>p{
+    margin-top:5px;
+}
+.img1>p,.img2>p{
+    color:#898989;
+    font-size: 16px;line-height:30px;
+    font-family: "微软雅黑";
+}
+.img1 h5{
+    font-size: 14px;
+    font-family: "微软雅黑";
+    color:#898989;
+}
+/* 图文内容结束 */
+
+/* tab切换效果开始 */
+.kk{
+    margin-bottom:50px;
+}
+.tab{
+    width:100%;
+    height:auto;
+    position: relative;
+    padding:20px 0px 40px 0px;
+}
+.tab>ul{
+    width:90%;
+    position: relative;
+    margin:0px 60px 0px;
+    padding:35px 0px;
+}
+.tab>ul>li{
+    width:33%;
+    float:left;
+    text-align: center;
+    color:#6a6a6a;
+    font-size:16px;
+    font-family: "微软雅黑";
+}
+.tab>ul>li>a{
+    color: #6a6a6a; 
+    font-weight: bold;
+}
+.tab>ul>li.so{
+    border-bottom:3px solid #1f4777;
+    color:#1f4777;
+}
+.k{
+    border-left: 1px solid #a0a0a0;
+    border-right: 1px solid #a0a0a0;
+}
+/* 背景色标题 */
+
+div.tit1{
+    width:90%;
+    background: #1f4777;
+    color:#fff;
+    text-align:center;
+    font-size: 18px;
+    line-height: 30px;
+    padding:20px 0px;
+    position: relative;
+    margin:0px 55px 
+}
+/* tab内容部分 */
+
+/* 第一个内容表单 */
+.wen{
+    background:#fff;
+    font-size:14px;
+    font-family: "微软雅黑";
+    color:#898989;
+    position: relative;
+    width: 90%;
+    height:680px;
+    margin:0px 55px 
+}
+.article{
+    width: 95%;
+    margin: 0 auto;
+    padding: 2em 2.5%;
+    background: white;
+    box-sizing: content-box;
+    font-size: 16px;
+    color:grey;
+}
+article sub{
+    font-style: normal;
+    float: left;
+    width: 20px;
+    display: block;
+    bottom: 0;
+    line-height: 180%;
+    font-size:15px;
+}
+article p{
+    float:right;
+    width: 90%;
+    display: block;
+    margin-right:65px;
+}
+/* 第二个内容表单 */
+.wen1{
+    color: grey;
+    width: 90%;
+    /* padding: 0 2.5%; */
+    letter-spacing: .1em;
+    line-height: 2;
+    /* background: #fff; */
+    margin: 0 auto;
+    font-size: 15px;
+}
+.wen1>table{
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid #e5e5e5;
+    color: #7a7a7a;
+    background: #fcfcfc;
+}
+.wen1>table .tr1{
+    background: #ececec;
+    color: #1f4777;
+}
+.wen1>table td{
+    border: 1px solid #e5e5e5;
+    word-break: keep-all;
+    text-align: center;
+    padding: .5em;
+}
+/* 表格下方说明文字 */
+.wen1 span{
+    margin: .5em auto;
+    display: block;
+    width: 100%;
+    font-weight: bold;
+}
+/* 第三个内容表单 */
+.wen2{
+    color: grey;
+    width: 90%;
+    letter-spacing: .1em;
+    line-height: 2;
+    margin: 0 auto;
+    font-size: 15px;
+}
+.wen2>table{
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid #e5e5e5;
+    color: #7a7a7a;
+    background: #fcfcfc;
+}
+.wen2>table .tr1{
+    background: #ececec;
+    color: #1f4777;
+}
+.wen2>table td{
+    border: 1px solid #e5e5e5;
+    word-break: keep-all;
+    padding: .5em;
+    text-align: center;
+}
+/* 表格下方说明文字 */
+.wen2 span{
+    margin: .5em auto;
+    display: block;
+    width: 100%;
+    font-weight: bold;
+}
+.wen2>table>tbody td.txtl{
+    text-align: left;
+}
+/* tab切换效果结束 */
+
+/*---------------------------------------移动端开始------------------------------*/
+/* 内容1开始 */
+/* 图片部分 */
+.text1 img{
+    width:100%;
+    height:auto;
+}
+/* 内容部分 */
+.t1{
+    width:100%;
+    height:auto;
+    background: #fafafa;
+    padding:10px 30px;
+}
+.t1>.p1{
+    color: #46567d;
+    line-height: 150%;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.t1 .aa1{
+    background: #002e64;
+    color: #fff;
+    font-size: 1.0em;
+    display: inline-block;
+    padding: 0 10px;
+    letter-spacing: .2em;
+    font-weight: bold;
+    line-height: 200%;
+    margin: 10px 0;
+}
+
+/* 内容二开始 */
+/* 图片部分 */
+.t2{
+    width: 88%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.t2>.tt2 img,.t2 .tt3 img{
+    width:100%;
+    height:auto;
+}
+/* 内容部分 */
+.t2 .p2{
+    color: #46567d;
+    line-height: 140%;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 5px 0;
+}
+.t2 .p4{
+    color: #5e5e5e;
+    line-height: 140%;
+    font-size: 0.8em;
+}
+.t2 .tt3{
+    color: #5e5e5e;
+    line-height: 140%;
+    font-size: 1.2em;
+    padding:10px 0px;
+}
+
+/* 第三部分内容开始 */
+
+#show0{
+    width:100%;
+    height:auto;
+    position: relative;
+    background: #f8f8f8;
+    padding:40px 0px;
+}
+#show0>#title0{
+    width:90%;
+    height:30px;
+    position: relative;
+    margin:40px auto;
+}
+#show0>#title0>span{
+    display:block;
+    width:33%;
+    text-align: center;
+    padding:0 10px;
+    float:left;
+    color: #6a6a6a; 
+    font-size:1.1em;
+    line-height: 150%;
+}
+#show0>#title0>span.aaa1{
+    border-left: 1px solid #a0a0a0;
+    border-right: 1px solid #a0a0a0;
+}
+#show0>#title0>span.bg0{
+    border-bottom:3px solid #1f4777;
+    color:#1f4777;
+}
+#show0>#contents0{
+    width:90%;
+    height:auto;
+    position: relative;
+    margin:0 auto;
+}
+/* 内容部分1 */
+div.tit10{
+    width:95%;
+    background: #1f4777;
+    color:#fff;
+    text-align:center;
+    font-size: 1em;
+    line-height: 30px;
+    padding:10px 0px;
+    position: relative;
+    margin:0 auto;
+}
+.wen0{
+    background:#fff;
+    font-size:14px;
+    font-family: "微软雅黑";
+    color:#898989;
+    position: relative;
+    width: 95%;
+    height:750px;
+    margin:0px auto; 
+    padding:10px 20px;
+}
+article sub{
+    font-style: normal;
+    float: left;
+    width: 20px;
+    display: block;
+    bottom: 0;
+    line-height: 150%;
+    font-size:1.0em;
+}
+.wen0 article p{
+    font-size:0.8em;
+    float:right;
+    width: 90%;
+    display: block;
+    margin:0 auto;
+    line-height: 210%;
+}
+/* 内容部分2 */
+.wen00{
+    height:1000px;
+    margin: 0 auto;
+    font-size: 0.8em;
+    font-family: "微软雅黑";
+    color:#898989;
+    position: relative;
+    width: 95%;
+    padding:0 -20px;
+    letter-spacing: .1em;
+}
+.wen00>table{
+    width: 100%;
+    height:auto;
+    margin: 0 auto;
+    border: 1px solid #e5e5e5;
+    color: #7a7a7a;
+    background: #fcfcfc;
+}
+.wen00>table .tr10{
+    background: #ececec;
+    color: #1f4777;
+}
+.wen00>table td{
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    padding: .5em;
+}
+/* 表格下方说明文字 */
+.wen00 span{
+    margin: .5em auto;
+    display: block;
+    width: 100%;
+    font-weight: bold;
+}
+/* 内容3开始 */
+.wen20{
+    color: grey;
+    width: 95%;
+    letter-spacing: .1em;
+    margin: 0 auto;
+    font-size: 0.8em;
+}
+.wen20>table{
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid #e5e5e5;
+    color: #7a7a7a;
+    background: #fcfcfc;
+}
+.wen20>table .tr10{
+    background: #ececec;
+    color: #1f4777;
+}
+.wen20>table td{
+    border: 1px solid #e5e5e5;
+    padding: .5em;
+    text-align: center;
+} 
+/* 表格下方说明文字 */
+.wen20 span{
+    margin: .5em auto;
+    display: block;
+    width: 100%;
+    font-weight: bold;
+}
+.wen20>table>tbody td.txtl0{
+    text-align: left;
+}

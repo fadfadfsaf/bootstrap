@@ -1,0 +1,104 @@
+.video{
+    height: 60px;
+    text-align: center;
+    margin-top: 100px;
+}
+.video>.video_a{
+    background: #D9EDF7;
+    height: 60px;
+}
+.video>.video_a>a{
+    color: #F1678D;
+}
+.video>.video_a>a>h1{
+    display: inline;
+    line-height: 60px;
+    font-size: 18px;
+}
+.video>.video_a>a>h1>span{ 
+    vertical-align: middle;
+}
+.video>.video_a>span{ 
+    float: right;
+    line-height: 60px;
+    color: #B3C3CB;
+    cursor: pointer;
+}
+.video>.video_a>span:hover{ 
+    color: #999;
+}
+
+/* 点击观看视频 */
+
+/* ______________________________________ */
+
+/* 文字链接 */
+
+.video_text{
+    width: 100%;
+} 
+.video_text ul{
+    list-style-type: none;
+}
+.video_text li{
+    text-align: center;
+    margin: 50px 0px;
+}
+.video_text a{
+    color: #333;
+    font-size: 16px;
+    margin: 20px 0px;
+}
+.video_text a:hover{
+    color: #F1678D;
+}
+
+
+/* ———————————————————————————————————————————————————— */
+
+/* 页码 */
+
+.page .active>a{
+    background-color: #F1678D;
+    border: solid 1px #F1678D;
+}
+.page .disabled>a>span{
+    color: #999;
+}
+.page .active>a>span:hover{
+    color: #337ab7;
+}
+.page .Next>a>span:hover{
+    color: #337ab7;
+}
+
+/* ———————————————————————————————————————————————————————————— */
+
+/* 图片链接 */
+.imgs,.imges{
+    margin-top: 100px;
+    text-align: center;
+    transition: transform 0.5s ease-in 0s;
+}
+.imgs a,.imges a{
+    display: inline-block;
+    font-size: 18px;
+    color: #333;
+}
+.imgs img,.imges img{
+    display: box;
+    padding: 20px 15px 0px;
+    border: solid 1px #ccc;
+    height: auto;
+}
+.imgs span,.imges span{
+    margin-top: 20px;
+    display: inline-block;
+}
+.imgs a:hover,.imges a:hover{
+    color: #F1678D;
+    text-decoration: underline;
+    margin-top: -5px ;
+}
+
+
