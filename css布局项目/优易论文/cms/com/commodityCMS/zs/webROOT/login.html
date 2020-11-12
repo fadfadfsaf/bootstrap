@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../src/img/logo_hanwen.png"/>
+    <link rel="stylesheet" href="../src/css/lognin_style.css">
+    <link rel="stylesheet" href="../src/css/animate.min.css">
+    <script src="../src/js/jquery-3.3.1.min.js"></script>
+    <title>汉文商品管理系统_请登录</title>
+</head>
+<body>
+    <div class="form_mian">
+        <form action="index.html" method="POST" name="login" class="formstyle">
+            <div class="uname wow fadeInUp">
+                <label for="username">&nbsp;&nbsp;&nbsp;&nbsp;I&nbsp;&nbsp;D：</label>
+                <input type="text" name="username" id="username" placeholder="请输入用户名（邮箱格式）" required>
+            </div>
+            <div class="upwd wow fadeInUp">
+                <label for="upwd">&nbsp;&nbsp;&nbsp;&nbsp;密码：</label>
+                <input type="password" name="userpwd" id="userpwd" placeholder="请输入密码（8-16位字母数字组成）" required>
+            </div>
+            <div class="uqx wow fadeInUp">
+                <label for="qx">&nbsp;&nbsp;&nbsp;&nbsp;权限：</label>
+                <select name="权限" id="qx" required>
+                    <option value="superAdmin">超级管理员</option>
+                    <option value="admin">管理员</option>
+                </select>
+            </div>
+            <div class="btn wow fadeInUp">
+                <input type="submit" name="btn" value="登录">
+            </div>
+        </form>
+    </div>
+    <script src="../src/js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+</html>

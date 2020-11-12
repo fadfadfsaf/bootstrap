@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>管理系统</title>
+    <!--引入jquery的js，EasyUI的执行需要依赖于jQuery  -->
+    <script type="text/javascript" src="jquery-1.8.3.min.js"></script>
+    <!--easyUI的js主文件  -->
+    <script type="text/javascript" src="jquery.easyui.min.js"></script>
+    <!--国际化的js文件  -->
+    <script type="text/javascript" src="locale/easyui-lang-zh_CN.js"></script>
+    <!--引入easyUI的样式  -->
+    <link rel="stylesheet" type="text/css" href="themes/icon.css" />
+    <link rel="stylesheet" type="text/css" href="themes/default/easyui.css" />
+    <script type="text/javascript">
+        $(function () {
+            //为按钮添加点击事件
+            $("#btn1").bind("click", function () {
+                alert("点击事件添加成功");
+            });
+            //树状菜单和选项卡的联动
+            //给菜单添加单击事件
+            $("#tt1").tree({
+                onClick: function (node) {
+                    //控制台打印node内容
+                    //console.log(node);
+                    //获取attributes属性,判断是菜单还是菜单描述
+                    var attrs = node.attributes;
+                    if (attrs == null || attrs.url == null) {
+                        return;
+                    }
+                    //判断选项卡是否存在
+                    var has = $("#div_tabs").tabs("exists", node.text);
+                    if (has) {
+                        //选中存在的选项卡
+                        $("#div_tabs").tabs("select", node.text);
+                    } else {
+                        //创建新的选项卡面板
+                        $("#div_tabs").tabs("add", {
+                            title: node.text,
+                            closable: true,
+                            content: "<iframe src=" + attrs.url + " style='width:100%;height:98%' frameborder='0'/>"
+                        })
+                    }
+                }
+            })
+        })
+    </script>
+</head>
+<style>
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .logo {
+        padding-left: 50px;
+    }
+
+    .btn>a {
+        height: 50px;
+        line-height: 50px;
+        width: 78px;
+    }
+
+    .btn>a .l-btn-text {
+        height: 50px;
+        line-height: 50px;
+    }
+
+    #index>.div1 {
+        background: #333333;
+        color: #fff;
+    }
+    #index>.div2 {
+        padding: 20px;
+    }
+    #index>.div1>img {
+        display: block;
+        width: 50%;
+        height: auto;
+        margin: 0px 10%;
+    }
+
+    h1 {
+        font-size: 1.8em;
+        margin: 10px 0px 10px;
+    }
+</style>
+
+<body>
+    <div class="easyui-layout" style="width:100%; height:800px;">
+        <!-- 顶部 -->
+        <div data-options="region:'north',split:false" title="" class="panel-body panel-body-noheader layout-body"
+            style="width: 1349px;height: 108px;">
+            <img src="img/logo.png" alt="" class="logo">
+            <!-- <div class="btn">
+                <a id="btn1" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-back'">返回</a>
+                <a id="btn2" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-add'">新增</a>
+                <a id="btn3" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-edit'">编辑</a>
+                <a id="btn4" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-clear'">清空</a>
+                <a id="btn5" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-remove'">移除</a>
+                <a id="btn6" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-save'">保存</a>
+                <a id="btn7" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-cut'">剪切</a>
+                <a id="btn8" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-ok'">ok</a>
+                <a id="btn9" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-no'">no</a>
+                <a id="btn10" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-cancel'">取消</a>
+                <a id="btn11" href="#" class="easyui-linkbutton" data-options="iconCls:'reload'">重载</a>
+                <a id="btn12" href="#" class="easyui-linkbutton" data-options="iconCls:'search'">查询</a>
+                <a id="btn13" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-print'">打印</a>
+                <a id="btn14" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-help'">帮助</a>
+                <a id="btn15" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-undo'">取消</a>
+            </div> -->
+        </div>
+
+        <!-- 底部 -->
+        <div data-options="region:'south',title:'营业执照',split:true" style="height:100px;">
+            <div>
+                信息网络传播视听节目许可证：0910417 网络文化经营许可证 沪网文【2019】3804-274号
+            </div>
+        </div>
+        <!-- 左侧 -->
+        <div data-options="region:'west',split:true" title="菜单" style="width:300px;">
+            <div class="easyui-accordion" data-options="fit:true,border:false">
+                <div title="文档">
+                    <ul id="tt1" class="easyui-tree">
+                        <li>
+                            <span>首页</span>
+                            <ul>
+                                <li data-options="attributes:{url:'data/index/img.html'}">首页图片</li>
+                                <li data-options="attributes:{url:'data/index/text.html'}">首页文字</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>案例</span>
+                            <ul>
+                                <li data-options="attributes:{url:'data/案例/img.html'}">案例图片</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>模板</span>
+                            <ul>
+                                <li data-options="attributes:{url:'data/模板/img.html'}">模板图片</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- <div title="自定义列表1" >
+                    <h3 style="color:#0099FF;">Accordion for jQuery</h3>
+                    <p>Accordion is a part of easyui framework for jQuery. It lets you define your accordion component
+                        on web page more easily.</p>
+                </div>
+                <div title="自定义列表2" >
+                </div> -->
+            </div>
+        </div>
+
+
+        <div data-options="region:'center'">
+            <!--选项卡使用-->
+            <div id="div_tabs" class="easyui-tabs" data-options="fit:true,border:false">
+                <!--首页-->
+                <div id="index" title="首页">
+                    <div class="div1">
+                        <img src="img/wedxt800x500.png" alt="">
+                    </div>
+                    <div class="div2">
+                        <h1>Hey,欢迎使用维斗喜帖 诗歌，文章，相册微喜帖，邀请函！</h1>
+                        <p>维斗喜帖网是一个微场景应用开发平台，我们通过简单直观的操作步骤，丰富多样的模版，为广大客户提供各方面的微应用，包括电子喜帖，</p>
+                        <p>微邀请，微相册，微杂志，微网站，企业微场景等。</p>
+                        <p>制作个人应用 ：结婚、生日宴、活动Party、个人相册。制作商务英语：产品宣传、店庆、品牌/形象展示、活动邀请、合作代理、公共号接通微场景。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</body>
+
+</html>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+window.onload=function(){
+	document.getElementById("pic").onclick=function(){
+		document.getElementById("msg").setAttribute("class","show");
+		console.log(msg);
+	}
+	document.getElementById("span1").onclick=function(){
+		document.getElementById("msg").removeAttribute("class");
+		console.log(msg);
+	}
+   document.getElementById("pic2").onclick=function(){
+		document.getElementById("msg2").setAttribute("class","change");
+		console.log(msg);
+	}
+    document.getElementById("span2").onclick=function(){
+		document.getElementById("msg2").removeAttribute("class");
+		console.log(msg);
+	}
+}

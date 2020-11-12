@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>挂件管理</title>
+	<meta name="description" content="长春市捷成车信软件有限公司" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/gua.css">
+	<script  type="text/javascript" src="js/jquery-1.11.1.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<style>
+			body {
+			padding-top: 50px;
+		}
+
+		.navbar-default {
+			background-color: white;
+			border-color: white;
+		}
+
+		.navbar-brand {
+			padding: 5px;
+		}
+
+		#jc_bottom {
+			padding-top: 10px;
+			padding-bottom: 10px;
+			background: #2a2730;
+			color: #fff;
+		}
+	</style>
+</head>
+
+<body>
+ 
+	<!--导航菜单-->
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="http://www.jccms.com">
+					<img alt="捷成软件logo" src="img/logo.png" height="100%">
+				</a>
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynavbar"
+					aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse" id="mynavbar">
+				<ul class="nav navbar-nav">
+					<!--左侧菜单-->
+					<li><a href="../index.html">首页</a></li>
+					<li><a href="../dian/dian.html">汽车4S店软件</a></li>
+					<li><a href="../xiu.html/xiu.html">汽修管理软件</a></li>
+					<li><a href="../pei/pei.html">汽配管理软件</a></li>
+
+					<li><a href="gua.html">汽车挂靠管理软件</a></li>
+					<li class="dropdown">
+						<a href="../news/news.html" class="dropdown-toggle" data-toggle="dropdown">
+							<span>咨询动态<span class="caret"></span></span>
+						</a>
+						<ul class="dropdown-menu">
+							<li><a href="../news/news.html">汽修咨询</a></li>
+							<li><a href="http://www.jccms.com/gsdt/">公司动态</a></li>
+							<li><a href="http://www.jccms.com/cjwt/">常见问题</a></li>
+						</ul>
+					</li>
+
+					<li class="dropdown">
+						<a href="" class="dropdown-toggle" data-toggle="dropdown">
+							<span>客户案例<span class="caret"></span></span>
+						</a>
+						<ul class="dropdown-menu">
+							<li><a href="http://www.jccms.com/qxal/">汽修汽配</a></li>
+							<li><a href="http://www.jccms.com/4sal/">汽车4S店</a></li>
+							<li><a href="http://www.jccms.com/zkal/">重卡汽车4S店</a></li>
+							<li><a href="http://www.jccms.com/mral/">汽车美容装饰店</a></li>
+							<li><a href="http://www.jccms.com/gdkh/">更多客户</a></li>
+						</ul>
+					</li>
+
+					<li><a href="http://www.jccms.com/jcrj/">关于捷成</a></li>
+				</ul>
+				<p class="navbar-text navbar-right"><strong><span
+							class="glyphicon glyphicon-earphone"></span>400-678-7358</strong></p>
+				<button type="button" class="btn btn-primary navbar-btn navbar-right" id="btntry">立即试用</button>
+			</div>
+		</div>
+	</nav>
+	<!--导航菜单结束-->
+	<!-- banner -->
+    <div class="row banners">
+		<div class="col-md-12">
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			<!-- Wrapper for slides  滚动图片和文本 -->
+			<div class="carousel-inner" role="listbox">
+			  <div class="item active">
+				  <!-- active默认第一个图片 -->
+				<img src="img/_3X@BWW4A~~B%3]B2]WI8)L.png" alt="...">
+			  </div>
+			  <div class="item">
+				<img src="img/carTop2.png" alt="...">
+			  </div>
+			</div>
+		  
+			<!-- Controls 控制柄 -->
+			<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+			  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			  <span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+			  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			  <span class="sr-only">Next</span>
+			</a>
+		</div>
+		</div>
+	</div>
+<!-- banner -->
+<!-- 如何管理 -->
+    <div class="container guanli">
+		<div class="col-md-12" style="width: 1200px;">
+			<h2>捷成软件是如何帮您管理挂靠车辆的？</h2>
+			<h4>向您推荐一汽经验的管理系统,自动提醒,有效防止漏交,误交,逾期,降低财务风险,提高工作效率</h4>
+			<div class="div1">
+				<span></span>
+				<h3>车辆档案更清晰</h3>
+				<p>档案登记规范，文档、图片都可以管理，哪些车辆图片未采集一目了然，多条件查询，高效办公，大幅降低人员成本。</p>
+			</div>
+			<div class="div1">
+				<span></span>
+				<h3>到期提醒更及时</h3>
+				<p>检车到期、保险到期、营运证到期、交服务费等30项到期提醒，彻底避免了查找档案的繁琐，杜绝漏收多收少收的情况。</p>
+			</div>
+			<div class="div1">
+				<span></span>
+				<h3>利润成本一目了然</h3>
+				<p>每个车辆、每项收费一年的成本利润是多少？公司整体的应收情况怎么样？欠费情况帮您快速精准的分析数据。</p>
+			</div>
+			<div class="div1">
+				<span></span>
+				<h3>财务管控无死角</h3>
+				<p>自动生成财务流水，收入、支出每一分钱都有据可查,确保没有任何财务漏洞。还可按照结算方式核对余额。</p>
+			</div>
+		</div>
+	</div>
+<!-- 如何管理 -->
+    <div class="container-fluid more">
+		<div class="col-md-2"></div>
+		<div class="col-md-8">
+			<h4>用捷成挂靠软件安全、省心、更高效！</h4>
+			<p>1.安全</p>
+			<p>手工记账,员工一旦离职,数据无权限管理不安全,公司财务和客户信息容易流入竞争对手公司。</p>
+			<p>2.高效</p>
+			<p>每天查找车辆的保险,年审,营运证到期等信息,忙忙碌碌，还容易漏掉或者出错。工作效率低,客户意见大！</p>
+			<p>3.省心</p>
+			<p>到期自动提醒,杜绝欠费、漏收、误收、逾期等情况,降低财务风险。</p>
+			<p>4.省钱</p>
+			<p>车辆数量增多,没有好的管理软件,不得不增加人员,一个人员一年4、5万的费用,利润急剧下滑。</p>
+			<img src="img/moreCheap.jpg" alt="">
+		</div>
+		<div class="col-md-2"></div>
+	</div>
+<!-- 功能简介 -->
+	<div class="container-fluid fn">
+		<div class="col-md-2"></div>
+		<div class="col-md-8">
+			<h2>功能简介</h2>
+			<div class="main">
+				<div>
+					<h3>车辆档案</h3>
+					<p>牵引车和挂车采用组合方式，牵引车更换挂车，方便快捷。车辆可绑定的图片无上限。</p>
+				</div>
+				<div>
+					<h3>车辆档案</h3>
+					<p>牵引车和挂车采用组合方式，牵引车更换挂车，方便快捷。车辆可绑定的图片无上限。</p>
+				</div>
+				<div>
+					<h3>车辆档案</h3>
+					<p>牵引车和挂车采用组合方式，牵引车更换挂车，方便快捷。车辆可绑定的图片无上限。</p>
+				</div>
+				<div>
+					<h3>车辆档案</h3>
+					<p>牵引车和挂车采用组合方式，牵引车更换挂车，方便快捷。车辆可绑定的图片无上限。</p>
+				</div>
+				<div>
+					<h3>车辆档案</h3>
+					<p>牵引车和挂车采用组合方式，牵引车更换挂车，方便快捷。车辆可绑定的图片无上限。</p>
+				</div>
+				<div>
+					<h3>车辆档案</h3>
+					<p>牵引车和挂车采用组合方式，牵引车更换挂车，方便快捷。车辆可绑定的图片无上限。</p>
+				</div>
+				<div>
+					<h3>车辆档案</h3>
+					<p>牵引车和挂车采用组合方式，牵引车更换挂车，方便快捷。车辆可绑定的图片无上限。</p>
+				</div>
+				<div>
+					<h3>车辆档案</h3>
+					<p>牵引车和挂车采用组合方式，牵引车更换挂车，方便快捷。车辆可绑定的图片无上限。</p>
+				</div>
+				<div>
+					<h3>车辆档案</h3>
+					<p>牵引车和挂车采用组合方式，牵引车更换挂车，方便快捷。车辆可绑定的图片无上限。</p>
+				</div>
+				<div>
+					<h3>车辆档案</h3>
+					<p>牵引车和挂车采用组合方式，牵引车更换挂车，方便快捷。车辆可绑定的图片无上限。</p>
+				</div>
+				<div>
+					<h3>车辆档案</h3>
+					<p>牵引车和挂车采用组合方式，牵引车更换挂车，方便快捷。车辆可绑定的图片无上限。</p>
+				</div>
+				<div>
+					<h3>车辆档案</h3>
+					<p>牵引车和挂车采用组合方式，牵引车更换挂车，方便快捷。车辆可绑定的图片无上限。</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2"></div>
+	</div>
+	<!-- 功能简介 -->
+	<!-- 同行软件 -->
+	<div class="container compare">
+		<div class="col-md-2"></div>
+		<div class="col-md-8">
+           <div style="width: 570px; height: 313px;float: left;margin-left: 50px;">
+			   <h3>同行软件</h3>
+			   <div style="text-align:left;color: #a94442;background: #f2dede;padding: 15px;">
+				   <p>1.每辆车只能固定绑定几张图片，经常不够用。</p>
+				   <p>2.岗位和权限不够明确，已经填写的车辆信息被同事修改。</p>
+				   <p>3.仅支持办理2种保险，无法计算保险净费，无法录入交强险的税额，无法通过两种返利率的差值计算利润。</p>
+				   <p>4.仅支持10种左右的业务提醒，不包含GPS年费，危险灯到期，安全责任书到期，罐车检验到期，强制报废到期，危货变普货到期等业务的提醒。</p>
+				   <p>5.仅支持车主信息的录入，无法录入车辆的驾驶员，押运员，五险缴纳人的信息。</p>
+				   <p>6.无进销存功能，对灭火器，危险灯，ETC卡片，ETC充值宝等商品没有入库和出库的记录，经常出现丢失的情况。</p>
+			   </div>
+		   </div>
+		   <div style="width: 570px; height: 313px;float: right;">
+			<h3>捷成软件</h3>
+			<div style="text-align:left;color: #31708f;background: #d9edf7;padding: 15px;">
+				<p>1.每辆车只能固定绑定几张图片，经常不够用。</p>
+				<p>2.岗位和权限不够明确，已经填写的车辆信息被同事修改。</p>
+				<p>3.仅支持办理2种保险，无法计算保险净费，无法录入交强险的税额，无法通过两种返利率的差值计算利润。</p>
+				<p>4.仅支持10种左右的业务提醒，不包含GPS年费，危险灯到期，安全责任书到期，罐车检验到期，强制报废到期，危货变普货到期等业务的提醒。</p>
+				<p>5.仅支持车主信息的录入，无法录入车辆的驾驶员，押运员，五险缴纳人的信息。</p>
+				<p>6.无进销存功能，对灭火器，危险灯，ETC卡片，ETC充值宝等商品没有入库和出库的记录，经常出现丢失的情况。</p>
+			</div>
+		</div>
+		</div>
+		<div class="col-md-2"></div>
+	</div>
+		<!-- 同行软件 -->
+
+		
+	<!--底部-->
+	<div id="jc_bottom">
+		<div class="container">
+			<div class="col-md-4">
+				<h4>联系方式</h5>
+					<p>销售电话：13166812077,400-678-7358,0431-87097920</p>
+					<p>售后电话：0431-85191288,13500897465</p>
+					<p>地址：吉林省长春市汽车产业开发区西环城路7255号</p>
+					<p>Q Q: 983115094，1335680740</p>
+			</div>
+			<div class="col-md-4">
+				<img alt="捷成软件微信" src="img/qrcode.png" class="img-responsive center-block">
+			</div>
+			<div class="col-md-4">
+				<p>长春市捷成车信软件有限公司 版权所有</p>
+				<p><a href="http://www.beian.miit.gov.cn" style='color:White'>[吉ICP备12006052号-1]</a></p>
+				<p>主营业务：汽车4S店管理软件、汽修管理软件、汽配管理软件、汽车挂靠管理软件、快修美容店管理软件</p>
+			</div>
+		</div>
+	</div>
+	<!--底部结束-->
+
+</body>
+
+</html>
+<script>
+	//立即试用
+	$('#btntry').on('click',function(){
+		 window.open("http://od58htzbw86rbb86.mikecrm.com/C027ElW");
+	  })
+	</script>

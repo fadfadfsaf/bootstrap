@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    /* 表单固定定位居中 */
+    .form1 {
+        position: absolute;
+        z-index: 999;
+        top: 100px;
+        left: 50%;
+        margin-left: -153px;
+        border-radius: 50px;
+    }
+
+    /* 输入框样式 */
+    input {
+        width: 260px;
+        height: 50px;
+        background: rgba(253, 238, 85, 0.6);
+        margin-bottom: 20px;
+        padding: 0px 20px;
+        border: rgba(128, 93, 45, 0.6) 3px solid;
+        border-radius: 20px;
+    }
+
+    /* 提交按钮样式 */
+    .btn {
+        width: 306px;
+        height: 50px;
+        background: #DC4E26;
+        color: seashell;
+        font-size: 16px;
+        font-weight: bolder;
+    }
+
+    /* 图片样式 */
+    img {
+        margin-top: 130px;
+    }
+
+    img.left {
+        float: left;
+        width: 50%;
+        transform: rotateY(180deg);
+    }
+
+    img.right {
+        float: right;
+        width: 50%;
+    }
+</style>
+
+<body>
+    <!-- 表单 -->
+    <form action="" name="form1" class="form1">
+        <input type="text" name="username" placeholder="请输入您的姓名"><br>
+        <input type="password" name="userpwd" placeholder="请输入您的密码"><br>
+        <input type="number" name="userclass" placeholder="请输入您的班级"><br>
+        <input type="button" name="btn" value="登录" class="btn">
+    </form>
+    <!-- 图片 -->
+    <img src="images/timg.gif" alt="" class="left">
+    <img src="images/timg.gif" alt="" class="right">
+    <div id="a">asljndladsn</div>
+
+    <!-- js部分 -->
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/login.js"></script>
+</body>
+
+</html>

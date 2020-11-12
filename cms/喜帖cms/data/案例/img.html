@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页图片</title>
+    <!--引入jquery的js，EasyUI的执行需要依赖于jQuery  -->
+    <script type="text/javascript" src="../../jquery-1.8.3.min.js"></script>
+    <!--easyUI的js主文件  -->
+    <script type="text/javascript" src="../../jquery.easyui.min.js"></script>
+    <!--国际化的js文件  -->
+    <script type="text/javascript" src="../../locale/easyui-lang-zh_CN.js"></script>
+    <!--引入easyUI的样式  -->
+    <link rel="stylesheet" type="text/css" href="../../themes/icon.css" />
+    <link rel="stylesheet" type="text/css" href="../../themes/default/easyui.css" />
+</head>
+<script type="text/javascript">
+    $(function () {
+        //为按钮添加点击事件
+        $("#btn1").bind("click", function () {
+            alert("点击事件添加成功");
+        });
+    })
+</script>
+<style>
+    #msg>div {
+        width: 840px;
+        border: 1px solid #F1678D;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+
+    .btn>a {
+        height: 50px;
+        line-height: 50px;
+        width: 78px;
+    }
+
+    .btn>a .l-btn-text {
+        height: 50px;
+        line-height: 50px;
+    }
+</style>
+
+<body>
+    <div id="msg">
+        <div>
+            <img src="img/thumb (1).png" alt="">
+            <a id="btn3" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-edit'">编辑</a>
+        </div>
+        <div>
+            <img src="img/thumb (2).png" alt="">
+            <a id="btn3" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-edit'">编辑</a>
+        </div>
+        <div>
+            <img src="img/thumb (3).png" alt="">
+            <a id="btn3" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-edit'">编辑</a>
+        </div>
+        <div>
+            <img src="img/thumb (4).png" alt="">
+            <a id="btn3" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-edit'">编辑</a>
+        </div>
+    </div>
+    <script type="text/javascript" src="../../ajax.js"></script>
+    <script type="text/javascript">
+        function banner(g) {
+            console.log(g);
+            var obj = eval('(' + g + ')');
+            console.log(obj);
+            var divmsg = document.getElementById("msg");
+        }
+            getData(banner, "POST", "http://www.qhdlink-student.top/student/banner.php", true, "username=lyx&userpwd=12345678&userclass=61&type=2");
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,146 @@
+/* 导航start */
+.history_nav{
+    position: relative;
+    width: 1280px;
+    height:40px;
+    background: #8A1529;
+    margin-bottom:10px;
+}
+.history_nav>a{
+    display: block;
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    margin-top: 5px;
+    color: #fff;
+    font-size: 8px;
+    padding: 0px 20px;
+}
+.history_nav>a.bg{
+    background: #fff; 
+    color: #666;
+}
+.history_nav>a:hover{
+    color: black;
+}
+/* 导航end */
+
+/* 内容start */
+.contents{
+    position: relative;
+    width:960px;
+    height:366px;
+}
+.contents>.start{
+    position: relative;
+    top: -100px;
+    left: 400px;
+    z-index: 999;
+}
+.contents>.contshow{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width:960px;
+    height:366px;
+}
+.contshow>.textshow{
+    float: left;
+    width: 450px;
+    height: 206px;
+    position: absolute;
+    overflow: hidden;
+    top: 0px;
+    left: 0px;
+    z-index: 19;
+}
+.contshow>.textshow>.text{
+    display: none;
+    padding: 30px;
+}
+.contshow>.textshow>.text>img{
+    width: 350px;
+    padding-bottom: 20px;
+}
+.contshow>.textshow>.text>p{
+    font-size: 12px;
+    color: #333;
+}
+.contshow>.imgshow{
+    width: 960px;
+    height: 366px;
+    overflow: hidden;
+    position: relative;
+    z-index: 18;
+}
+.contshow>.imgshow>ul{
+    list-style-type: none;
+}
+.contshow li{
+    display: none;
+    width: 960px;
+    height: 366px;
+    overflow: hidden;
+    position: relative;
+}
+/* 内容end */
+
+/* 内容下标start */
+.contents_nav{
+    position: relative;
+    overflow: hidden;
+    width:960px;
+    height:105px;
+    background:url(img/nav_bg.jpg);
+    z-index: 1;
+}
+.contents_nav>.focus{
+    width:960px;
+    height: 100px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 2;
+}
+.focus span{
+    width: 87px;
+    height: 100px;
+    display: block;
+    float: left;
+}
+/* .contents_nav>img.bor{
+    width: 82.6px;
+    background: url(img/nav_current.jpg) 82.6px;
+} */
+
+/* 内容下标end */
+
+/* text部分start */
+.contents_bot{
+    position: relative;
+    width:940px;
+    height:140px;
+    padding: 25px 0px 25px 20px;
+}
+.contents_bot>img{
+    padding-bottom: 20px;
+}
+.contents_bot>p{
+    font-size: 14px;
+    line-height: 20px;
+    width: 830px;
+    float: left;
+    color: #333;
+}
+/* text部分end */
+
+/* 分割线start */
+.Cut{
+    width: 1020px;
+    border-bottom: solid 1px #cbcbcb;
+    position: relative;
+}
+/* 分割线end */
+#bor{
+    position: relative;
+    left: 0;
+}

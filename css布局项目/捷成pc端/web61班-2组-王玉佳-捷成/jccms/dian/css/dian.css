@@ -1,0 +1,291 @@
+/* 图文简介部分开始 */
+*{
+    margin:0px auto;
+}
+.navx,.nav_1{
+    clear: both;
+    width: 1200px;
+    height: auto;
+    text-align: center;
+  overflow: hidden;
+}
+.navx>h3,.nav_1>h3{
+    font-size: 30px;
+    font-weight: normal;
+    color: #003067;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.navx>p,.nav_1>p{
+    font-size: 18px;
+    color: #333;
+}
+.navx>div{
+    float: left;
+    margin-top: 50px;
+    margin-right: 30px;
+    padding-bottom: 60px;
+}
+.nav_1>div{
+    float: left;
+    margin-top: 50px;
+    margin-left: 180px;
+    padding-bottom: 60px;
+}
+.nav1,.nav5{
+    background: url("../img/x1.png") no-repeat center top;
+}
+.nav2,.nav6{
+    background: url("../img/x2.png") no-repeat center top;
+}
+.nav3,.nav7{
+    background: url("../img/x3.png") no-repeat center top;
+}
+.nav4{
+    background: url("../img/x4.png") no-repeat center top;
+}
+.navx>div>h2,.nav_1>div>h2{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-weight: normal;
+    font-size: 20px;
+}
+.navx>div>p,.nav_1>div>p{
+    font-size: 14px;
+}
+/* 图文简介部分结束 */
+
+/* 更省钱开始 */
+.c2{
+    width: 100%;
+    height: auto;
+    background: #005c99;
+    position: relative;
+}
+.sq{
+    width: 100%;
+    height: auto;
+    overflow: auto;
+    margin-bottom: 20px;
+}
+.sq>img{
+    float: right;
+    padding: 40px 80px 40px 10px;
+    margin-right:70px;
+}
+.sq>div{
+    width: 580px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 180px;
+    color: #fff;
+}
+.sq>div>h2{
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.sq>div>p{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+/* 更省钱结束 */
+
+/* 中国一汽开始 */
+.c3{
+    width: 100%;
+    height: auto;
+    position: relative;
+    background: #fff;
+}
+.c33{
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: auto;
+    margin-bottom: 20px;
+}
+.c33>img{
+    float: left;
+    padding: 40px 0px 40px 10px;
+    margin-left:200px;
+}
+.c33>div{
+    width: 35%;
+    float: right;
+    margin-top: 40px;
+    color: #333;
+    margin-right:180px;
+}
+.c33>div>h2{
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.c33>div>p{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+/* 中国一汽结束 */
+
+/* 功能简介部分开始 */
+.gn{
+    width: 100%;
+    height: auto;
+    overflow: auto;
+    position: relative;
+    background: #eee;
+    clear: both;
+}
+.gn1{
+    width: 1200px;
+    height: 1200px;
+    position: relative;
+    background: #fff;
+    
+    margin:0px auto;
+    margin-bottom: 50px;
+}
+.gn>h2{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 30px;
+    font-weight: normal;
+}
+.gn1>div{
+  float: left;
+  width: 250px;
+  margin-left: 40px;
+  margin-top: 50px;
+}
+.gn>.gn1>div>h2{
+  font-weight: normal;
+  margin-bottom: 15px;
+}
+.div3>h2{
+    background: url("../img/x5.png") no-repeat left top;
+    padding-left: 58px;
+    padding-top: 10px;
+}
+.div4>h2{
+    background: url("../img/x6.png") no-repeat left top;
+    padding-left: 58px;
+    padding-top: 10px;
+}
+.div5>h2{
+    background: url("../img/x7.png") no-repeat left top;
+    padding-left: 58px;
+    padding-top: 10px;
+}
+.div6>h2{
+    background: url("../img/x8.png") no-repeat left top;
+    padding-left: 58px;
+    padding-top: 10px;
+}
+.div7>h2{
+    background: url("../img/x5.png") no-repeat left top;
+    padding-left: 58px;
+    padding-top: 10px;
+}
+.div8>h2{
+    background: url("../img/x9.png") no-repeat left top;
+    padding-left: 58px;
+    padding-top: 10px;
+}
+.div9>h2{
+    background: url("../img/x10.png") no-repeat left top;
+    padding-left: 58px;
+    padding-top: 10px;
+}
+.div10>h2{
+    background: url("../img/x11.png") no-repeat left top;
+    padding-left: 58px;
+    padding-top: 10px;
+}
+.div11>h2{
+    background: url("../img/x12.png") no-repeat left top;
+    padding-left: 58px;
+    padding-top: 10px;
+}
+.div12>h2{
+    background: url("../img/x13.png") no-repeat left top;
+    padding-left: 58px;
+    padding-top: 10px;
+}
+.div13>h2{
+    background: url("../img/x14.png") no-repeat left top;
+    padding-left: 58px;
+    padding-top: 10px;
+}
+.div14>h2{
+    background: url("../img/x15.png") no-repeat left top;
+    padding-left: 58px;
+    padding-top: 10px;
+}
+.div15>h2{
+    background: url("../img/x16.png") no-repeat left top;
+    padding-left: 58px;
+    padding-top: 10px;
+}
+.div16>h2{
+    background: url("../img/x9.png") no-repeat left top;
+    padding-left: 58px;
+    padding-top: 10px;
+}
+.gn>.gn1>div>p{
+    font-size: 14px;
+    color: #aaa;
+    padding-left: 58px;
+}
+/* 功能简介部分结束 */
+
+/* 图片介绍部分开始 */
+.pic{
+    width: 1200px;
+    height: auto;
+    position: relative;
+    overflow: auto;
+    margin:0px auto;
+}
+.pic>h2{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-weight: normal;
+    font-size: 25px;
+}
+.pic>div>img{
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+/* 图片介绍部分结束 */
+
+/* 18年专业品牌部分 */
+.bg{
+    width: 100%;
+    height: 230px;
+    background: url("../img/bg1.jpg") no-repeat;
+}
+.bg>div{
+    width: 1200px;
+}
+.bg>div>div{
+    float: left;
+    width: 250px;
+    margin-left: 50px;
+}
+.bg>div>div>h2{
+    font-weight: normal;
+    font-size: 30px;
+    color: #fc7f09;
+    margin-top: 70px;
+}
+.bg>div>div>h2>span{
+    font-size: 50px;
+}
+.bg>div>div>p{
+    font-size: 26px;
+    color: #fff;
+}

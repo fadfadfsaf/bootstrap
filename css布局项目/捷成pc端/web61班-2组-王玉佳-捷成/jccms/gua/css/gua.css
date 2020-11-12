@@ -1,0 +1,91 @@
+.guanli{
+    text-align: center;
+    position: relative;
+}
+.guanli h2{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #0d3172;
+}
+.guanli h4{
+    margin-bottom: 50px;
+}
+.div1{
+    width: 292px;
+    height: 181px;
+    float: left;
+
+}
+.div1>span{
+    display: block;
+    width: 292px;
+    height: 40px;
+    background: url(../img/icon.png) center center no-repeat;
+}
+.div1>h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.more{
+    margin-top: 40px;
+    width: 100%;
+    height: 518px;
+    padding: 50px 0px;
+    background: #055999;
+    color: #fff;
+}
+.more p{
+    font-size:18px;
+    width: 500px;
+}
+.more h4{
+    font-size:30px;
+    width: 550px;
+}
+.more img{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.fn{
+    width: 100%;
+    padding:40px 0;
+    text-align: center;
+    background: #f7f7f7;
+    height: auto;
+    overflow: auto;
+}
+.fn .main{
+    background: #fff;
+    margin: 50px;
+    width: 1230px;
+    height: auto;
+    overflow:auto;
+}
+.fn .main>div{
+    margin:10px 10px ;
+    width: 390px;
+    height: 163px;
+    background: url(../img/icon2.png) left top no-repeat;
+    float: left;
+}
+.fn .main>div>h3,.fn .main>div>p{
+    text-align: left;
+    width: 300px;
+    float: right;
+}
+.compare{
+    background: #fff;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    height: auto;
+    overflow: auto;
+}
+.fixedd{
+    background: #f00;
+    position: fixed;
+    margin-top: 1000px;
+    z-index: 999;
+}

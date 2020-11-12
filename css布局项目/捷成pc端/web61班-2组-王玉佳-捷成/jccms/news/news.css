@@ -1,0 +1,98 @@
+*{
+    padding: 0px;
+    margin: 0px auto;
+}
+
+/* top文字信息 */
+.text{
+    height: 60px;
+    background: #055999;
+    margin-bottom: 50px;
+}
+.text>p{
+    font-size: 28px;
+    line-height: 60px;
+    color: #fff;
+    margin: 0px 120px;
+}
+
+/* top文字信息结束 */
+
+/* 正文 */
+.info{
+    width: 80%;
+}
+
+/* 按钮 */
+.info>.but{
+    height: 50px;
+}
+.info>.but>p{
+    float: left;
+    display: block;
+    width: 80px;
+    height: 30px;
+    border: 1px solid #999;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.but>p.bg{
+    background: #055999; 
+    color: #fff;
+}
+.info>.but>p:hover{
+    opacity: 0.8;
+}
+
+/* 按钮结束 */
+
+/* 列表项 */
+.info>.lis>ul{
+    list-style-type: none;
+}
+.info>.lis>ul>li{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+}
+.info>.lis>ul>li>img{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+.info>.lis>ul>li>h3{
+    color: #337AB7;
+}
+
+/* 列表项结束 */
+
+/* 页码 */
+.info>.Page{
+    width: 100%;
+    height: 50px;
+}
+.info>.Page>ul{
+    list-style-type: none;
+}
+.info>.Page>ul>li{
+    float: left;
+}
+.info>.Page>ul>li>a{
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    padding: 0px 10px;
+    float: left;
+    border: 1px solid #ddd;
+}
+.info>.Page>ul>li>a:hover{
+    text-decoration: none;
+    background: #337AB7;
+    color: #fff;
+}
+
+/* 页码结束 */
+/* 正文结束 */

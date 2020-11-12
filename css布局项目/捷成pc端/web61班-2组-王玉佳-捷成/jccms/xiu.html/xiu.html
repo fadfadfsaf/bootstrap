@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="汽车,管理,汽车4s店">
+    <!-- 公共部分 -->
+    <script type="text/javascript" src="../js/jquery-1.8.3.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="../css/bootstrap.css">
+    <!-- 内容部分 -->
+    <link type="text/css" rel="stylesheet" href="xiu.css">
+    <script type="text/javascript" src="xiu.js"></script>
+    <title>汽车4s店管理软件</title>
+    <style>
+			body {
+			padding-top: 50px;
+		}
+
+		.navbar-default {
+			background-color: white;
+			border-color: white;
+		}
+
+		.navbar-brand {
+			padding: 5px;
+		}
+
+		#jc_bottom {
+			padding-top: 10px;
+			padding-bottom: 10px;
+			background: #2a2730;
+			color: #fff;
+		}
+	</style>
+</head>
+<body>
+    
+	<!--导航菜单-->
+	<nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="../index.html">
+                        <img alt="捷成软件logo" src="img/logo.png" height="100%">
+                    </a>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynavbar"
+                        aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="nav navbar-nav">
+                        <!--左侧菜单-->
+                        <li><a href="../index.html">首页</a></li>
+                        <li><a href="../dian/dian.html">汽车4S店软件</a></li>
+                        <li><a href="xiu.html">汽修管理软件</a></li>
+                        <li><a href="../pei/pei.html">汽配管理软件</a></li>
+    
+                        <li><a href="../gua/gua.html">汽车挂靠管理软件</a></li>
+                        <li class="dropdown">
+                            <a href="../news/news.html" class="dropdown-toggle" data-toggle="dropdown">
+                                <span>咨询动态<span class="caret"></span></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://www.jccms.com/qxzx/">竭诚服务</a></li>
+                                <li><a href="http://www.jccms.com/gsdt/">公司动态</a></li>
+                                <li><a href="http://www.jccms.com/cjwt/">常见问题</a></li>
+                            </ul>
+                        </li>
+    
+                        <li class="dropdown">
+                            <a href="" class="dropdown-toggle" data-toggle="dropdown">
+                                <span>客户案例<span class="caret"></span></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://www.jccms.com/qxal/">汽修汽配</a></li>
+                                <li><a href="http://www.jccms.com/4sal/">汽车4S店</a></li>
+                                <li><a href="http://www.jccms.com/zkal/">重卡汽车4S店</a></li>
+                                <li><a href="http://www.jccms.com/mral/">汽车美容装饰店</a></li>
+                                <li><a href="http://www.jccms.com/gdkh/">更多客户</a></li>
+                            </ul>
+                        </li>
+    
+                        <li><a href="http://www.jccms.com/jcrj/">关于捷成</a></li>
+                    </ul>
+                    <p class="navbar-text navbar-right"><strong><span
+                                class="glyphicon glyphicon-earphone"></span>400-678-7358</strong></p>
+                    <button type="button" class="btn btn-primary navbar-btn navbar-right" id="btntry">立即试用</button>
+                </div>
+            </div>
+        </nav>
+        <!--导航菜单结束-->
+    
+ <!-- 轮播图部分start -->
+ <div id="show">
+     <div id="contents">
+         <img src="img/carTop4.png"><img src="img/carTop2.png"><img src="img/carTop5.png">
+     </div>
+ </div>
+ <img src="img/left.png" id="left"><img src="img/right.png" id="right"><img src="img/zx.jpg" id="zx">
+ <!-- 轮播图部分end -->
+ <!-- navx部分start -->
+ <div class="navx">
+  <h3>一汽经验,值得信赖!向您推荐一套实用的门店经营理念和管理方法</h3><p>一汽专家管控系统全程智能管控业务的每一步流程,明显提高服务质量和用户满意度</p>
+  <div class="nav1" style="margin-left: 35px;">
+      <h2>车辆档案管理</h2>
+      <p>车辆状况,历次维修记录一键查询。下次保<br>养,保险到期,欠款超期,会员优惠套餐等自<br>动提醒。</p>
+  </div>
+  <div class="nav2">
+    <h2>管控业务流程</h2>
+    <p>车辆状况,历次维修记录一键查询。下次保<br>养,保险到期,欠款超期,会员优惠套餐等自<br>动提醒。</p>
+</div>
+<div class="nav3">
+    <h2>快捷统计报表</h2>
+    <p>车辆状况,历次维修记录一键查询。下次保<br>养,保险到期,欠款超期,会员优惠套餐等自<br>动提醒。</p>
+</div>
+<div class="nav4">
+    <h2>精细化备件管理</h2>
+    <p>车辆状况,历次维修记录一键查询。下次保<br>养,保险到期,欠款超期,会员优惠套餐等自<br>动提醒。</p>
+</div>
+ </div>
+ <!-- navx部分end -->
+ <!-- sq部分start -->
+ <div class="sq">
+     <div>
+     <h2>用捷成汽修软件，实用、省心、更省钱！</h2>
+     <p>1.功能实用</p>
+     <p>为保证软件在全国各地都能实用,一汽工程师调研的地理范围之广,深入的程度是任何一家地区性开发公司所做不到的。</p>
+     <p>2.用的省心</p>
+     <p>管家式服务,终身售后,一汽工程师即懂业务又精通软件研发，一对一指导,定期回访,人员离职,重新培训新员工使用。</p>
+     <p>3.更省钱</p>
+     <p>超高性价比,总结一汽经验和最新管理理念研发的软件,具有大型软件的全部功能,只售普通软件的价格,为您日后管理升级预留功能。</p>
+     </div>
+     <img src="img/moreCheap.jpg">
+ </div>
+ <!-- sq部分end -->
+ <!-- tj部分start -->
+ <div class="tj">
+     <div>
+        <h2>同行软件</h2>
+     <div class="div1" style="background: #f7ddde;">
+         <p>1.研发人员:计算机程序员,需要业务人员提出业务和管理需求。</p>
+         <p>2.研发过程:没有系统化思想的指导,按提出需求框架开发。</p>
+         <p>3.适用范围:按某地区用户提出需求,按照通用的流程管理业务,对管理难题预见不足.很难保证在其它地区的适用性。</p>
+         <p>4.售后服务:由软件售后人员担任,只解决汽修软件使用问题,对汽修业务不熟悉,没法帮您解决您遇到的业务管理问题。</p>
+     </div>
+     </div>
+       <div>
+     <h2>捷成软件</h2>     
+     <div class="div2" style="background: #d3eef7;">
+            <p>1.研发人员:计算机程序员,需要业务人员提出业务和管理需求。</p>
+            <p>2.研发过程:没有系统化思想的指导,按提出需求框架开发。</p>
+            <p>3.适用范围:按某地区用户提出需求,按照通用的流程管理业务,对管理难题预见不足.很难保证在其它地区的适用性。</p>
+            <p>4.售后服务:由软件售后人员担任,只解决汽修软件使用问题,对汽修业务不熟悉,没法帮您解决您遇到的业务管理问题。</p>
+        </div>
+        </div>
+ </div>
+ <!-- tj部分end -->
+ <!-- gn部分start -->
+ <div class="gn">
+     <h2>功能简介</h2>
+     <div class="gn1">
+         <div class="div3" style="margin-top: 25px;"> 
+             <h2>维修开单</h2>
+             <p>接车登记开单、报价单、派工单、结算单。支持会员买单，个人或单位挂账。用现金和微信混合收款。</p>
+         </div>
+         <div class="div4" style="margin-top: 25px;">
+            <h2>维修开单</h2>
+            <p>接车登记开单、报价单、派工单、结算单。支持会员买单，个人或单位挂账。用现金和微信混合收款。</p>
+        </div>
+        <div class="div5" style="margin-top: 25px;">
+            <h2>维修开单</h2>
+            <p>接车登记开单、报价单、派工单、结算单。支持会员买单，个人或单位挂账。用现金和微信混合收款。</p>
+        </div>
+        <div class="div6" style="margin-top: 25px;">
+            <h2>维修开单</h2>
+            <p>接车登记开单、报价单、派工单、结算单。支持会员买单，个人或单位挂账。用现金和微信混合收款。</p>
+        </div>
+        <div class="div7">
+            <h2>维修开单</h2>
+            <p>接车登记开单、报价单、派工单、结算单。支持会员买单，个人或单位挂账。用现金和微信混合收款。</p>
+        </div>
+        <div class="div8">
+           <h2>维修开单</h2>
+           <p>接车登记开单、报价单、派工单、结算单。支持会员买单，个人或单位挂账。用现金和微信混合收款。</p>
+       </div>
+       <div class="div9">
+           <h2>维修开单</h2>
+           <p>接车登记开单、报价单、派工单、结算单。支持会员买单，个人或单位挂账。用现金和微信混合收款。</p>
+       </div>
+       <div class="div10">
+           <h2>维修开单</h2>
+           <p>接车登记开单、报价单、派工单、结算单。支持会员买单，个人或单位挂账。用现金和微信混合收款。</p>
+       </div>
+       <div class="div11">
+        <h2>维修开单</h2>
+        <p>接车登记开单、报价单、派工单、结算单。支持会员买单，个人或单位挂账。用现金和微信混合收款。</p>
+    </div> 
+    <div class="div12">
+        <h2>维修开单</h2>
+        <p>接车登记开单、报价单、派工单、结算单。支持会员买单，个人或单位挂账。用现金和微信混合收款。</p>
+    </div> 
+    <div class="div13">
+        <h2>维修开单</h2>
+        <p>接车登记开单、报价单、派工单、结算单。支持会员买单，个人或单位挂账。用现金和微信混合收款。</p>
+    </div> 
+    <div class="div14">
+        <h2>维修开单</h2>
+        <p>接车登记开单、报价单、派工单、结算单。支持会员买单，个人或单位挂账。用现金和微信混合收款。</p>
+    </div> 
+    <div class="div15">
+        <h2>维修开单</h2>
+        <p>接车登记开单、报价单、派工单、结算单。支持会员买单，个人或单位挂账。用现金和微信混合收款。</p>
+    </div> 
+    <div class="div16">
+        <h2>维修开单</h2>
+        <p>接车登记开单、报价单、派工单、结算单。支持会员买单，个人或单位挂账。用现金和微信混合收款。</p>
+    </div>
+    <div class="div16">
+        <h2>维修开单</h2>
+        <p>接车登记开单、报价单、派工单、结算单。支持会员买单，个人或单位挂账。用现金和微信混合收款。</p>
+    </div>
+    <div class="div16">
+        <h2>维修开单</h2>
+        <p>接车登记开单、报价单、派工单、结算单。支持会员买单，个人或单位挂账。用现金和微信混合收款。</p>
+    </div>
+    <div class="div16">
+        <h2>维修开单</h2>
+        <p>接车登记开单、报价单、派工单、结算单。支持会员买单，个人或单位挂账。用现金和微信混合收款。</p>
+    </div>
+    <div class="div16">
+        <h2>维修开单</h2>
+        <p>接车登记开单、报价单、派工单、结算单。支持会员买单，个人或单位挂账。用现金和微信混合收款。</p>
+    </div>
+    <div class="div16">
+        <h2>维修开单</h2>
+        <p>接车登记开单、报价单、派工单、结算单。支持会员买单，个人或单位挂账。用现金和微信混合收款。</p>
+    </div>
+    <div class="div16">
+        <h2>维修开单</h2>
+        <p>接车登记开单、报价单、派工单、结算单。支持会员买单，个人或单位挂账。用现金和微信混合收款。</p>
+    </div>
+    <div class="div16">
+        <h2>维修开单</h2>
+        <p>接车登记开单、报价单、派工单、结算单。支持会员买单，个人或单位挂账。用现金和微信混合收款。</p>
+    </div>
+    <div class="div16">
+        <h2>维修开单</h2>
+        <p>接车登记开单、报价单、派工单、结算单。支持会员买单，个人或单位挂账。用现金和微信混合收款。</p>
+    </div>
+    <div class="div16">
+        <h2>维修开单</h2>
+        <p>接车登记开单、报价单、派工单、结算单。支持会员买单，个人或单位挂账。用现金和微信混合收款。</p>
+    </div>
+    <div class="div16">
+        <h2>维修开单</h2>
+        <p>接车登记开单、报价单、派工单、结算单。支持会员买单，个人或单位挂账。用现金和微信混合收款。</p>
+    </div>
+     </div>
+ </div>
+ <!-- gn部分end -->
+ <!-- pic部分start -->
+ <div class="pic">
+     <h2>18年累计服务超16300家用户，为汽修厂解决各种管理问题，深得客户好评！</h2>
+     <div>
+         <img src="img/xc_client1.png"><img src="img/xc_client2.png"><img src="img/xc_client3.png"><img src="img/xc_client4.png"><img src="img/xc_client5.png"><img src="img/xc_client6.png">
+         <img src="img/xc_client7.png"><img src="img/xc_client8.png"><img src="img/xc_client9.png" style="margin-bottom: 20px;"><img src="img/xc_client10.png" style="margin-bottom: 20px;"><img src="img/xc_client11.png" style="margin-bottom: 20px;"><img src="img/xc_client12.png" style="margin-bottom: 20px;">
+     </div>
+ </div>
+ <!-- pic部分end -->
+ <!-- bg部分start -->
+ <div class="bg">
+     <div>
+     <div>
+     <h2><span>18</span>年专业品牌</h2>
+     <p>一汽工程师研发</p>
+     </div>
+     <div>
+    <h2><span>18</span>年专业品牌</h2>
+     <p>一汽工程师研发</p>
+     </div>
+     <div>
+     <h2><span>18</span>年专业品牌</h2>
+     <p>一汽工程师研发</p>
+    </div>
+    <div>
+ <h2><span>18</span>年专业品牌</h2>
+  <p>一汽工程师研发</p>
+   </div>
+   </div>
+ </div>
+ <!-- bg部分end -->
+ <!-- nav_1部分start -->
+ <div class="nav_1">
+        <h3>郑重承诺</h3><p>让您质量和服务得到充分保障,让您放心!!</p>
+        <div class="nav5" style="margin-left: 35px;">
+            <h2>专业的品质</h2>
+            <p>车辆状况,历次维修记录一键查询。下次保<br>养,保险到期,欠款超期,会员优惠套餐等自<br>动提醒。</p>
+        </div>
+        <div class="nav6">
+          <h2>不满意7天可以退货</h2>
+          <p>车辆状况,历次维修记录一键查询。下次保<br>养,保险到期,欠款超期,会员优惠套餐等自<br>动提醒。</p>
+      </div>
+      <div class="nav7">
+          <h2>管家式售后服务</h2>
+          <p>车辆状况,历次维修记录一键查询。下次保<br>养,保险到期,欠款超期,会员优惠套餐等自<br>动提醒。</p>
+      </div>
+      </div>
+      <!-- nav_1部分end -->
+	<!--底部-->
+	<div id="jc_bottom">
+            <div class="container">
+                <div class="col-md-4">
+                    <h4>联系方式</h5>
+                        <p>销售电话：13166812077,400-678-7358,0431-87097920</p>
+                        <p>售后电话：0431-85191288,13500897465</p>
+                        <p>地址：吉林省长春市汽车产业开发区西环城路7255号</p>
+                        <p>Q Q: 983115094，1335680740</p>
+                </div>
+                <div class="col-md-4">
+                    <img alt="捷成软件微信" src="img/qrcode.png" class="img-responsive center-block">
+                </div>
+                <div class="col-md-4">
+                    <p>长春市捷成车信软件有限公司 版权所有</p>
+                    <p><a href="http://www.beian.miit.gov.cn" style='color:White'>[吉ICP备12006052号-1]</a></p>
+                    <p>主营业务：汽车4S店管理软件、汽修管理软件、汽配管理软件、汽车挂靠管理软件、快修美容店管理软件</p>
+                </div>
+            </div>
+        </div>
+        <!--底部结束-->
+</body>
+</html>

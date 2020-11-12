@@ -1,0 +1,30 @@
+$(function(){
+    // 左点击
+            $("#left").click(function(){
+                $("#contents").animate({"left":"-1500px"},500,function(){
+                    $(this).append($(this).children("img:first"));
+                    $(this).css("left","0px");
+                })
+            })
+            //右点击
+            $("#right").click(function(){
+                $("#contents").prepend($("#contents").children("img:last"));
+                $("#contents").css("left","-1500px");
+            $("#contents").animate({"left":"0px"},500);
+            })
+    scrolls();
+    $("#contents").mouseover(function(){
+        clearInterval(i);//stop(true,false)没效果，所以换成clearInterval
+    })
+    $("#contents").mouseout(function(){
+        i=setInterval("scrolls()",5000);
+    })
+})
+function scrolls(){
+                $("#contents").animate({"left":"-1500px"},500,function(){
+                    $(this).append($(this).children("img:first"));
+                    $(this).css("left","0px");
+                })
+                console.log(scrolls);
+         }
+         i=setInterval("scrolls()",5000);

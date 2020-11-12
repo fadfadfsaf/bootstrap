@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>用户登录</title>
+
+	<style type="text/css">
+		* {
+			padding: 0px;
+			margin: 0px;
+		}
+
+		.logo {
+			padding: 20px 0px 0px 50px;
+			position: relative;
+			opacity: 1;
+		}
+
+		.bg {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			opacity: 0.8;
+		}
+
+		form {
+			position: absolute;
+			z-index: 3;
+			padding: 50px;
+		}
+
+		.div1 {
+			padding: 10px 0px;
+		}
+
+		.text {
+			border: 0px;
+			width: 300px;
+			height: 50px;
+			border-radius: 50px;
+			padding-left: 20px;
+			padding-right: 20px;
+			opacity: 0.8;
+		}
+
+		#sub,
+		#rect {
+			font-size: 12px;
+			color: #003;
+			margin-top: 10px;
+			border: 0px;
+			width: 155px;
+			height: 50px;
+			border-radius: 50px;
+			opacity: 0.6;
+		}
+		#showmsg{
+			font-size: 20px;
+			position: absolute;
+			top: 70%;
+			left: 5%;
+		}
+	</style>
+</head>
+
+<body>
+	<img class="bg" src="img/bg.jpg " alt="">
+	<img class="logo" src="img/logo.png " alt="">
+	<form name="form1" id="form1">
+		<div class="div1">
+			<input class="text" type="text" placeholder="账户" name="username" required>
+		</div>
+		<div class="div1">
+			<input class="text" type="password" placeholder="密码" name="userpwd" required>
+		</div>
+		<div class="div1">
+			<input class="text" type="number" placeholder="班级" name="userclass" required>
+		</div>
+		<div class="div1">
+			<input type="hidden" name="type" value="2">
+			<button type="button" id="sub" name="sub" style="margin-right: 30px;">立刻登录</button>
+			<button type="reset" id="rect" name="rect">重置</button>
+		</div>
+	</form>
+	<div id="showmsg" style="color: #a00;"></div>
+	<script type="text/javascript" src="ajax.js"></script>
+	<script type="text/javascript">
+		document.form1.sub.onclick = function () {
+			var names = document.form1.username.value;
+			console.log(names);
+			var pwd = document.form1.userpwd.value;
+			console.log(pwd);
+			var cla = document.form1.userclass.value;
+			var t = document.form1.type.value;
+			var postmsg = "username=" + names + "&userpwd=" + pwd + "&userclass=" + cla + "&type=" + t;
+			console.log(postmsg);
+			//调用ajax
+			getData(longin, "POST", "http://www.qhdlink-student.top/student/login.php", true, postmsg);
+		}
+		function longin(g) {
+			console.log(g);
+			if (g == "ok") {
+				location.href = "后台管理.html";
+			} else {
+				document.getElementById("showmsg").innerHTML = "用户名或密码错误"; 
+			}
+		}
+	</script>
+</body>
+<html>

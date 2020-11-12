@@ -1,0 +1,107 @@
+body {
+    background: url("../img/loginbg.jpg") no-repeat;
+    background-size: 100%;
+}
+.form_mian {
+    position: absolute;
+    left:50%;
+    top:50%;
+    background: rgba(248, 236, 236, 0.3);
+    border-radius: 10px;
+    width: 600px;
+    height: 320px;
+    box-shadow: 2px 2px 8px rgb(48, 48, 48);
+    margin-left: -300px;
+    margin-top: -160px;
+    padding: 20px;
+}
+.formstyle{
+    position: relative;
+    width: 600px;
+    height: 320px;
+}
+.uname{
+    position: relative;
+    width: 560px;
+    height: 60px;
+    color: rgba(56, 56, 55, 0.8);
+    margin: 0 auto;
+    border-radius: 10px;
+    background: rgba(248, 236, 236, 0.3);
+    box-shadow: 2px 2px 8px rgb(48, 48, 48);
+    line-height: 60px;
+}
+.uname>input{
+    width: 500px;
+    outline:medium;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    line-height: 56px;
+}
+.upwd{
+    position: relative;
+    width: 560px;
+    height: 60px;
+    color: rgba(56, 56, 55, 0.8);
+    margin: 0 auto;
+    border-radius: 10px;
+    background: rgba(248, 236, 236, 0.3);
+    box-shadow: 2px 2px 8px rgb(48, 48, 48);
+    margin-top: 20px;
+    line-height: 60px;
+}
+.upwd>input{
+    width: 450px;
+    outline:medium;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    line-height: 56px;
+}
+.uqx{
+    position: relative;
+    width: 560px;
+    height: 60px;
+    color: rgba(56, 56, 55, 0.8);
+    margin: 0 auto;
+    border-radius: 10px;
+    background: rgba(248, 236, 236, 0.3);
+    box-shadow: 2px 2px 8px rgb(48, 48, 48);
+    margin-top: 20px;
+    line-height: 60px;
+}
+.uqx>select{
+    width: 450px;
+    outline:medium;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    line-height: 56px;
+}
+.btn{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -280px;
+    width: 560px;
+    height: 60px;
+    border-radius: 10px;
+}
+.btn input{
+    position: relative;
+    width: 560px;
+    height: 60px;
+    border-radius: 10px;
+    background: rgba(248, 236, 236, 0.3);
+    box-shadow: 2px 2px 8px rgb(48, 48, 48);
+    color: rgba(56, 56, 55, 0.8);
+    font-size: 36px;
+    
+}
+
+::selection{
+    background: #ffaaaa;
+}
+:focus{
+    outline:medium;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+}

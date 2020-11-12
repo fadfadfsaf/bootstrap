@@ -1,0 +1,67 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+}
+.banner{
+    width: 1280px;
+    height: auto;
+    position: relative;
+    overflow: auto;
+}
+.banner>a>img{
+    width: 1280px;
+    height: auto;
+    float: left;
+}
+.contents{
+    width: 960px;
+    height: auto;
+    position: relative;
+    overflow: auto;
+}
+#show{
+    width: 960px;
+    height: 398px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 70px;
+}
+#scrolls{
+    width: 2700px;
+    height: 398px;
+    position: relative;
+}
+#scrolls>img{
+    float: left;
+}
+.nav2{
+    width: 1280px;
+    height: 40px;
+    background:#8a1529;
+    margin-bottom: 4px;
+    position: relative;
+}
+.nav2 ul{
+    height: 40px;
+    position: absolute;
+    top: 0px;
+    list-style-type: none;
+}
+.nav2 ul li{
+    float: left;
+    height: 40px;
+    cursor: pointer;
+    line-height: 40px;
+}
+.nav2 ul li a{
+    display: block;
+    padding: 0 18px;
+    height: 40px;
+    font-size: 13px;
+    color:  #fff;
+    text-decoration: none; 
+    margin-top: 5px;
+}
+.nav2 ul li a:hover{
+    color: #000;
+}

@@ -1,0 +1,134 @@
+h2,h4{
+    color: #00397c;
+}
+h2{
+    font-size: 24px;
+}
+h4{
+    font-size: 20px;
+    margin: 10px 0px;
+}
+p{
+    color: #848484;
+    width: 912px;
+    font-size: 16px;
+    margin: 21.6px 0px 10px;
+    float: left;
+}
+#home{
+    overflow: hidden;
+}
+#home>a{
+    background: #00397c;
+    width: 121.6px;
+    height: 38.4px;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    line-height: 38.4px;
+    text-decoration: none;
+    margin-left: 220px;
+    margin-top: 30px;
+}
+.contents{
+    margin-top: 50px;
+    margin-left: 45px;
+}
+
+
+.contents>div>img{
+    width: 277.5px;
+    z-index: 1;
+}
+input{
+    width: 75px;
+    height: 50px;
+    border: none;
+
+}
+#left{
+    background: url('../img/Snipaste_2020-08-27_16-33-15.png');
+    position: absolute;
+    top:100px;
+    left: 25px;
+    z-index: 2;
+}
+#right{
+    background: url('../img/Snipaste_2020-08-27_16-33-41.png');
+    position: absolute;
+    top:100px;
+    right: 25px;
+    z-index: 2;
+}
+.cover{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 277.5px;
+    height: 100%;
+    background-color: #1a355e;
+    opacity: 0.8;
+    text-align: center;
+    margin-left: 15px;
+    z-index: 3;
+}
+.cove{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 277.5px;
+    height: 100%;
+    background-color: #1a355e;
+    opacity: 0.8;
+    text-align: center;
+    margin-left: 15px;
+    z-index: 3;
+}
+.front{
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    padding-top: 25%;
+    z-index: 4;
+    color: #fff;
+    font-size: 16px;
+}
+.swiper-container {
+    width: 320px;
+    height: 56px;
+  }
+  html,
+  body {
+    position: relative;
+
+  }
+
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 12px;
+    background: #fff;
+    width: 99px;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }

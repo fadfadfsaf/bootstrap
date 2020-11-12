@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>管理系统</title>
+    <!--引入jquery的js，EasyUI的执行需要依赖于jQuery  -->
+    <script type="text/javascript" src="jquery-1.8.3.min.js"></script>
+    <!--easyUI的js主文件  -->
+    <script type="text/javascript" src="jquery.easyui.min.js"></script>
+    <!--国际化的js文件  -->
+    <script type="text/javascript" src="locale/easyui-lang-zh_CN.js"></script>
+    <!--引入easyUI的样式  -->
+    <link rel="stylesheet" type="text/css" href="themes/icon.css" />
+    <link rel="stylesheet" type="text/css" href="themes/default/easyui.css" />
+    <script type="text/javascript">
+        $(function () {
+            //为按钮添加点击事件
+            $("#btn1").bind("click", function () {
+                alert("点击事件添加成功");
+            });
+            //树状菜单和选项卡的联动
+            //给菜单添加单击事件
+            $("#tt1").tree({
+                onClick: function (node) {
+                    //控制台打印node内容
+                    //console.log(node);
+                    //获取attributes属性,判断是菜单还是菜单描述
+                    var attrs = node.attributes;
+                    if (attrs == null || attrs.url == null) {
+                        return;
+                    }
+                    //判断选项卡是否存在
+                    var has = $("#div_tabs").tabs("exists", node.text);
+                    if (has) {
+                        //选中存在的选项卡
+                        $("#div_tabs").tabs("select", node.text);
+                    } else {
+                        //创建新的选项卡面板
+                        $("#div_tabs").tabs("add", {
+                            title: node.text,
+                            closable: true,
+                            content: "<iframe src=" + attrs.url + " style='width:100%;height:98%' frameborder='0'/>"
+                        })
+                    }
+                }
+            })
+        })
+    </script>
+</head>
+<style>
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+    .logo {
+        width: 30%;
+        margin-top: 20px;
+    } 
+
+    .btn>a {
+        height: 50px;
+        line-height: 50px;
+        width: 78px;
+    }
+
+    .btn>a .l-btn-text {
+        height: 50px;
+        line-height: 50px;
+    }
+    #index>.div2 {
+        padding: 20px;
+    }
+/* 
+    #index>.div1>img {
+        display: block;
+        width: 50%;
+        height: auto;
+        margin: 0px 10%;
+    } */
+
+    h1 {
+        font-size: 1.8em;
+        margin: 10px 0px 10px;
+    }
+</style>
+
+<body>
+    <div class="easyui-layout" style="width:100%; height:800px;">
+        <!-- 顶部 -->
+        <div data-options="region:'north',split:false" title=""
+            class="panel-body panel-body-noheader layout-body logo_pet" style="width: 1349px;height: 108px;">
+            <img src="img/1587528453.png" alt="" class="logo">
+            <!-- <div class="btn">
+                <a id="btn1" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-back'">返回</a>
+                <a id="btn2" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-add'">新增</a>
+                <a id="btn3" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-edit'">编辑</a>
+                <a id="btn4" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-clear'">清空</a>
+                <a id="btn5" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-remove'">移除</a>
+                <a id="btn6" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-save'">保存</a>
+                <a id="btn7" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-cut'">剪切</a>
+                <a id="btn8" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-ok'">ok</a>
+                <a id="btn9" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-no'">no</a>
+                <a id="btn10" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-cancel'">取消</a>
+                <a id="btn11" href="#" class="easyui-linkbutton" data-options="iconCls:'reload'">重载</a>
+                <a id="btn12" href="#" class="easyui-linkbutton" data-options="iconCls:'search'">查询</a>
+                <a id="btn13" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-print'">打印</a>
+                <a id="btn14" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-help'">帮助</a>
+                <a id="btn15" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-undo'">取消</a>
+            </div> -->
+        </div>
+
+        <!-- 底部 -->
+        <div data-options="region:'south',title:'营业执照',split:true" style="height:100px;">
+            <div>
+                办学许可证：东教民证字144190070001641号 粤ICP备12009901号 粤公网安备 44190002001309号
+            </div>
+        </div>
+        <!-- 左侧 -->
+        <div data-options="region:'west',split:true" title="菜单" style="width:300px;">
+            <div class="easyui-accordion" data-options="fit:true,border:false">
+                <div title="文档">
+                    <ul id="tt1" class="easyui-tree">
+                        <li>
+                            <span>banner</span>
+                            <ul>
+                                <li data-options="attributes:{url:'data/index/img.html'}">banner</li>
+                                <li data-options="attributes:{url:'data/index/text.html'}">text</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>img</span>
+                            <ul>
+                                <li data-options="attributes:{url:'data/img/img.html'}">img</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- <div title="自定义列表1" >
+                    <h3 style="color:#0099FF;">Accordion for jQuery</h3>
+                    <p>Accordion is a part of easyui framework for jQuery. It lets you define your accordion component
+                        on web page more easily.</p>
+                </div>
+                <div title="自定义列表2" >
+                </div> -->
+            </div>
+        </div>
+
+
+        <div data-options="region:'center'">
+            <!--选项卡使用-->
+            <div id="div_tabs" class="easyui-tabs" data-options="fit:true,border:false">
+                <!--首页-->
+                <div id="index" title="首页">
+                    <div class="div1">
+                        <img src="img/tag3-imgbg.jpg" alt="">
+                    </div>
+                    <div class="div2">
+                        <p>华泰教育成立于2003年，是广东省具有强大实力的成人继续教育和职业培训机构，旗下拥有东莞、中山、佛山、江门、广州、长沙、茂名、揭阳等分校。主要从事自考相沟通、专插本、自考独立办班、成人高等教育、网络教育、职业技能培训等工作，可全面满足成人继续教育和职业培训及其延伸服务的需求。
+                            我司秉承“博闻强识，弘毅奋进”的校训，在发展过程中，先后与中山大学、华南理工大学、华南师范大学等知名高校建立了长期合作关系，坚持把现代企业的先进管理理念创造性地运用到办学中来，强化服务理念、优化教育资源、改革教学模式、提升办学品质，以一流的教育教学质量作为报国之资和立身之本。截止目前，华泰教育累积为社会培养各类专科、本科学生10多万人。
+                            办学十多年来，我们坚持“敬业、团结、执行、进取”的企业精神，树立了“华泰“良好的社会形象。展望未来，我们将一如既往地规范办学、强化管理、优化服务、开拓创新，不断地总结和探索，更加注重与企业、学校等合作单位的沟通和交流，进一步开拓助学思路，实现品牌化发展，追求教育本真，助力学生成长、成才、成功！</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</body>
+
+</html>
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页图片</title>
+    <!--引入jquery的js，EasyUI的执行需要依赖于jQuery  -->
+    <script type="text/javascript" src="../../jquery-1.8.3.min.js"></script>
+    <!--easyUI的js主文件  -->
+    <script type="text/javascript" src="../../jquery.easyui.min.js"></script>
+    <!--国际化的js文件  -->
+    <script type="text/javascript" src="../../locale/easyui-lang-zh_CN.js"></script>
+    <!--引入easyUI的样式  -->
+    <link rel="stylesheet" type="text/css" href="../../themes/icon.css" />
+    <link rel="stylesheet" type="text/css" href="../../themes/default/easyui.css" />
+</head>
+<script type="text/javascript">
+    $(function () {
+        //为按钮添加点击事件
+        $(".btn5").bind("click", function () {
+            var r = confirm("是否确认删除");
+            var x;
+            if (r == true) {
+                x = "你按下了\"确定\"按钮!";
+                this.parentNode.remove();
+            }
+            else {
+                x = "你按下了\"取消\"按钮!";
+            }
+            console.log(confirm);
+        });
+          //为按钮添加点击事件
+        $("#btn2").bind("click", function () {
+            $("#msg").append($("<div></div>"));
+            // $("#msg>div").append($("<a></a>"));
+            // $("#msg").append($("#msg1"));
+                
+        });
+    })
+</script>
+<style>
+    #msg>div {
+        width: 840px;
+        border: 1px solid #F1678D;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+    #msg>div>img {
+        width: 600px;
+    }
+    .btn>a {
+        height: 50px;
+        line-height: 50px;
+        width: 78px;
+    }
+
+    .btn>a .l-btn-text {
+        height: 50px;
+        line-height: 50px;
+    }
+</style>
+
+<body>
+    <div id="msg">
+        <a id="btn2" href="#" class="easyui-linkbutton btn2" data-options="iconCls:'icon-add'">新增</a>
+        <!-- <div class="btn">
+            <a id="btn1" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-back'">返回</a>
+            <a id="btn2" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-add'">新增</a>
+            <a id="btn3" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-edit'">编辑</a>
+            <a id="btn4" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-clear'">清空</a>
+            <a id="btn5" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-remove'">移除</a>
+            <a id="btn6" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-save'">保存</a>
+            <a id="btn7" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-cut'">剪切</a>
+            <a id="btn8" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-ok'">ok</a>
+            <a id="btn9" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-no'">no</a>
+            <a id="btn10" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-cancel'">取消</a>
+            <a id="btn13" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-print'">打印</a>
+            <a id="btn14" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-help'">帮助</a>
+            <a id="btn15" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-undo'">取消</a>
+        </div> -->
+        <div id="msg1">
+            <img src="img/banner.jpg" alt="">
+            <a id="btn5" href="#" class="easyui-linkbutton btn5" data-options="iconCls:'icon-remove'">移除</a>
+        </div>
+        <div>
+            <img src="img/banner2.jpg" alt="">
+            <a id="btn5" href="#" class="easyui-linkbutton btn5" data-options="iconCls:'icon-remove'">移除</a>
+        </div>
+    </div>
+</body>
+
+</html>

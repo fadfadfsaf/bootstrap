@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>汽车4s店管理软件</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- jq引入样式 -->
+    <script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    
+    <!-- 内容css样式 -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+    
+    <link rel="stylesheet" type="text/css" href="css/dian.css"/>
+   
+    
+   
+    <style>
+        body {
+			padding-top: 50px;
+		}
+
+		.navbar-default {
+			background-color: white;
+			border-color: white;
+		}
+
+		.navbar-brand {
+			padding: 5px;
+		}
+
+		#jc_bottom {
+			padding-top: 10px;
+			padding-bottom: 10px;
+			background: #2a2730;
+			color: #fff;
+        }
+    </style>
+</head>
+<body>
+<!--导航菜单-->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="../index.html">
+                <img alt="捷成软件logo" src="../img/logo.png" height="100%">
+            </a>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynavbar"
+                aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="nav navbar-nav">
+                <!--左侧菜单-->
+                <li><a href="../index.html">首页</a></li>
+                <li><a href="../dian/dian.html">汽车4S店软件</a></li>
+                <li><a href="../xiu.html/xiu.html">汽修管理软件</a></li>
+                <li><a href="../pei/pei.html">汽配管理软件</a></li>
+
+                <li><a href="../gua/gua.html">汽车挂靠管理软件</a></li>
+                <li class="dropdown">
+                    <a href="../news/news.html" class="dropdown-toggle" data-toggle="dropdown">
+                        <span>咨询动态<span class="caret"></span></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="http://www.jccms.com/qxzx/">竭诚服务</a></li>
+                        <li><a href="http://www.jccms.com/gsdt/">公司动态</a></li>
+                        <li><a href="http://www.jccms.com/cjwt/">常见问题</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown">
+                        <span>客户案例<span class="caret"></span></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="http://www.jccms.com/qxal/">汽修汽配</a></li>
+                        <li><a href="http://www.jccms.com/4sal/">汽车4S店</a></li>
+                        <li><a href="http://www.jccms.com/zkal/">重卡汽车4S店</a></li>
+                        <li><a href="http://www.jccms.com/mral/">汽车美容装饰店</a></li>
+                        <li><a href="http://www.jccms.com/gdkh/">更多客户</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="http://www.jccms.com/jcrj/">关于捷成</a></li>
+            </ul>
+            <p class="navbar-text navbar-right"><strong><span
+                        class="glyphicon glyphicon-earphone"></span>400-678-7358</strong></p>
+            <button type="button" class="btn btn-primary navbar-btn navbar-right" id="btntry">立即试用</button>
+        </div>
+    </div>
+</nav>
+<!--导航菜单结束-->
+
+<!-- banner部分开始 -->
+<div class="container-fluid">
+    <div class="row banner">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- 指示标 -->
+                 <ol class="carousel-indicators">
+                     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                     <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                     <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                   </ol>
+                  <!-- 滚动图片和文本  -->
+                   <div class="carousel-inner" role="listbox">
+                       <!-- 每一个滚动图调用的类 -->
+                      <div class="item active"><!--所有滚动图像内容包含在整个cariusel-inner里，每一个滚动图和内容在item，active代表默认第一个 -->
+                       <img src="img/banner1.png" alt="...">
+                        <div class="carousel-caption"><!--每张图片的说明，不需要可以整体删除 -->
+                       </div>
+                     </div>
+                     <div class="item">
+                       <img src="img/banner2.png" alt="...">
+                     </div>
+                     <div class="item">
+                         <img src="img/banner3.png" alt="...">
+                       </div>
+                   </div>
+                   <!-- 控制柄 -->
+                   <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                     <span class="sr-only">上一张</span>
+                   </a>
+                   <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                     <span class="sr-only">下一张</span>
+                   </a>
+                 </div>
+    </div>
+</div>
+<!-- banner部分结束 -->
+
+<!-- 图文介绍开始 -->
+<div class="container">
+    <div class="row c1">
+        <div class="navx">
+  <h3>一汽经验,值得信赖!向您推荐一套实用的门店经营理念和管理方法</h3><p>一汽专家管控系统全程智能管控业务的每一步流程,明显提高服务质量和用户满意度</p>
+  <div class="nav1" style="margin-left: 35px;">
+      <h2>车辆档案管理</h2>
+      <p>车辆状况,历次维修记录一键查询。下次保<br>养,保险到期,欠款超期,会员优惠套餐等自<br>动提醒。</p>
+  </div>
+  <div class="nav2">
+    <h2>管控业务流程</h2>
+    <p>车辆状况,历次维修记录一键查询。下次保<br>养,保险到期,欠款超期,会员优惠套餐等自<br>动提醒。</p>
+</div>
+<div class="nav3">
+    <h2>快捷统计报表</h2>
+    <p>车辆状况,历次维修记录一键查询。下次保<br>养,保险到期,欠款超期,会员优惠套餐等自<br>动提醒。</p>
+</div>
+<div class="nav4">
+    <h2>精细化备件管理</h2>
+    <p>车辆状况,历次维修记录一键查询。下次保<br>养,保险到期,欠款超期,会员优惠套餐等自<br>动提醒。</p>
+</div>
+ </div>
+    </div>
+</div>
+<!-- 图文介绍结束 -->
+
+<!-- 更省钱开始 -->
+    <div class="row c2">
+        <div class="sq">
+            <div>
+            <h2>捷成4S店软件好用,关键就是专业</h2>
+            <p>专业解决方案: 来自一汽经验的专业解决方案,功能全面,操作简单,更适合4S店的业务管理特点。</p>
+            <p>专业研发团队: 一汽工程师熟悉自己的行业,更懂4S店管理特点和需求,专业实用是我们对同行的承诺。</p>
+            <p>专业售后服务: 管家式终身售后服务,一汽工程师即懂售后业务又精通软件研发,能快速解决您遇到的所有业务难题或软件使用问题。</p>
+            <p>主要功能: 智能管控全部业务:整车销售管理、售后维修管理、备件精品管理、汽车快修美容、财务管理、经营统计分析。</p>
+            <p>应用场景: 适合4S店共享车辆档案、管控服务流程、减少财务风险、考核员工业绩、提高用户满意度和服务质量。</p>
+            </div>
+                <img src="img/moreCheap.jpg">
+            </div>
+    </div>
+<!-- 更省钱结束 -->
+
+<!-- 中国一汽开始 -->
+<div class="row c3">
+    <div class="c33">
+        <div>
+        <h2>解决厂家三包索赔管理问题</h2>
+        <p>1.解决厂家问题:厂家为4S店配备的管理软件,目的就是为厂家采集信息和掌控4S店经营情况服务的,但大多数4S店并不希望厂家知道所有的经营数据,因此有一套自己独立的4S店软件,来真实的反映经营状况,是您明智的选择。</p>
+        <p>2.支持多厂家三包索赔管理功能：可以按厂家、车型分别统计索赔工时费、材料费、索赔单、三包车辆。</p>
+        <p>3.可独立统计三包单据：在各项报表中，营业额、成本、利润。一个月有多少三包车辆，工时费，材料费都是多少，一目了然。</p>
+        <p>4.三包工时费、材料费：在三包和维修在同一张单据上，对三包项目自动执行约定好的三包价，收款时会自动隐去三包的金额。</p>
+        <p>5.自动提示回访：根据三包车辆的保养日期、行驶里程等自动提示用户车辆的到期保养。</p>
+        </div>
+            <img src="img/yiqi.png">
+        </div>
+</div>
+<!-- 中国一汽结束 -->
+
+<!-- 功能简介开始 -->
+<div class="gn">
+    <h2>功能简介</h2>
+    <div class="gn1">
+        <div class="div3" style="margin-top: 25px;"> 
+            <h2>客户管理</h2>
+            <p>意向客户登记,需求分析,打印购车须知,变更意向级别,购车费用计算,跟踪回访.购车合同管理.</p>
+        </div>
+        <div class="div4" style="margin-top: 25px;">
+            <h2>销售战绩管理</h2>
+            <p>意向客户登记,需求分析,打印购车须知,变更意向级别,购车费用计算,跟踪回访.购车合同管理.</p>
+       </div>
+       <div class="div5" style="margin-top: 25px;">
+        <h2>模拟开单</h2>
+        <p>意向客户登记,需求分析,打印购车须知,变更意向级别,购车费用计算,跟踪回访.购车合同管理.</p>
+       </div>
+       <div class="div6" style="margin-top: 25px;">
+        <h2>车辆档案</h2>
+        <p>意向客户登记,需求分析,打印购车须知,变更意向级别,购车费用计算,跟踪回访.购车合同管理.</p>
+       </div>
+       <div class="div7">
+        <h2>维修开单</h2>
+        <p>意向客户登记,需求分析,打印购车须知,变更意向级别,购车费用计算,跟踪回访.购车合同管理.</p>
+       </div>
+       <div class="div8">
+          <h2>三包管理</h2>
+          <p>意向客户登记,需求分析,打印购车须知,变更意向级别,购车费用计算,跟踪回访.购车合同管理.</p>
+      </div>
+      <div class="div9">
+        <h2>服务回访</h2>
+        <p>意向客户登记,需求分析,打印购车须知,变更意向级别,购车费用计算,跟踪回访.购车合同管理.</p>
+      </div>
+      <div class="div10">
+        <h2>会员管理</h2>
+        <p>意向客户登记,需求分析,打印购车须知,变更意向级别,购车费用计算,跟踪回访.购车合同管理.</p>
+      </div>
+      <div class="div11">
+        <h2>模拟开单</h2>
+        <p>意向客户登记,需求分析,打印购车须知,变更意向级别,购车费用计算,跟踪回访.购车合同管理.</p>
+   </div> 
+   <div class="div12">
+    <h2>备件入库</h2>
+    <p>意向客户登记,需求分析,打印购车须知,变更意向级别,购车费用计算,跟踪回访.购车合同管理.</p>
+   </div> 
+   <div class="div13">
+    <h2>库存管理</h2>
+    <p>意向客户登记,需求分析,打印购车须知,变更意向级别,购车费用计算,跟踪回访.购车合同管理.</p>
+   </div> 
+   <div class="div14">
+    <h2>备件销售</h2>
+    <p>意向客户登记,需求分析,打印购车须知,变更意向级别,购车费用计算,跟踪回访.购车合同管理.</p>
+   </div> 
+   <div class="div15">
+    <h2>历史库存查询</h2>
+    <p>意向客户登记,需求分析,打印购车须知,变更意向级别,购车费用计算,跟踪回访.购车合同管理.</p>
+   </div> 
+   <div class="div16">
+    <h2>库存警戒线</h2>
+    <p>意向客户登记,需求分析,打印购车须知,变更意向级别,购车费用计算,跟踪回访.购车合同管理.</p>
+   </div>
+   <div class="div16">
+    <h2>电子目录</h2>
+    <p>意向客户登记,需求分析,打印购车须知,变更意向级别,购车费用计算,跟踪回访.购车合同管理.</p>
+   </div>
+   <div class="div16">
+    <h2>财务报表</h2>
+    <p>意向客户登记,需求分析,打印购车须知,变更意向级别,购车费用计算,跟踪回访.购车合同管理.</p>
+   </div>
+   <div class="div16">
+    <h2>客户管理</h2>
+    <p>意向客户登记,需求分析,打印购车须知,变更意向级别,购车费用计算,跟踪回访.购车合同管理.</p>
+   </div>
+   <div class="div16">
+    <h2>库存分析报表</h2>
+    <p>意向客户登记,需求分析,打印购车须知,变更意向级别,购车费用计算,跟踪回访.购车合同管理.</p>
+   </div>
+   <div class="div16">
+    <h2>营业报表</h2>
+    <p>意向客户登记,需求分析,打印购车须知,变更意向级别,购车费用计算,跟踪回访.购车合同管理.</p>
+   </div>
+   <div class="div16">
+    <h2>客户管理</h2>
+    <p>意向客户登记,需求分析,打印购车须知,变更意向级别,购车费用计算,跟踪回访.购车合同管理.</p>
+   </div>
+   <div class="div16">
+    <h2>客户管理</h2>
+    <p>意向客户登记,需求分析,打印购车须知,变更意向级别,购车费用计算,跟踪回访.购车合同管理.</p>
+   </div>
+   <div class="div16">
+    <h2>客户管理</h2>
+    <p>意向客户登记,需求分析,打印购车须知,变更意向级别,购车费用计算,跟踪回访.购车合同管理.</p>
+   </div>
+   <div class="div16">
+    <h2>客户管理</h2>
+    <p>意向客户登记,需求分析,打印购车须知,变更意向级别,购车费用计算,跟踪回访.购车合同管理.</p>
+   </div>
+   <div class="div16">
+    <h2>客户管理</h2>
+    <p>意向客户登记,需求分析,打印购车须知,变更意向级别,购车费用计算,跟踪回访.购车合同管理.</p>
+   </div>
+    </div>
+</div>
+<!-- 功能简介结束 -->
+
+<!-- 图片介绍部分开始 -->
+<div class="pic">
+    <h2>捷成汽车4S店软件已在一汽4S店,备品中心等16300家成功实用18年案例见证!深得好评</h2>
+    <div>
+        <img src="img/dian1.png"><img src="img/dian1.png"><img src="img/dian1.png"><img src="img/dian1.png"><img src="img/dian1.png"><img src="img/dian1.png">
+        <img src="img/dian1.png"><img src="img/dian1.png"><img src="img/dian1.png" style="margin-bottom: 20px;"><img src="img/dian1.png" style="margin-bottom: 20px;"><img src="img/dian1.png" style="margin-bottom: 20px;"><img src="img/dian1.png" style="margin-bottom: 20px;">
+    </div>
+</div>
+<!-- 图片介绍部分结束 -->
+
+<!-- 文字介绍部分开始 -->
+<div class="bg">
+    <div>
+    <div>
+    <h2><span>18</span>年专业品牌</h2>
+    <p>一汽工程师研发</p>
+    </div>
+    <div>
+   <h2><span>37</span>个功能模块</h2>
+    <p>全面解决门店的问题</p>
+    </div>
+    <div>
+    <h2><span>60</span>年一汽经验</h2>
+    <p>4S店管理经验最全面</p>
+   </div>
+   <div>
+<h2><span>16300</span>家认可</h2>
+ <p>实用18年的成熟产品</p>
+  </div>
+  </div>
+</div>
+<!-- 文字介绍部分结束 -->
+
+<!-- 郑重承诺部分开始 -->
+<div class="nav_1">
+       <h3>郑重承诺</h3><p>让您质量和服务得到充分保障,让您放心!!</p>
+       <div class="nav5" style="margin-left: 35px;">
+           <h2>专业的品质</h2>
+           <p>车辆状况,历次维修记录一键查询。下次保<br>养,保险到期,欠款超期,会员优惠套餐等自<br>动提醒。</p>
+       </div>
+       <div class="nav6">
+         <h2>不满意7天可以退货</h2>
+         <p>车辆状况,历次维修记录一键查询。下次保<br>养,保险到期,欠款超期,会员优惠套餐等自<br>动提醒。</p>
+     </div>
+     <div class="nav7">
+         <h2>管家式售后服务</h2>
+         <p>车辆状况,历次维修记录一键查询。下次保<br>养,保险到期,欠款超期,会员优惠套餐等自<br>动提醒。</p>
+     </div>
+     </div>
+     <!-- 郑重承诺部分结束 -->
+
+<!--底部-->
+<div id="jc_bottom">
+    <div class="container">
+        <div class="col-md-4">
+            <h4>联系方式</h5>
+                <p>销售电话：13166812077,400-678-7358,0431-87097920</p>
+                <p>售后电话：0431-85191288,13500897465</p>
+                <p>地址：吉林省长春市汽车产业开发区西环城路7255号</p>
+                <p>Q Q: 983115094，1335680740</p>
+        </div>
+        <div class="col-md-4">
+            <img alt="捷成软件微信" src="../img/qrcode.png" class="img-responsive center-block">
+        </div>
+        <div class="col-md-4">
+            <p>长春市捷成车信软件有限公司 版权所有</p>
+            <p><a href="http://www.beian.miit.gov.cn" style='color:White'>[吉ICP备12006052号-1]</a></p>
+            <p>主营业务：汽车4S店管理软件、汽修管理软件、汽配管理软件、汽车挂靠管理软件、快修美容店管理软件</p>
+        </div>
+    </div>
+</div>
+<!--底部结束-->
+
+
+        <!-- -----banner部分结束----- -->
+        </div>
+
+</body>
+</html>

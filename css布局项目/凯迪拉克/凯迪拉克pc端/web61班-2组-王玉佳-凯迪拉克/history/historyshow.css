@@ -1,0 +1,90 @@
+.history00{
+    background:  url(img/history00.jpg) no-repeat right bottom;
+}
+.history01{
+    background:  url(img/history01.jpg) no-repeat right bottom;
+}
+.history02{
+    background:  url(img/history02.jpg) no-repeat right bottom;
+}
+.history03{
+    background:  url(img/history03.jpg) no-repeat right bottom;
+}
+.history04{
+    background:  url(img/history04.jpg) no-repeat right bottom;
+}
+.history05{
+    background:  url(img/history05.jpg) no-repeat right bottom;
+}
+.history06{
+    background:  url(img/history06.jpg) no-repeat right bottom;
+}
+.history07{
+    background:  url(img/history07.jpg) no-repeat right bottom;
+}
+.history08{
+    background:  url(img/history08.jpg) no-repeat right bottom;
+}
+.history09{
+    background:  url(img/history09.jpg) no-repeat right bottom;
+}
+.history10{
+    background:  url(img/history10.jpg) no-repeat right bottom;
+}
+
+.focus>.nav1{
+    background:Url(img/nav1.png) no-repeat;
+}
+.focus>.nav2{
+    background:Url(img/nav2.png) no-repeat;
+}
+.focus>.nav3{
+    background:Url(img/nav3.png) no-repeat;
+}
+.focus>.nav4{
+    background:Url(img/nav4.png) no-repeat;
+}
+.focus>.nav5{
+    background:Url(img/nav5.png) no-repeat;
+}
+.focus>.nav6{
+    background:Url(img/nav6.png) no-repeat;
+}
+.focus>.nav7{
+    background:Url(img/nav7.png) no-repeat;
+}
+.focus>.nav8{
+    background:Url(img/nav8.png) no-repeat;
+}
+.focus>.nav9{
+    background:Url(img/nav9.png) no-repeat;
+}
+.focus>.nav10{
+    background:Url(img/nav10.png) no-repeat;
+}
+.focus>.nav11{
+    background:Url(img/nav11.png) no-repeat;
+}
+
+/* $(".focus span").each(function (index) {
+    console.log(index)
+    $(this).click(function () {//控制图标滚动
+        console.log(this, index);
+        var leftWidth = (87*index)+'px'
+        $("#bor").stop(true,false)
+        $("#bor").animate({ "left": leftWidth }, 800,function(){})
+        // $(this).animate({"left":"80px"},1000,function(){
+        // })
+        //     $(this).animate({"left":"-80px"},200,function(){
+        //     $(this).append($(this).children("span:first"));
+        //     $(this).css("left","0px");
+        // })
+
+    })
+var lis = $(".imgshow").children("ul").children("li")
+}) */
+/* var lis = $(".imgshow").children("ul").children("li")
+for (var i = 0; i < lis.length; i++) {
+    $(lis[i]).fadeOut(50);
+}
+$(lis[index]).fadeIn(2000); */

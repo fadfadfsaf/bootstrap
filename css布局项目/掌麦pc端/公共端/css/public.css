@@ -1,0 +1,263 @@
+*{
+	margin:0 auto;
+	padding: 0px;
+}
+.header{
+	position: relative;
+	width: 1024px;
+	height: 72px;
+}
+.header>a{
+	float: left;
+	display: block;
+	width: 136px;
+	height: 66px;
+	color: #551a8b;
+	padding: 11px 0px 7px;
+	text-decoration: none;
+}
+.header>a>span{
+	display: block;
+	width: 136px;
+	height: 27px;
+	background: url(../img/logo.png);
+}
+.header>a>p{
+	text-align: center;
+	height: 14px;
+	width: 136px;
+	color:#475669;
+	font-size: 14px;
+	margin: 7px 0px 0px;
+}
+
+/*nav*/
+#ulf{
+	position: relative;
+	width: 588px;
+	height: auto;
+	display: block;
+	list-style-type: none;
+	margin-right: 140px;
+}
+#ulf>li{
+	position: relative;
+    width: 92px;
+	float: left;
+	height: 72px;
+}
+#ulf>li>a{
+	display: block;
+	font-size: 18px;
+	padding: 3px 28px 0;
+	height: 66px;
+	line-height: 66px;
+	text-decoration: none;
+}
+#ulf>li>a:link,#ulf>li>a:visited{
+	color:#494949;
+}
+#ulf>li>a:hover{
+	color: #0099ff;
+	border-bottom: 3px solid #0099ff;
+}
+/*nav*/
+/*登录注册*/
+#dl{
+	float: right;
+	width: 114px;
+	height: 38px;
+	border: 1px solid #0099ff;
+	border-radius: 7px;
+	margin-top:20px ;
+}
+#dl>a{
+	float: left;
+	margin-top: 7px;
+	text-align: center;
+	display: block;
+	width: 53px;
+	height: 24px;
+	line-height: 24px;
+	font-size: 14px;
+	text-decoration: none;
+}
+#dl>a:link,#dl>a:visited{
+	color: #494949;
+}
+#dl>a:hover{
+	color: #0099ff;
+}
+/*二级导航*/
+.ul2{
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	z-index: 999;
+	top: 74px;
+	left: 0px;
+	list-style-type: none;
+}
+.ul2>li{
+	width: 100%;
+	line-height: 100%;
+	vertical-align: baseline;
+}
+.ul2>li>a{
+	width: 100%;
+	line-height: 42px;
+	display: block;
+	background: #fff;
+	font-size: 14px;
+	text-decoration: none;
+}
+.ul2>li>a:link,.ul2>li>a:visited{
+	color: #475669;
+}
+.ul2>li>a:hover{
+	background: #00BFFF;
+	color: #fff;
+}
+
+/*footer*/
+.footer{
+	width: 100%;
+	height: 142px;
+	position: relative;
+	padding: 60px 0px 50px;
+	background: #eff2f7;
+}
+.footer_main{
+	width: 1024px;
+	height: 142px;
+	font-size: 14px;
+	color: #475669;
+	position: relative;
+	margin: 0 auto;
+	background: #eff2f7;
+}
+.ft_left{
+	width: 256px;
+	height: 135px;
+	float: left;
+	font-size: 14px;
+	color: #475669;
+	border-right: 1px solid #d9dbe2;
+}
+.ft_left>i{
+	display: block;
+	width: 100%;
+	height: 27px;
+	background: url(../img/logo2.png)no-repeat left center;
+}
+.ft_left>h2{
+	width: 100%;
+	height: 17px;
+	margin-top: 34px;
+	font-size: 14px;
+	color: #475669;
+}
+.ft_left>p{
+	font-size: 13px;
+	width: 100%;
+	height: 40px;
+	margin-top: 10px;
+}
+.ft_mid{
+	float: left;
+	margin-left: 51px;
+	width: 440px;
+	height: 142px;
+	color: #475669;
+	font-size: 14px;
+	border-right: 1px solid #d9dbe2;
+	background: url(../img/wx.jpg)no-repeat left center;
+}
+.ft_mid>p{
+	width: 98%;
+	margin-top: 115px;
+	padding-left: 10px;
+}
+.ft_right{
+	float: right;
+	width:256px;
+	height: 112px;
+	color: #475669;
+	font-size: 14px;
+	margin-right: 0px;
+}
+.ft_right>h3{
+	height: 42px;
+	width: 100%;
+	font-size: 18px;
+}
+.ft_right>h3>span{
+	width: auto;
+	display: inline-block;
+	line-height: 40px;
+	border-bottom: 2px solid #475669;
+}
+.ft_right>strong{
+	display: block;
+	margin-top: 20px;
+}
+.ft_right>p{
+	margin-top: 20px;
+	color: #475669;
+	font-size: 13px;
+}
+.footer2{
+	margin: 0 auto;
+	position: relative;
+	width: 100%;
+	height: 52px;
+	color: #666;
+	padding-top: 20px;
+	background: #e4e9f0;
+}
+.footer2>p{
+	width: 1024px;
+	text-align: center;
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+/*悬浮*/
+#but{
+	width: 42px;
+	height: 86px;
+	position: fixed;
+	bottom: 130px;
+	right: 10px;
+
+}
+#but>i{
+	display:block;
+	width: 42px;
+	height: 42px;
+	margin-top: 2px;
+}
+.but_div{
+	position: absolute;
+	right: 50px;
+	width: 316px;
+	height: 50px;
+	padding: 26px;
+	background: #fff;
+	box-shadow: 0 0 9px rgba(71,86,105,0.6);
+	border-radius: 4px;
+}
+.but_div>img{
+	float: left;
+	margin-right: 10px;
+}
+.but_div>h3{
+	font-size: 16px;
+	font-weight: bold;
+	font-style: normal;
+}
+.but_div>p{
+	margin-top: 5px;
+	font-size: 14px;
+	color: #666;
+	font-style: normal;
+}

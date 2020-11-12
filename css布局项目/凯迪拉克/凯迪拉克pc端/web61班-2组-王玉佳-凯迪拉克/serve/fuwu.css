@@ -1,0 +1,3158 @@
+/*车型页面*/
+
+.overviewNav {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-bottom: solid 1px #eeeeee;
+    position: absolute;
+}
+
+.overviewNavDD {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 74px;
+}
+
+.overviewNav h4 {
+    font-size: 22px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.overviewNav dl {
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 13px;
+    padding-bottom: 18px;
+    clear: both;
+}
+
+.overviewNav dl a {
+    color: #444444;
+    padding: 0px 36px;
+    padding-bottom: 15px;
+}
+
+.overviewNav dl a:hover,
+.overviewNav dl a.act {
+    border-bottom: solid 4px #8a1529;
+}
+
+
+/*车型页面的小焦点图*/
+
+.focusCar {
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.focusCar ul {
+    padding: 0 9px;
+}
+
+.focusCar li {
+    float: left;
+    width: 296px;
+    height: 120px;
+    padding: 0 9px;
+}
+
+.focusCar li a {
+    display: block;
+}
+
+.focusCar li a img {
+    width: 296px;
+    height: 120px;
+}
+
+
+/*性能，科技，内饰，外观等*/
+
+.navCarSed {
+    position: relative;
+}
+.navCarOhter {
+    position: relative;width: 960px;
+    margin: 0 auto;
+    margin-top: 65px;
+}
+
+.performance,
+.tech,
+.interior,
+.appearance,
+.safe,
+.appointment,
+.fengfan,
+.control {
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 65px;
+}
+
+.performance div,
+.tech div,
+.interior div,
+.appearance div,
+.safe div,
+.appointment div,
+.fengfan div,
+.control div {
+    margin-bottom: 45px;
+    position: relative;
+}
+
+.overviewNav img {
+    vertical-align: bottom;
+}
+
+.fixedOverview {
+    width: 100%;
+    position: fixed;
+    padding-top: 0px;
+    top: 0px;
+    margin-top: 0px;
+    z-index: 99;
+    background: #fff;
+    padding-top: 10px;
+}
+
+.appointment {
+    border-bottom: solid 1px #cbcbcb;
+}
+
+.layoutBtn {
+    position: absolute;
+    display: block;
+    background: url(#);
+}
+
+
+/*各种弹出按钮大小*/
+
+.atslBtn1 {
+    width: 364px;
+    height: 304px;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.atslBtn2 {
+    width: 354px;
+    height: 198px;
+    z-index: 10;
+    top: 310px;
+    left: 0px;
+    position: absolute;
+}
+
+.atslBtn3 {
+    width: 630px;
+    height: 280px;
+    z-index: 10;
+    top: 0;
+    left: 330px;
+    position: absolute;
+}
+
+.atslBtn4 {
+    width: 370px;
+    height: 225px;
+    z-index: 10;
+    top: 285px;
+    left: 335px;
+    position: absolute;
+}
+
+.atslBtn5 {
+    width: 440px;
+    height: 268px;
+    z-index: 10;
+    top: 0;
+    left: 40px;
+    position: absolute;
+}
+
+.atslBtn6 {
+    width: 594px;
+    height: 326px;
+    z-index: 10;
+    top: 336px;
+    left: 336px;
+    position: absolute;
+}
+
+.atslBtn7 {
+    width: 316px;
+    height: 185px;
+    z-index: 10;
+    top: 666px;
+    left: 336px;
+    position: absolute;
+}
+
+.atslBtn8 {
+    width: 462px;
+    height: 242px;
+    z-index: 10;
+    top: 14px;
+    left: 467px;
+    position: absolute;
+}
+
+.atslBtn9 {
+    width: 960px;
+    height: 237px;
+    z-index: 10;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+
+.atslBtn10 {
+    width: 295px;
+    height: 220px;
+    z-index: 10;
+    top: 5px;
+    left: 0px;
+    position: absolute;
+}
+
+.atslBtn11 {
+    width: 315px;
+    height: 185px;
+    z-index: 10;
+    top: 616px;
+    left: 335px;
+    position: absolute;
+}
+
+.atslBtn12 {
+    width: 272px;
+    height: 120px;
+    z-index: 10;
+    top: 616px;
+    left: 656px;
+    position: absolute;
+}
+
+.atslBtn13 {
+    width: 316px;
+    height: 186px;
+    z-index: 10;
+    top: 330px;
+    left: 335px;
+    position: absolute;
+}
+
+.atslBtn14 {
+    width: 274px;
+    height: 122px;
+    z-index: 10;
+    top: 330px;
+    left: 656px;
+    position: absolute;
+}
+
+.atslBtn15 {
+    width: 960px;
+    height: 240px;
+    z-index: 10;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+
+.atslBtn16 {
+    width: 430px;
+    height: 365px;
+    z-index: 10;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+
+.atslBtn17 {
+    width: 275px;
+    height: 180px;
+    z-index: 10;
+    top: 370px;
+    left: 158px;
+    position: absolute;
+}
+
+.atslBtn18 {
+    width: 210px;
+    height: 292px;
+    z-index: 10;
+    top: 120px;
+    left: 437px;
+    position: absolute;
+}
+
+.atslBtn19 {
+    width: 260px;
+    height: 220px;
+    z-index: 10;
+    top: 10px;
+    left: 32px;
+    position: absolute;
+}
+
+.atslBtn20 {
+    width: 622px;
+    height: 285px;
+    z-index: 10;
+    top: 5px;
+    left: 337px;
+    position: absolute;
+}
+
+.atslBtn21 {
+    width: 372px;
+    height: 227px;
+    z-index: 10;
+    top: 290px;
+    left: 337px;
+    position: absolute;
+}
+
+.atslBtn22 {
+    width: 960px;
+    height: 210px;
+    z-index: 10;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+
+.xtsBtn1 {
+    width: 494px;
+    height: 241px;
+    z-index: 10;
+    top: 0px;
+    left: 466px;
+    position: absolute;
+}
+
+.xtsBtn2 {
+    width: 495px;
+    height: 430px;
+    z-index: 10;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+
+.xtsBtn3 {
+    width: 459px;
+    height: 301px;
+    z-index: 10;
+    top: 0px;
+    right: 0px;
+    position: absolute;
+}
+
+.xtsBtn4 {
+    width: 332px;
+    height: 184px;
+    z-index: 10;
+    bottom: 0px;
+    left: 500px;
+    position: absolute;
+}
+
+.xtsBtn5 {
+    width: 314px;
+    height: 184px;
+    z-index: 10;
+    bottom: 0px;
+    left: 331px;
+    position: absolute;
+}
+
+.xtsBtn6 {
+    width: 557px;
+    height: 311px;
+    z-index: 10;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+
+.xtsBtn7 {
+    width: 405px;
+    height: 520px;
+    z-index: 10;
+    top: 0px;
+    left: 557px;
+    position: absolute;
+}
+
+.xtsBtn8 {
+    width: 455px;
+    height: 230px;
+    z-index: 10;
+    top: 316px;
+    left: 100px;
+    position: absolute;
+}
+
+.xtsBtn9 {
+    width: 292px;
+    height: 220px;
+    z-index: 10;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+
+.xtsBtn10 {
+    width: 629px;
+    height: 327px;
+    z-index: 10;
+    top: 0px;
+    right: 0px;
+    position: absolute;
+}
+
+.xtsBtn11 {
+    width: 272px;
+    height: 184px;
+    z-index: 10;
+    bottom: 0px;
+    right: 34px;
+    position: absolute;
+}
+
+.xtsBtn12 {
+    width: 493px;
+    height: 241px;
+    z-index: 10;
+    top: 0px;
+    left: 464px;
+    position: absolute;
+}
+
+.xtsBtn13 {
+    width: 271px;
+    height: 191px;
+    z-index: 10;
+    top: 246px;
+    left: 464px;
+    position: absolute;
+}
+
+.xtsBtn14 {
+    width: 449px;
+    height: 290px;
+    z-index: 10;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+
+.xtsBtn15 {
+    width: 505px;
+    height: 437px;
+    z-index: 10;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+.xtsBtn16 {
+    width: 341px;
+    height: 197px;
+    z-index: 10;
+    top: 295px;
+    left: 111px;
+    position: absolute;
+}
+
+.xtsBtn17 {
+    width: 598px;
+    height: 492px;
+    z-index: 10;
+    top: 134px;
+    left: 0px;
+    position: absolute;
+}
+
+.xtsBtn18 {
+    width: 358px;
+    height: 291px;
+    z-index: 10;
+    top: 134px;
+    right: 0px;
+    position: absolute;
+}
+
+.xtsBtn19 {
+    width: 357px;
+    height: 221px;
+    z-index: 10;
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+}
+
+.ctsBtn1 {
+    width: 542px;
+    height: 315px;
+    z-index: 10;
+    top: 0;
+    left: 32px;
+    position: absolute;
+}
+
+.ctsBtn2 {
+    width: 285px;
+    height: 186px;
+    z-index: 10;
+    top: 320px;
+    left: 32px;
+    position: absolute;
+}
+
+.ctsBtn3 {
+    width: 252px;
+    height: 123px;
+    z-index: 10;
+    top: 320px;
+    left: 322px;
+    position: absolute;
+}
+
+.ctsBtn4 {
+    width: 370px;
+    height: 306px;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.ctsBtn5 {
+    width: 370px;
+    height: 190px;
+    z-index: 10;
+    top: 310px;
+    left: 0;
+    position: absolute;
+}
+
+.ctsBtn6 {
+    width: 370px;
+    height: 225px;
+    z-index: 10;
+    top: 286px;
+    left: 335px;
+    position: absolute;
+}
+
+.ctsBtn7 {
+    width: 315px;
+    height: 188px;
+    z-index: 10;
+    top: 615px;
+    left: 335px;
+    position: absolute;
+}
+
+.ctsBtn8 {
+    width: 275px;
+    height: 125px;
+    z-index: 10;
+    top: 615px;
+    left: 656px;
+    position: absolute;
+}
+
+.ctsBtn9 {
+    width: 370px;
+    height: 230px;
+    z-index: 10;
+    top: 575px;
+    left: 335px;
+    position: absolute;
+}
+
+.ctsBtn10 {
+    width: 542px;
+    height: 316px;
+    z-index: 10;
+    top: 0;
+    left: 32px;
+    position: absolute;
+}
+
+.ctsBtn11 {
+    width: 285px;
+    height: 185px;
+    z-index: 10;
+    top: 320px;
+    left: 32px;
+    position: absolute;
+}
+
+.ctsBtn12 {
+    width: 625px;
+    height: 280px;
+    z-index: 10;
+    top: 0;
+    left: 337px;
+    position: absolute;
+}
+
+.ctsBtn13 {
+    width: 370px;
+    height: 225px;
+    z-index: 10;
+    top: 290px;
+    left: 337px;
+    position: absolute;
+}
+
+.ct6Btn1 {
+    width: 595px;
+    height: 492px;
+    z-index: 10;
+    top: 0;
+    left: 0px;
+    position: absolute;
+}
+
+.ct6Btn2 {
+    width: 579px;
+    height: 325px;
+    z-index: 10;
+    top: 37px;
+    left: 378px;
+    position: absolute;
+}
+
+.ct6Btn3 {
+    width: 496px;
+    height: 439px;
+    z-index: 10;
+    top: 0;
+    left: 0px;
+    position: absolute;
+}
+
+.ct6Btn4 {
+    width: 446px;
+    height: 295px;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.ct6Btn5 {
+    width: 507px;
+    height: 440px;
+    z-index: 10;
+    top: 59px;
+    left: 454px;
+    position: absolute;
+}
+
+.ct6Btn6 {
+    width: 603px;
+    height: 416px;
+    z-index: 10;
+    top: 8px;
+    left: 0;
+    position: absolute;
+}
+
+.ct6Btn7 {
+    width: 373px;
+    height: 225px;
+    z-index: 10;
+    top: 5px;
+    left: 0px;
+    position: absolute;
+}
+
+.ct6Btn8 {
+    width: 578px;
+    height: 358px;
+    z-index: 10;
+    top: 34px;
+    left: 380px;
+    position: absolute;
+}
+
+.ct6Btn9 {
+    width: 960px;
+    height: 304px;
+    z-index: 10;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+
+.ct6Btn10 {
+    width: 377px;
+    height: 316px;
+    z-index: 10;
+    top: 311px;
+    left: 582px;
+    position: absolute;
+}
+
+.ct6Btn11 {
+    width: 554px;
+    height: 308px;
+    z-index: 10;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+
+.ct6Btn12 {
+    width: 400px;
+    height: 511px;
+    z-index: 10;
+    top: 0;
+    left: 560px;
+    position: absolute;
+}
+
+.ct6Btn13 {
+    width: 375px;
+    height: 225px;
+    z-index: 10;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+
+.ct6Btn14 {
+    width: 578px;
+    height: 325px;
+    z-index: 10;
+    top: 30px;
+    left: 381px;
+    position: absolute;
+}
+
+.ct6Btn15 {
+    width: 506px;
+    height: 443px;
+    z-index: 10;
+    top: 69px;
+    left: 0;
+    position: absolute;
+}
+
+.ct6Btn16 {
+    width: 446px;
+    height: 305px;
+    z-index: 10;
+    top: 0px;
+    left: 514px;
+    position: absolute;
+}
+
+.ct6Btn17 {
+    width: 594px;
+    height: 491px;
+    z-index: 10;
+    top: 29px;
+    left: 365px;
+    position: absolute;
+}
+
+.ct6PlayBtn {
+    width: 200px;
+    height: 50px;
+    z-index: 10;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    display: block;
+    background: url(#);
+}
+
+.cesKvBtn {
+    width: 222px;
+    height: 44px;
+    z-index: 10;
+    position: absolute;
+    display: block;
+    right: 26px;
+    bottom: 32px;
+}
+
+.ct6phevBtn1 {
+    width: 372px;
+    height: 224px;
+    z-index: 10;
+    top: 0;
+    left: 0px;
+    position: absolute;
+}
+
+.ct6phevBtn2 {
+    width: 580px;
+    height: 325px;
+    z-index: 10;
+    top: 29px;
+    right: 0px;
+    position: absolute;
+}
+
+.ct6phevBtn3 {
+    width: 495px;
+    height: 429px;
+    z-index: 10;
+    top: 0;
+    left: 0p x;
+    position: absolute;
+}
+
+.ct6phevBtn4 {
+    width: 457px;
+    height: 300px;
+    z-index: 10;
+    top: 0;
+    right: 0px;
+    position: absolute;
+}
+
+.ct6phevBtn5 {
+    width: 328px;
+    height: 182px;
+    z-index: 10;
+    left: 502px;
+    bottom: 0px;
+    position: absolute;
+}
+
+.ct6phevBtn6 {
+    width: 960px;
+    height: 319px;
+    z-index: 10;
+    top: 0;
+    left: 0px;
+    position: absolute;
+}
+
+.ct6phevBtn7 {
+    width: 595px;
+    height: 487px;
+    z-index: 10;
+    top: 0;
+    left: 0px;
+    position: absolute;
+}
+
+.ct6phevBtn8 {
+    width: 372px;
+    height: 223px;
+    z-index: 10;
+    top: 0;
+    left: 0px;
+    position: absolute;
+}
+
+.ct6phevBtn9 {
+    width: 578px;
+    height: 325px;
+    z-index: 10;
+    bottom: 0;
+    right: 0px;
+    position: absolute;
+}
+
+.ct6phevBtn10 {
+    width: 960px;
+    height: 320px;
+    z-index: 10;
+    top: 0;
+    left: 0px;
+    position: absolute;
+}
+
+.ct6phevBtn11 {
+    width: 506px;
+    height: 436px;
+    z-index: 10;
+    top: 69px;
+    left: 0px;
+    position: absolute;
+}
+
+.ct6phevBtn12 {
+    width: 445px;
+    height: 304px;
+    z-index: 10;
+    top: 0;
+    right: 0px;
+    position: absolute;
+}
+
+.bot_fot {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.bot_fot .bot_fot_top {
+    color: #88172a;
+    margin-left: 201px;
+    position: relative;
+}
+
+.bot_fot .bot_fot_top p {
+    float: left;
+    font-size: 16px;
+    padding: 33px 47px;
+    cursor: pointer;
+}
+
+.bot_fot .bot_fot_center {
+    padding-top: 20px;
+}
+
+.bot_fot .bot_fot_center .gongg {
+    border-top: 2px solid #e6e6e6;
+    border-bottom: 2px solid #e6e6e6;
+    margin-bottom: 20px;
+    padding: 15px 0;
+    display: none;
+    position: relative;
+}
+
+.bot_fot .bot_fot_center .gongg .ul_1 {
+    width: 640px;
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+
+.bot_fot .bot_fot_center .gongg ul li {
+    width: 193px;
+    height: 40px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    float: left;
+    background: #eee;
+    position: relative;
+    cursor: pointer;
+}
+
+.bot_fot .bot_fot_center .gongg .ul_2 {
+    width: 426px;
+    position: absolute;
+    top: 15px;
+    left: 260px;
+}
+
+.bot_fot .bot_fot_center .gongg li span {
+    width: 192px;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    display: none;
+}
+
+.bot_fot .bot_fot_center .gongg p {
+    display: none;
+}
+
+.srxBtn1 {
+    width: 455px;
+    height: 242px;
+    z-index: 10;
+    top: 0;
+    left: 480px;
+    position: absolute;
+}
+
+.srxBtn2 {
+    width: 432px;
+    height: 365px;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.srxBtn3 {
+    width: 275px;
+    height: 182px;
+    z-index: 10;
+    top: 370px;
+    left: 158px;
+    position: absolute;
+}
+
+.srxBtn4 {
+    width: 210px;
+    height: 290px;
+    z-index: 10;
+    top: 122px;
+    left: 438px;
+    position: absolute;
+}
+
+.srxBtn5 {
+    width: 260px;
+    height: 222px;
+    z-index: 10;
+    top: 5px;
+    left: 32px;
+    position: absolute;
+}
+
+.srxBtn6 {
+    width: 595px;
+    height: 325px;
+    z-index: 10;
+    top: 286px;
+    left: 335px;
+    position: absolute;
+}
+
+.srxBtn7 {
+    width: 315px;
+    height: 188px;
+    z-index: 10;
+    top: 615px;
+    left: 335px;
+    position: absolute;
+}
+
+.srxBtn8 {
+    width: 275px;
+    height: 125px;
+    z-index: 10;
+    top: 615px;
+    left: 656px;
+    position: absolute;
+}
+
+.srxBtn9 {
+    width: 316px;
+    height: 190px;
+    z-index: 10;
+    top: 867px;
+    left: 336px;
+    position: absolute;
+}
+
+.srxBtn10 {
+    width: 275px;
+    height: 122px;
+    z-index: 10;
+    top: 867px;
+    left: 688px;
+    position: absolute;
+}
+
+.srxBtn11 {
+    width: 625px;
+    height: 280px;
+    z-index: 10;
+    top: 0;
+    left: 337px;
+    position: absolute;
+}
+
+.srxBtn12 {
+    width: 370px;
+    height: 225px;
+    z-index: 10;
+    top: 287px;
+    left: 337px;
+    position: absolute;
+}
+
+.srxBtn13 {
+    width: 960px;
+    height: 250px;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.srxBtn14 {
+    width: 432px;
+    height: 365px;
+    z-index: 10;
+    top: 308px;
+    left: 0;
+    position: absolute;
+}
+
+.srxBtn15 {
+    width: 275px;
+    height: 178px;
+    z-index: 10;
+    top: 680px;
+    left: 160px;
+    position: absolute;
+}
+
+.srxBtn16 {
+    width: 310px;
+    height: 225px;
+    z-index: 10;
+    top: 0;
+    left: 32px;
+    position: absolute;
+}
+
+.srxBtn17 {
+    width: 370px;
+    height: 305px;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.srxBtn18 {
+    width: 352px;
+    height: 200px;
+    z-index: 10;
+    top: 310px;
+    left: 0;
+    position: absolute;
+}
+
+.srxCue {
+    width: 150px;
+    height: 45px;
+    z-index: 10;
+    top: 840px;
+    left: 0px;
+    display: block;
+    position: absolute;
+}
+
+.xt5Btn1 {
+    width: 579px;
+    height: 490px;
+    z-index: 10;
+    top: 15px;
+    left: 0px;
+    position: absolute;
+}
+
+.xt5Btn2 {
+    width: 349px;
+    height: 286px;
+    z-index: 10;
+    top: 15px;
+    left: 613px;
+    position: absolute;
+    ;
+}
+
+.xt5Btn3 {
+    width: 379px;
+    height: 224px;
+    z-index: 10;
+    top: 315px;
+    left: 584px;
+    position: absolute;
+}
+
+.xt5Btn4 {
+    width: 439px;
+    height: 405px;
+    z-index: 10;
+    top: 130px;
+    left: 521px;
+    position: absolute;
+}
+
+.xt5Btn5 {
+    width: 619px;
+    height: 425px;
+    z-index: 10;
+    top: 24px;
+    left: 342px;
+    position: absolute;
+}
+
+.xt5Btn6 {
+    width: 541px;
+    height: 325px;
+    z-index: 10;
+    top: 22px;
+    left: 0px;
+    position: absolute;
+}
+
+.xt5Btn7 {
+    width: 382px;
+    height: 293px;
+    z-index: 10;
+    top: 22px;
+    left: 580px;
+    position: absolute;
+}
+
+.xt5Btn8 {
+    width: 372px;
+    height: 224px;
+    z-index: 10;
+    top: 15px;
+    left: 0px;
+    position: absolute;
+}
+
+.xt5Btn9 {
+    width: 279px;
+    height: 200px;
+    z-index: 10;
+    top: 245px;
+    left: 94px;
+    position: absolute;
+}
+
+.xt5Btn10 {
+    width: 390px;
+    height: 401px;
+    z-index: 10;
+    top: 51px;
+    left: 0px;
+    position: absolute;
+}
+
+.xt5Btn11 {
+    width: 563px;
+    height: 317px;
+    z-index: 10;
+    top: 20px;
+    left: 398px;
+    position: absolute;
+}
+
+.xt5Btn12 {
+    width: 519px;
+    height: 438px;
+    z-index: 10;
+    top: 20px;
+    left: 0;
+    position: absolute;
+}
+
+.xt5Btn13 {
+    width: 363px;
+    height: 220px;
+    z-index: 10;
+    top: 226px;
+    left: 554px;
+    position: absolute;
+}
+
+.xt5Btn14 {
+    width: 618px;
+    height: 417px;
+    z-index: 10;
+    top: 19px;
+    left: 342px;
+    position: absolute;
+}
+
+.xt5Btn15 {
+    width: 375px;
+    height: 225px;
+    z-index: 10;
+    top: 19px;
+    left: 0px;
+    position: absolute;
+}
+
+.xt5Btn16 {
+    width: 548px;
+    height: 378px;
+    z-index: 10;
+    top: 48px;
+    left: 380px;
+    position: absolute;
+}
+
+.xt5Btn17 {
+    width: 960px;
+    height: 305px;
+    z-index: 10;
+    top: 15px;
+    left: 0;
+    position: absolute;
+}
+
+.xt5Btn18 {
+    width: 550px;
+    height: 456px;
+    z-index: 10;
+    top: 51px;
+    left: 0;
+    position: absolute;
+}
+
+.xt5Btn19 {
+    width: 354px;
+    height: 208px;
+    z-index: 10;
+    top: 52px;
+    left: 556px;
+    position: absolute;
+}
+
+.xt5Btn20 {
+    width: 375px;
+    height: 242px;
+    z-index: 10;
+    top: 266px;
+    left: 587px;
+    position: absolute;
+}
+
+.xt5Btn21 {
+    width: 442px;
+    height: 242px;
+    z-index: 10;
+    top: 22px;
+    left: 0;
+    position: absolute;
+}
+
+.xt5Btn22 {
+    width: 399px;
+    height: 233px;
+    z-index: 10;
+    top: 247px;
+    left: 85px;
+    position: absolute;
+}
+
+.xt5Btn23 {
+    width: 451px;
+    height: 263px;
+    z-index: 10;
+    top: 33px;
+    left: 452px;
+    position: absolute;
+}
+
+.xt5Btn24 {
+    width: 510px;
+    height: 261px;
+    z-index: 10;
+    top: 302px;
+    left: 450px;
+    position: absolute;
+}
+
+.xt5ImgBtn {
+    width: 140px;
+    height: 30px;
+    background: none;
+    display: block;
+    position: absolute;
+    bottom: 28px;
+}
+
+.xt5ImgBtn1 {
+    left: 184px;
+}
+
+.xt5ImgBtn2 {
+    left: 334px;
+}
+
+.xt5ImgBtn3 {
+    left: 486px;
+}
+
+.xt5ImgBtn4 {
+    left: 639px;
+}
+
+
+/*凯雷德*/
+
+.escaladeBtn1 {
+    width: 590px;
+    height: 518px;
+    z-index: 10;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+
+.escaladeBtn2 {
+    width: 332px;
+    height: 324px;
+    z-index: 10;
+    top: 1px;
+    left: 595px;
+    position: absolute;
+}
+
+.escaladeBtn3 {
+    width: 365px;
+    height: 230px;
+    z-index: 10;
+    top: 333px;
+    left: 595px;
+    position: absolute;
+}
+
+.escaladeBtn4 {
+    width: 519px;
+    height: 296px;
+    z-index: 10;
+    top: 55px;
+    left: 0px;
+    position: absolute;
+}
+
+.escaladeBtn5 {
+    width: 401px;
+    height: 235px;
+    z-index: 10;
+    top: 0px;
+    left: 527px;
+    position: absolute;
+}
+
+.escaladeBtn6 {
+    width: 433px;
+    height: 344px;
+    z-index: 10;
+    top: 240px;
+    left: 527px;
+    position: absolute;
+}
+
+.escaladeBtn7 {
+    width: 519px;
+    height: 290px;
+    z-index: 10;
+    top: 357px;
+    left: 0px;
+    position: absolute;
+}
+
+.escaladeBtn8 {
+    width: 505px;
+    height: 453px;
+    z-index: 10;
+    top: 78px;
+    left: 455px;
+    position: absolute;
+}
+
+.escaladeBtn9 {
+    width: 448px;
+    height: 292px;
+    z-index: 10;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+
+.escaladeBtn10 {
+    width: 328px;
+    height: 325px;
+    z-index: 10;
+    top: 297px;
+    left: 120px;
+    position: absolute;
+}
+
+.escaladeBtn11 {
+    width: 960px;
+    height: 398px;
+    z-index: 10;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+
+.escaladeBtn12 {
+    width: 554px;
+    height: 308px;
+    z-index: 10;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+
+.escaladeBtn13 {
+    width: 400px;
+    height: 478px;
+    z-index: 10;
+    top: 30px;
+    left: 560px;
+    position: absolute;
+}
+
+
+/*车型操控*/
+
+.control .hcs {
+    /*background:url(../images/xt5/control3_1.jpg);*/
+    height: 550px;
+}
+
+.control .hcsc {
+    position: absolute;
+    top: 435px;
+    left: 0;
+    height: 42px;
+    width: 100%;
+}
+
+.control .hcsc a {
+    display: block;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    top: 0;
+    left: 170px;
+    font-size: 18px;
+    color: #434343;
+    text-align: center;
+}
+
+.control .hcsc a.act {
+    border-bottom: 3px solid #8a1529;
+}
+
+.control .hcsc a.act1 {
+    left: 350px;
+}
+
+.control .hcsc a.act2 {
+    left: 525px;
+}
+
+.control .hcsc a.act3 {
+    left: 700px;
+}
+
+
+/*内饰和外观选择*/
+
+.interior p.choose,
+.appearance p.choose {
+    background: #ededed;
+    height: 60px;
+    position: relative;
+    padding-top: 0;
+    padding-left: 14px;
+}
+
+.interior p.choose span,
+.appearance p.choose span {
+    position: relative;
+    top: -8px;
+}
+
+.interior p.choose a,
+.appearance p.choose a {
+    position: relative;
+    top: 14px;
+    margin: 0 4px;
+}
+
+.interior p.choose a.act,
+.appearance p.choose a.act {
+    border-bottom: solid 2px #861a2a;
+    width: 49px;
+    display: inline-block;
+    height: 35px;
+    padding-bottom: 2px;
+}
+
+.interior .colorName,
+.appearance .colorName {
+    font-size: 14px;
+    padding: 10px 14px;
+}
+
+.interior p.choose a img,
+.appearance p.choose a img {
+    width: 49px;
+    height: 35px;
+}
+
+.interior p.choose a {
+    width: 90px;
+    height: 37px;
+}
+
+.interior p.choose a.act {
+    width: 90px;
+    height: 37px;
+}
+
+.interior p.choose a img {
+    width: 90px;
+    height: 37px;
+}
+
+
+/*弹出层的背景*/
+
+#layoutDiv {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+}
+
+#layoutDiv .bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    background: #000;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+}
+
+#layoutDiv .bd {
+    top: 50%;
+    left: 50%;
+    z-index: 10;
+    width: 931px;
+    margin-left: -465px;
+    margin-top: -252px;
+    background: #fff;
+    position: absolute;
+}
+
+#layoutDiv .bd img {
+    width: 100%;
+}
+
+#layoutDiv .bd p.font1 {
+    position: absolute;
+    color: #000;
+    font-size: 14px;
+    line-height: 20px;
+    width: 410px;
+    top: 160px;
+    left: 472px;
+}
+
+#layoutDiv .bd p.font2 {
+    color: #000;
+    font-size: 14px;
+    line-height: 20px;
+    width: 410px;
+    top: 160px;
+    left: 472px;
+}
+
+#layoutDiv .closeLayout {
+    width: 43px;
+    height: 43px;
+    background: url(images/closeLayout.jpg);
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 11;
+    cursor: pointer;
+}
+
+
+/*各个车型的金融方案的tab导航*/
+
+.financeTab {
+    width: 1280px;
+    height: 37px;
+    border-top: solid 3px #6c6c6c;
+    background: #787878;
+    margin: 0 auto;
+    position: relative;
+}
+
+.financeTab ul {
+    left: 160px;
+    position: relative;
+    top: 3px;
+    color: #fff;
+    height: 34px;
+    line-height: 34px;
+    width: 1000px;
+}
+
+.financeTab ul li {
+    padding: 0 46px;
+    float: left;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.financeTab ul li.act {
+    background: #fff;
+    color: #5a5a5a;
+    box-shadow: 2px 0px 0px #5a5a5a;
+}
+
+
+/*各个车型的金融方案的实体内容*/
+
+.financeTabCon {
+    width: 932px;
+    margin: 0 auto;
+    padding: 0 14px;
+    font-size: 14px;
+    border-bottom: solid 1px #cbcbcb;
+    position: relative;
+}
+
+.printIcon {
+    width: 123px;
+    height: 30px;
+    background: url(images/printIcon.jpg);
+    position: absolute;
+    right: 170px;
+    top: 50px;
+    z-index: 9;
+    cursor: pointer;
+    display: none;
+}
+
+.financeTitle {
+    padding-top: 46px;
+    padding-bottom: 20px;
+}
+
+.financeTabCon p {
+    line-height: 20px;
+}
+
+a.financeCountBtn {
+    width: 147px;
+    height: 35px;
+    background: url(images/countBtn.jpg);
+    display: inline-block;
+    margin: 32px 30px 60px 0;
+}
+
+a.financeApplyBtn {
+    width: 147px;
+    height: 35px;
+    background: url(images/financeApplyBtn.jpg);
+    display: inline-block;
+    margin: 32px 0px 60px 0;
+}
+
+.financeTabCon .smallT {
+    font-size: 14px;
+    color: #414e55;
+    padding-bottom: 20px;
+}
+
+.financeTabCon table {
+    width: 100%;
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.financeTabCon table tr {
+    height: 50px;
+    line-height: 50px;
+    color: #4b4b4b;
+    border-bottom: solid 1px #d3d3d3;
+}
+
+.financeTabCon table tr.title {
+    background: #4b4b4b;
+    color: #f3f3f3;
+}
+
+.financeTabCon table td.w {
+    border-right: solid 1px #fff;
+    width: 115px;
+    line-height: 24px;
+}
+
+a.applyTC {
+    width: 106px;
+    height: 35px;
+    background: url(images/applyTC.jpg);
+    display: block;
+    margin-left: 4px;
+}
+
+
+/*各个车型的车型配置对比*/
+
+.configTab {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.configTab .printIcon {
+    right: 0px;
+    top: 33px;
+}
+
+.configTab ul {
+    font-size: 14px;
+    padding: 40px 0;
+}
+
+.configTab li {
+    display: inline-block;
+    border-right: solid 1px #d1d1d1;
+    margin-bottom: 14px;
+}
+
+.configTab li a {
+    display: block;
+    color: #a04558;
+    padding: 0 16px;
+}
+
+.configTab li.act a {
+    color: #565656;
+}
+
+.configTab li.last {
+    border: 0;
+}
+
+.configCon {
+    width: 921px;
+    margin: 0 auto;
+    font-size: 13px;
+    padding-bottom: 100px;
+    border-bottom: solid 1px #d1d1d1;
+}
+
+.configCon ul {
+    border-left: solid 1px #d1d1d1;
+    border-right: solid 1px #d1d1d1;
+}
+
+.configCon ul li {
+    float: left;
+    text-align: center;
+    color: #fff;
+    line-height: 20px;
+    width: 133px;
+    border-right: solid 1px #fff;
+    position: relative;
+}
+
+.configCon ul li.title {
+    width: 253px;
+}
+
+.configCon ul li.con span {
+    display: block;
+    border-right: solid 1px #fff;
+    background: #4b4b4b;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.configCon ul li span {
+    display: block;
+    background: #4b4b4b;
+    padding: 10px 10px;
+}
+
+.configCon ul.con {
+    border-bottom: solid 1px #d1d1d1;
+    padding: 0;
+}
+
+.configCon ul.con li {
+    background: #fff;
+    padding: 0px 0;
+    position: relative;
+}
+
+.configCon ul.con li span {
+    background: #fff;
+    color: #4b4b4b;
+    line-height: 20px;
+    padding: 20px 5px;
+}
+
+.configCon ul.con li.title {
+    line-height: 20px;
+}
+
+.TabIcon {
+    position: relative;
+}
+
+p.des {
+    padding-top: 20px;
+    text-align: right;
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+    right: 20px;
+}
+
+.TabIcon p.des {
+    bottom: -70px;
+    color: #363636;
+}
+
+
+/*美图视频的预约试驾按钮和切换导航*/
+
+.pictureOrderBg {
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 24px;
+    border-bottom: solid 1px #cbcbcb;
+    padding-bottom: 56px;
+}
+
+a.pictureOrder {
+    width: 147px;
+    height: 35px;
+    background: url(images/orderTestBtn.png);
+    display: block;
+}
+
+.checkStage {
+    width: 960px;
+    margin: 0 auto;
+    font-size: 14px;
+    padding: 15px 0;
+}
+
+.checkStage li {
+    display: inline;
+}
+
+.checkStage a {
+    padding: 0 10px;
+    border-right: solid 1px #d1d1d1;
+    color: #912436;
+}
+
+.checkStage li.act a {
+    color: #989898;
+}
+
+.checkStage li.last a {
+    border: 0;
+}
+
+.flashBg {
+    width: 1280px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    z-index: 90;
+    background: #000;
+    margin-left: -640px;
+    display: none;
+}
+
+.flashBg object {
+    position: absolute;
+    left: 50%;
+    margin-left: -360px;
+}
+
+a.orderTestBtn {
+    width: 147px;
+    height: 35px;
+    background-image: url(images/orderTestBtn.png);
+    display: block;
+    position: absolute;
+    right: 70px;
+    top: 40%;
+    margin-top: -17px;
+}
+
+.appointment .modelCode {
+    width: 188px;
+    height: 89px;
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    background: url(images/code.jpg) 0 0 no-repeat;
+}
+
+
+/*新车上市-CT6*/
+
+.newCar {
+    width: 1280px;
+    margin: 0 auto;
+    color: #363636;
+    padding-bottom: 40px;
+}
+
+.newCar img {
+    width: 100%;
+    margin: 0 auto;
+    vertical-align: bottom;
+}
+
+.newCar p {
+    text-align: center;
+    line-height: 36px;
+    font-size: 24px;
+}
+
+.newCar p span {
+    font-size: 28px;
+}
+
+.newCar a.ct6dingyue {
+    width: 352px;
+    height: 79px;
+    background: url(images/newcar/ct6/dingyueBtn.jpg);
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.mediaTitle {
+    width: 95px;
+    height: 22px;
+    background: url(images/mediaTitle.png);
+    margin-top: 20px;
+}
+
+
+/*底部预约试驾*/
+
+.footFixDrive {
+    width: 100%;
+    background: #f3f3f3;
+    position: fixed;
+    bottom: -1px;
+    left: 0;
+    z-index: 99;
+}
+
+.footFixDrive .con {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.footFixDrive .labelBg {
+    position: absolute;
+    right: 73px;
+    top: 12px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.footFixDrive .formInfo {
+    padding: 16px 10px;
+    color: #000000;
+}
+
+.footFixDrive .formInfo .title {
+    width: 60px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footFixDrive .formInfo #kf {
+    width: 60px;
+    text-align: center;
+    font-size: 14px;
+    padding-left: 277px;
+    padding-right: 4px;
+    text-decoration: underline;
+    position: absolute;
+    right: -16px;
+    top: 20px;
+}
+
+.footFixDrive .formInfo span {
+    padding-left: 5px;
+    padding-right: 4px;
+    font-size: 12px;
+}
+
+.footFixDrive .formInfo span,
+.formInfo .txt,
+.formInfo .select {
+    vertical-align: middle;
+}
+
+.footFixDrive .formInfo .txt {
+    width: 100px;
+    padding-left: 5px;
+    height: 20px;
+    line-height: 20px;
+    border: #8e8e8e solid 1px;
+}
+
+.footFixDrive .formInfo .select {
+    width: 86px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 10px;
+}
+
+.footFixDrive .formInfo #footsubmitBtn {
+    display: inline-block;
+    padding: 4px 16px;
+    margin-left: 0px;
+    font-size: 0.9em;
+    text-decoration: none;
+    color: #fff;
+    background: #891428;
+}
+
+.cruiseIc{
+        width: 60px;
+    height: 60px;
+    background: url(images/ct6/scIcon.png);
+    background-size: 60px;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    margin-left: -30px;
+}
+
+.supercruiseBtns{
+    width: 100%;height: 40px;padding: 30px 0 0px 0;text-align: center;position: relative;
+}
+.supercruiseBtn{
+    display: inline-block;
+    padding: 0 10px 6px 10px;font-size: 20px;color: #353535;
+}
+.supercruiseBtn.fl{
+    float: left;
+    margin-left: 40px;
+}
+.supercruiseBtn.fr{
+    float: right;
+    margin-right: 40px;
+}
+.supercruiseBtn.cur{
+    border-bottom: solid 3px #9a0000;
+}
+
+.supercruiseCon{
+    text-align: center;font-size: 20px;color: #353535;padding-top: 20px;
+}
+@font-face {
+font-family: hyjh;
+src: url(font/hyjhj.eot);
+src: url(font/hyjhj.eot?) format("embedded-opentype"), url(font/hyjhj.woff) format("woff"), url(font/hyjhj.ttf) format("truetype");
+	
+}
+
+@font-face {
+font-family: TrimRegular;
+src: url(font/Trim-Regular.eot);
+src: url(font/Trim-Regular.eot?) format("embedded-opentype"), url(font/Trim-Regular.woff) format("woff"), url(font/Trim-Regular.ttf) format("truetype");
+font-style: normal;
+font-weight: 400;
+}
+
+
+body{min-width: 1280px;font-family:"TrimRegular","hyjh";}
+p{font-size: 14px;}
+h4{font-weight: normal;font-size: 14px;}
+
+
+/*通用顶部导航*/
+.navTop{width: 1280px;margin: 0 auto;height: 92px;position: relative;}
+.navTop .logo{width: 203px;height: 35px;position: absolute;background: url(images/logo.png) no-repeat;left: 165px;top: 28px;}
+.navTop ul{position: absolute;top: 58px;left: 740px;}
+.navTop ul li{float: left;height: 14px;cursor: pointer;padding: 0 15px;}
+.navTop ul li a{display: block;height: 14px;font-size: 13px;color: #666;}
+.navTop ul li:hover a{color:#b3b3b3;}
+.navTop ul li.ppjs a{width: 56px;}
+.navTop ul li.xwrd a{width: 56px;background-position: -82px 0px;}
+.navTop ul li.jxscx a{width: 72px;background-position: -165px 0px;}
+.navTop ul li.online a{width: 56px;background-position: -260px 0px;}
+.headLayout{width: 900px;height:500px;position: absolute;z-index: 999;background: #fff;left: 50%;margin-left: -470px;display: none;}
+.headLayout ul{/*padding: 40px 70px;*/padding:40px;}
+.headLayout li{float:left;width: 270px;height: 129px;margin-bottom: 20px;}
+.headLayout li a{display: block;color: #363636;font-size: 14px;text-align: center;}
+.headLayout li a .atsl{width: 157px;height:87px;background: url(images/headAtsl.png) no-repeat 0 12px;margin: 0 auto;}
+.headLayout li a .xts{width: 187px;height:87px;background: url(images/headXts.png) no-repeat 0 10px;margin: 0 auto;}
+.headLayout li a .cts{width: 162px;height:76px;background: url(images/headCts.png);margin: 0 auto;}
+.headLayout li a .ct6{width: 179px;height:83px;background:url(images/headCT6.png) no-repeat 0 9px; margin: 0 auto;margin-top: 10px;}
+.headLayout li a .srx{width: 211px;height:83px;background: url(images/headSrx.png);margin: 0 auto;}
+.headLayout li a .xt5{width: 200px;height:93px;background: url(images/headXt5.png);margin: 0 auto;}
+.headLayout li a .xt4{width: 200px;height:88px;background: url(images/headXt4.png);margin: 0 auto;}
+.headLayout li a .xt6{width: 200px;height:94px;background: url(images/headXt6.jpg) no-repeat 4px -4px;margin: 0 auto;}
+.headLayout li a .ct5{width: 200px;height:88px;background: url(images/headCt5.png) no-repeat 0 8px;margin: 0 auto;}
+.headLayout li a .ct4{width: 200px;height:93px;background: url(images/headCt4.png) no-repeat 4px -4px;margin: 0 auto;}
+.headLayout li a .escalade{width:200px;height:88px;background: url(images/headEscalade.png) no-repeat 0 -9px;margin: 0 auto;}
+
+.headLayout li a p{padding-top: 14px;}
+.headLayoutBg{width: 100%;height: 100%;background: #000;opacity: 0.75;position: absolute;z-index: 998;filter:Alpha(opacity=75);display: none;}
+
+
+/*顶部搜索*/
+.search{width: 100px;height: 23px;border: solid 1px #cdcdcd;position: absolute;top: 52px;left: 1018px;}
+.search input[type="text"]{width: 76px;height: 20px;line-height: 20px;font-size: 14px;text-indent: 4px; border: 0;position: relative;position: relative;top: 0px;padding: 0;}
+.search a.searchNavBtn{width: 17px;height: 17px;display: block;position: absolute;background: url(../images/searchIcon.jpg);top: 3px;right: 4px;}
+
+/*车型选择nav*/
+.navTitle{width: 1280px;margin: 0 auto;height: 30px;background: #f3f3f3;margin-bottom: 4px;position: relative;}
+.navTitle ul{height: 30px;position: absolute;top: 0px;left: 140px;}
+.navTitle ul li{float: left;height: 30px;cursor: pointer;line-height: 30px;}
+.navTitle ul li a{display: block;padding: 0 18px;height: 30px;font-size: 13px;color: #8a1529;letter-spacing: .02em;}
+.navTitle ul li a.act{  color: #000; background: #ececec; border-left: 1px solid #cbcbcb;border-right: 1px solid #fff;  padding: 0 9px;}
+.navTitle ul li:hover a{color: #000;}
+.navTitle ul li.allV a{}
+.navTitle ul li.atsl a{}
+.navTitle ul li.xts a{}
+.navTitle ul li.cts a{}
+.navTitle ul li.srx a{}
+.navTitle ul li.esc a{}
+.navTitle ul li.cue a{}
+.navTitle ul li.cue span{}
+.navTitle ul li.plus a{}
+.navTitle ul li.plus span{}
+.navTitle ul li.active{background: #ececec;padding: 0 29px;border-left: solid 1px #cbcbcb;border-right: solid 1px #ffffff;}
+.navTitle .orderDriveBtn{width: 110px;height: 26px;position: absolute;top: 2px;right: 160px;/*160px*/ background: url(images/orderDriveBtn.jpg);color: #fff;font-size: 14px;text-indent: 22px;line-height: 26px;}
+.navTitle .orderDriveBtnR{width: 110px;height: 26px;position: absolute;top: 2px;right: 160px; background: url(images/orderDriveBtnR.jpg);color: #fff;font-size: 14px;text-indent: 22px;line-height: 26px;}
+.navTitle .online{width: 110px;height: 26px;display: block; position: absolute;top: 2px;right:40px; background: url(images/topOnline.png);color: #fff;font-size: 14px;text-indent: 22px;line-height: 26px;}
+
+
+/*二级导航栏*/
+.secNavTitle{width: 1280px;margin: 0 auto;height: 34px;padding-top: 3px;border-top: solid 3px #6e1121; background: #8a1529;margin-bottom: 4px;position: relative;}
+.secNavTitle a{color: #fff;font-size: 13px;}
+.secNavTitle ul{height: 34px;position: absolute;top: 6px;left: 305px;line-height: 26px;}
+.secNavTitle li{float: left;height: 34px;}
+.secNavTitle li a{display: block;padding: 0 20px;}
+.secNavTitle li:hover a{color: #000;}
+.secNavTitle li.active{background: #fff;}
+.secNavTitle li.active a{color: #666;}
+.secNavTitle a.title{position: absolute;font-size: 18px;left: 160px;top: 9px;width:106px;text-align: center;}
+.secNavTitle img{position: relative;top: 3px;}
+.secNavTitle.plusNav ul{left: 177px;}
+
+/*底部通用系列*/
+.footerDes{width: 960px;margin: 0 auto;color: #666;padding-bottom: 100px;}
+.footerDes .des{padding: 20px 0px;border-bottom: solid 1px #cbcbcb;}
+.footerDes p{padding: 0 20px;line-height: 20px;}
+
+.footerDes .copyright{padding: 16px 0px 15px 0px;position: relative;font-size: 13px;}
+.footerDes .copyright p.tel{}
+.footerDes .copyright p.tel a{background: url(images/footerIcon.png);display: inline-block; width: 17px;height: 17px;padding: 0px;margin-right: 10px;border: 0;}
+.footerDes .copyright p.tel a.wb{background-position: 0px 0px; }
+.footerDes .copyright p.tel a.tx{background-position: -27px 0px;}
+.footerDes .copyright p.tel a.rr{background-position: -52px 0px;}
+.footerDes .copyright p.tel a.kx{background-position: -78px 0px;margin-right: 0px;}
+.footerDes .copyright p.tel a.zh{background-position: 17px 0px;margin-right: 0px;}
+.footerDes .copyright p{line-height: 24px;}
+.footerDes .copyright a{color: #666;padding-right: 15px;padding-left: 15px; border-right: solid 1px #8d8d8d;}
+.footerDes .copyright a.first{padding-left: 0px;}
+.footerDes .copyright a.last{border: 0px;}
+
+.footerDes ul{padding: 0 20px;border-bottom: solid 1px #cbcbcb;padding-bottom: 14px;}
+.footerDes ul li{width: 230px;float: left;margin-right: 20px;}
+.footerDes ul li.last{margin-right: 0px;width: 150px;}
+.footerDes ul li p{padding: 18px 0 14px 0;color: #666;font-size: 13px;}
+.footerDes ul li a{color: #a0a0a0;font-size:13px;display: block;padding-bottom: 14px;line-height: 14px;}
+.footerDes ul li a:hover{text-decoration: underline;}
+
+/*大型轮播图*/
+.wrapper{position: relative;}
+.jcarousel-wrapper {
+    margin: 0px auto;
+    position: relative;
+    width: 1280px;
+    height: 347px;
+}
+.jcarousel-wrapper.financeJcarousel{
+	height: 318px;
+	padding-bottom: 4px;
+}
+.jcarousel-wrapper.configcarousel{
+	width: 960px;
+	height: 200px;
+	padding-bottom: 4px;
+}
+
+/** Carousel **/
+.jcarousel {position: relative;overflow: hidden;}
+.jcarousel ul {width: 20000em;position: relative;list-style: none; margin: 0;padding: 0;}
+.jcarousel li {float: left;}
+.jcarousel li a{width: 100%;height: 353px;display: block;}
+.jcarousel li img{width: 100%;}
+
+/** Carousel Controls **/
+.jcarousel-control-prev,
+.jcarousel-control-next {position: absolute;top: 50%;margin-top: -60px;width: 40px;height: 60px;text-align: center;text-decoration: none;background-image: url(../images/bannerIcon.png);}
+.jcarousel-control-prev {left:0px;}
+.jcarousel-control-next {right:0px;background-position: 40px 0px;}
+.jcarousel-control-prev:hover span,
+.jcarousel-control-next:hover span {display: block;}
+.jcarousel-control-prev.inactive,
+.jcarousel-control-next.inactive {opacity: 1;cursor: default;}
+/** Carousel Pagination **/
+.jcarousel-pagination {position: absolute;bottom: 10px;left: 50%;margin-left: -52px;}
+.jcarousel-pagination a {text-decoration: none;display: inline-block;width: 11px;height: 11px;background: #e2e2e2;color: #e2e2e2;text-align: center;margin-right: 10px;}
+.jcarousel-pagination a.active {background: #696969;color: #696969;opacity: 1;}
+
+
+
+/** Stage container **/
+
+.connected-carousels .stage {margin: 0px auto;position: relative;width: 1280px;height: 353px;padding-bottom: 30px;}
+.connected-carousels .stage.stage2{height: 400px;}
+
+/** Navigation container **/
+.connected-carousels .navigation {width: 960px;margin: 0 auto;position: relative;}
+
+.connected-carousels .navigation img{width: 145px;height: 75px;}
+
+/** Shared carousel styles **/
+
+.connected-carousels .carousel {overflow: hidden;position: relative;}
+.connected-carousels .carousel ul {width: 20000em;position: relative;list-style: none;margin: 0;padding: 0;}
+.connected-carousels .carousel li {float: left;}
+
+/** Stage carousel specific styles **/
+
+.connected-carousels .carousel-stage {}
+
+/** Navigation carousel specific styles **/
+
+.connected-carousels .carousel-navigation ul{width: 960px;}
+
+.connected-carousels .carousel-navigation li {cursor: pointer;margin-right: 10px;margin-bottom: 10px;}
+
+.connected-carousels .carousel-navigation li img {}
+
+.connected-carousels .carousel-navigation li.active img {}
+
+/** Stage carousel controls **/
+
+.connected-carousels .prev-stage,
+.connected-carousels .next-stage {position: absolute;top: 50%;margin-top: -60px;width: 40px;height: 60px;text-align: center;text-decoration: none;background-image: url(../images/bannerIcon.png);}
+.connected-carousels .prev-stage {left:0px;}
+.connected-carousels .next-stage {right:0px;background-position: 40px 0px;}
+.connected-carousels .prev-stage:hover span,
+.connected-carousels .next-stage:hover span {display: block;}
+.connected-carousels .prev-stage.inactive,
+.connected-carousels .next-stage.inactive {opacity: 1;cursor: default;}
+
+
+/*预约试驾*/
+.driveCon{width: 920px;margin: 0 auto; border-bottom: solid 1px #cbcbcb;padding-bottom: 40px;}
+.driveTitle{width: 101px;height: 23px;background: url(images/driveTitle.png);}
+.driveLine{width: 100%;height: 1px;background: #dadada;}
+.driveCon .checkbox{text-align: center;padding: 15px 0;font-size: 14px;}
+.driveCon label{text-align: center;cursor: pointer;}
+.driveCon label input[type="checkbox"]{position: relative;top: 2px;}
+
+.driveSlt{padding: 25px 0;}
+.driveSlt li{width: 460px;height: 24px; float: left;padding: 10px 0;font-size: 14px;color: #4c4c4c;}
+.driveSlt li span{width: 80px;text-align: right;display: inline-block;margin-right: 10px;}
+.driveSlt select{width: 140px;line-height: 24px;height: 24px;}
+.driveSlt select.long{width: 285px;}
+.driveSlt input[type="radio"]{position: relative;top: 2px;}
+.driveSlt input[type="text"]{padding: 0;height: 24px;width: 148px;}
+.driveSlt label{margin-right: 20px;}
+.driveSlt input[type="text"].long{width: 285px;}
+
+.driveSub{padding: 20px 0;}
+.driveSub a{display: block;margin: 0 auto;width: 147px;height: 35px;background: url(images/driveBtn.png);}
+
+
+/*新闻页面*/
+.newsCon{width: 920px;margin: 0 auto;padding: 0 20px; border-bottom: solid 1px #cbcbcb;position: relative;height: 905px;}
+.newsTitle{width: 105px;height: 22px;background: url(images/newsTitle.png);}
+.cadiClubTitle{width: 207px;height: 24px;background: url(images/cadiClubTitle.png);}
+.newsCon .search1{left:715px;width:176px;top:0px;}
+.newsCon .search1 input[type="text"]{width:176px;height: 22px;}
+.newsCon ul{padding: 15px 0;}
+.newsCon li{margin: 25px 0;height: 170px;position: relative;width: 100%;}
+.newsCon li .line{height: 170px;width: 1px;background: #000000;position: absolute;top: 0;right: 124px;}
+.newsCon li .time{display: inline-block;color: #000000;font-size: 14px;position: absolute;top: 0;right: 45px;}
+.newsCon li h4{font-size: 18px;width: 390px;position: absolute;left: 334px;top: 10px;}
+.newsCon li p{font-size: 14px;width: 390px;position: relative;left: 0px;margin-top: 10px;line-height: 20px;}
+.newsCon li a{width: 128px;height: 35px;background: url(images/newsBtn.jpg);display: block;position: absolute;left: 334px;bottom: 10px;}
+.newsCon .content ul,.newsCon .content li{padding: 0;margin: 0;}
+
+.pageNation{text-align: center;font-size: 14px;padding-bottom: 30px;}
+.pageNation a{padding: 0 5px;color: #000;}
+.pageNation a.act,.pageNation a:hover{color: #8a1529;}
+.pageNation a.first,.pageNation a.last,.pageNation a.prev,.pageNation a.next{color: #8a1529;}
+
+.newsdetailTitle{width: 104px;height: 22px;background: url(images/newsdetailTitle.png);}
+.newsDetailCon{width: 660px;margin: 0 auto;margin-top: 40px;position: relative;}
+.newsDetailCon h1{color: #363636;font-size: 26px;font-weight: normal;line-height: 36px;}
+.newsDetailCon .time{color: #363636;font-size:14px;margin-bottom: 40px;}
+.newsDetailCon p{color: #363636;font-size: 14px;line-height: 20px;}
+.newsReturn{width: 101px;height: 35px;background: url(images/newsReturn.png);position: absolute;top: 0;left: -130;}
+.content{padding: 10px 0;}
+
+/*经销商查询*/
+.delearSearchCon{width: 920px;margin: 0 auto;padding: 0 20px; border-bottom: solid 1px #cbcbcb;position: relative;}
+.delearSearchTitle{width: 129px;height: 23px;background: url(images/delearSearchTitle.png);margin-bottom: 24px;}
+.dealerSlt{font-size: 14px;padding: 14px 0;color: #4c4c4c;padding-left: 24px;}
+.dealerSlt select{width: 140px;text-align: center;margin-left: 14px;}
+.dealerResult{font-size: 14px;padding: 14px 0;color: #4c4c4c;padding-left: 24px;}
+.dealerMap{width: 720px;height: 480px;margin-top: 24px;margin-left: 24px;margin-bottom: 40px;}
+#showaddress{display: inline-block;}
+
+/*最新活动&更多精彩*/
+.newActionCon{width: 920px;margin: 0 auto;padding: 0 20px; border-bottom: solid 1px #cbcbcb;position: relative;}
+.newActionTitle{width: 102px;height: 23px;background: url(images/newActionTitle.png);margin-bottom: 24px;}
+.moreSupriseTitle{width: 103px;height: 23px;background: url(images/moreSupriseTitle.png);margin-bottom: 24px;}
+
+.newActBanner{width: 840px;margin: 0 auto;margin-bottom: 5px;}
+.newActBanner a{display: block;float: left;margin:0px 5px;margin-bottom: 30px;width: 270px;}
+.newActBanner ul{display: none;}
+.newActBanner ul.dis{display: block;}
+.newActBanner a img{width: 100%;}
+.newActBanner a span{text-align: center;font-size: 14px;display: block;padding-top: 10px;color: #363636;}
+
+/*PLUS服务*/
+.plusCon{width: 920px;margin: 0 auto;padding: 0 20px; border-bottom: solid 1px #cbcbcb;position: relative;font-size: 14px;}
+
+.plusindexTitle{width: 155px;height: 22px;background: url(images/plusindexTitle.png);margin-bottom: 24px;margin-top: 40px;}
+.plusCon p{font-size: 14px;line-height: 24px;}
+.plusCon ul.service{}
+.plusCon ul.service li{width: 460px;float: left;height: 440px;position: relative;}
+.plusCon ul.service h4{font-size: 18px;color: #b6a26e;padding: 15px 0;padding-left: 98px;}
+.plusCon ul.service p{font-size: 14px;line-height: 24px;padding: 15px 0;padding-left: 103px;position: relative;}
+.plusCon ul.service p strong{display: block;position: relative;margin-left: -5px;color: #363636;}
+.plusCon ul.service .icon{width: 76px;height: 29px;/*background-image: url(../images/plus/serIcon.png);*/position: absolute;left: 0;top:12px;}
+
+.plusCon ul.service .icon1{background-image: url(images/serIcon1.png);}
+.plusCon ul.service .icon2{background-image: url(images/serIcon2.png);}
+.plusCon ul.service .icon3{background-image: url(images/serIcon3.png);}
+.plusCon ul.service .icon4{background-image: url(images/serIcon4.png);}
+.plusCon ul.service .icon5{background-image: url(images/serIcon5.png);}
+.plusCon ul.service .icon6{background-image: url(images/serIcon6.png);}
+.plusCon ul.service .icon7{background-image: url(images/serIcon7.png);}
+.plusCon ul.service .icon8{background-image: url(images/serIcon8.png);}
+.plusCon ul.service .icon9{background-image: url(images/serIcon9.png);}
+
+
+/*售后服务*/
+#service{ padding-bottom: 50px;}
+#service h3 {font-size: 18px; font-weight: normal; color: #8a1529;}
+#service p{ padding:10px 0 22px 0; line-height: 20px;}
+
+/*APP  下载 */
+#appdown{ height: 414px; padding-bottom: 50px; background: url(images/bgAppdown.png) 0 0 no-repeat;}
+#appdown .intro{ padding: 75px 0 0 210px; line-height: 20px;}
+#appdown .btnDown{ width: 125px; height: 195px; background: url(#); position: absolute; top: 220px;}
+#appdown .btnDown01{ left: 580px;}
+#appdown .btnDown02{ left: 775px;}
+#appdown .app_intro { width: 500px; padding: 110px 0 0 65px; position: relative;top: 45px;}
+#appdown .app_intro .icoBtn{ display: block; width: 32px; height: 35px; position: absolute; top: 185px; cursor:pointer;}
+#appdown .app_intro .icoBtnL{ left: 0px; background: url(images/app_icoL.png) 0 0 no-repeat; }
+#appdown .app_intro .icoBtnR{ left: 450px; background: url(images/app_icoR.png) 0 0 no-repeat; }
+#appdown .app_intro .app_del { position:relative; width:357px; height:185px; overflow:hidden;}
+#appdown .app_intro .app_del div { width:1000px; height:185px; position:relative;}
+
+/*车贷服务*/
+.carloanTitle{width: 103px;height: 22px;background: url(images/carloanTitle.png);margin-bottom: 24px;}
+.plusCon ul.carloan{font-size: 14px;line-height: 24px;}
+.plusCon ul.carloan li{padding-top: 40px; padding-bottom:20px;width: 420px;float: left;height: 240px;text-align: center; }
+.plusCon ul.carloan li img{}
+.plusCon ul.carloan li.src img{position: relative;top: -24px;}
+.plusCon ul.carloan li a{width: 128px;height: 49px;background: url(images/btn.png);margin: 0 auto;display: block;margin-top: 20px;}
+.plusCon ul.carloan li.src a{position: relative;top: -24px;}
+
+/*车贷服务详情*/
+.carloanDetailTitle{width: 103px;height: 22px;background: url(../images/carloan/carloanDetailTitle.png);margin-bottom: 24px;}
+.carloanDetailTitle_3x3{background: url(../images/carloan/carloanDetailTitle_3x3.png);}
+.carloanDetailCon{border: 0;}
+.carloanHeadBg{width: 100%;height: 124px;background: #ededed;margin-bottom: 30px;}
+.carloanHead{width: 811px;height: 56px;background: url(../images/carloan/carloanHead.png);margin: 0 auto;position: relative;top: 34px;}
+.carloanHead_3x3{background: url(../images/carloan/carloanHead_3x3.png);}
+
+.return_3x3{position:absolute;top:0;left:-60px;color:#000;line-height:30px;font-size:14px;}
+
+.carloanDetailBd p,.carloanDetailBd h4{font-size: 14px;color: #363636;text-align: center;padding: 20px 0;}
+.carloanDetailBd h4{font-size: 14px;font-weight: normal;}
+.carloanDetailBd table{width: 340px;margin: 0 auto;font-size: 14px;}
+.carloanDetailBd table em{font-style: normal;}
+.carloanDetailBd table td{padding: 10px 0;}
+.carloanDetailBd table td.r{text-align: right;}
+.carloanDetailBd table select{background: #b3b3b3;color: #fff;width: 260px;display: inline-block;padding: 5px 0;}
+.carloanDetailBd table input[type="text"]{background: #b3b3b3;width: 260px; color: #fff;box-shadow: none;border: 0;padding: 8px 0;text-indent: 6px;}
+.carloanDetailBd table span{margin-right: 10px;}
+.carloanDetailBd table input[type="radio"]{cursor: pointer;position: relative;top: 2px;margin-right: 4px;}
+
+/*电子期刊*/
+.magazineCon{width: 920px;margin: 0 auto;padding: 0 20px; border-bottom: solid 1px #cbcbcb;position: relative;font-size: 14px;}
+.magazineTitle{width: 99px;height: 22px;background: url(../images/magizineTitle.png);margin-bottom: 24px;margin-top:20px;}
+.magazineCon ul.magazine{font-size: 14px;line-height: 24px;}
+.magazineCon ul.magazine li{padding-bottom: 40px;}
+.magazineCon ul.magazine li a{color: #363636;display: block;}
+.magazineCon ul.magazine p{padding: 0 14px;}
+.magazineCon ul.magazine p span{width: 7px;height: 9px;background: url(../images/magazine/magArrow.png);position: relative;display: inline-block;left: 10px;top: 1px;}
+.magazineCon ul img{}
+
+/*品牌介绍*/
+.introCon{ width: 960px; margin: 0 auto;border-bottom: solid 1px #cbcbcb;}
+
+/*配件*/
+.plusCon ul.peijian{}
+.plusCon ul.peijian li{height: 420px;position: relative;}
+.plusCon ul.peijian li .title{margin-bottom: 30px;}
+.plusCon ul.peijian li h4{position: absolute;font-size: 18px;font-weight: normal;left: 334px;top: 75px;}
+.plusCon ul.peijian li p{position: absolute;font-size: 14px;font-weight: normal;line-height: 24px; width: 600px; left: 334px;top: 115px;}
+.plusCon ul.peijian li a{width: 128px;height: 49px;position: relative;background: url(../images/peijian/btn.png);display: block;margin-top: 20px;}
+
+/*维护实况*/
+.weihuCon{width: 920px;margin: 0 auto;padding: 0 20px; border-bottom: solid 1px #cbcbcb;position: relative;font-size: 14px;padding-bottom: 260px; }
+.weihuCon p{font-size: 14px;font-weight: normal;line-height: 40px;}
+.weihuCon .sltCon{display: block;padding: 10px 0;}
+.weihuCon .sltCon span{display: inline-block;width: 80px;text-align: right;}
+.weihuCon .sltCon select{background: #b3b3b3;color: #fff;width: 270px;height: 24px;padding: 0;text-indent: 14px;}
+.weihuCon .subBtn{width: 128px;height: 49px;background: url(../images/plus/subBtn.png);display: block;cursor: pointer;margin-top: 24px;}
+
+/*留学生免税车服务*/
+.liuxueCon{ width: 920px;margin: 0 auto;padding:30px 20px 0; border-bottom: solid 1px #cbcbcb;
+	position: relative;font-size:16px;padding-bottom: 30px; }
+.liuxueCon h4{font-size: 16px;font-weight: normal;line-height:70px; }
+.liuxueCon p{font-size:16px;font-weight: normal;line-height:1.5; color:#565656; }
+
+.liuxueCon .sltCon{display: block;padding:12px 0;}
+.liuxueCon .sltCon span{display: inline-block;width: 80px;text-align: left;}
+.liuxueCon .sltCon select{ color:#666; width:470px; height:32px; padding: 0;text-indent: 4px; background-color:#fff;
+	border:1px solid #424b4d; border-radius:4px; }
+.liuxueCon .sltCon input{ background-color: transparent;border-color: transparent; background: #fff;color: #666;
+	width:470px;height:32px;padding: 0;text-indent: 4px; border:1px solid #424b4d; border-radius:4px; font-size:16px;  }
+
+.liuxueCon .sltCon1 select{ width:225px; }
+.liuxueCon .subBtn{ width:213px; height:28px; display:block; cursor:pointer; background:#252f32; color:#fff;
+	margin:24px 0 60px 180px; text-align:center; padding-top:5px; font-size:18px;  }
+.liuxueCon #city { margin-left: 16px; }
+.liuxueCon #yzm { width:286px;  }
+.liuxueCon #yzmBt { width:173px; height:32px; line-height:32px; background:#252f32; color: #fff; text-align:center;
+    display: inline-block; margin-left: 1%; border-radius:4px; }
+
+
+
+/*版权信息,法律声明*/
+.copyrightTitle{width:102px;height: 23px;background: url(../images/copyrightTitle.png);margin-bottom: 24px;margin-top:20px;}
+.copyrightDes{color: #363636;font-size: 14px;padding-bottom: 40px;line-height: 24px;}
+.copyrightDes span{letter-spacing: 1.4px;}
+.rawTitle{width:101px;height: 23px;background: url(../images/rawTitle.png);margin-bottom: 24px;margin-top:20px;}
+.privacyTitle{width:147px;height: 22px;background: url(../images/privacyTitle.png);margin-bottom: 24px;margin-top:20px;}
+.copyrightDes a{color: #363636;font-size: 14px;text-decoration: underline; }
+.copyrightDes p{padding-bottom:26px;line-height: 28px;font-weight: normal;}
+.copyrightDes h1,.copyrightDes h2,.copyrightDes h3,.copyrightDes h4,.copyrightDes h5{font-weight: normal;padding-bottom: 26px;}
+.copyrightDes ul,.copyrightDes li{list-style: circle inside;line-height: 28px;padding-bottom: 14px;font-weight: normal;}
+
+/*金融计算器*/
+.loanCalcTitle{width:130px;height: 22px;background: url(../images/loanCalcTitle.png);margin-bottom: 24px;margin-top:20px;}
+.loanCalcBox{width: 960px;font-size: 14px;color: #363636;padding-bottom: 40px;position: relative;}
+.loanCalcBox .dn { display:none;}
+.loanCalcBox .entry { clear:both; overflow:hidden; margin:24px 0 24px 0;width: 360px;position: relative;}
+.loanCalcBox .entry label { float:left; width:80px;text-align:right;padding:3px 0;display: inline-block; }
+.loanCalcBox select{background: #b3b3b3;color: #fff;width: 260px;display: inline-block;padding: 5px 0;}
+.loanCalcBox .entry .pageBtn {cursor: pointer;}
+.loanCalcBox #selmodelPrice{width: 260px;}
+.loanCalcBox .entry input[type="text"]{background: #b3b3b3;color: #fff;box-shadow: none;border: 0;padding: 8px 0;text-indent: 6px;}
+.loanCalcBox .loanResult {margin:auto; padding:2% 0; overflow:hidden;border-top: solid 1px #464647;border-bottom: solid 1px #464647; width: 360px; font-size:14px;float: left; }
+.loanCalcBox .resultBox {overflow:hidden; border-bottom:1px solid #464647; text-align:left; line-height: 60px;font-size: 14px;padding: 0 5%; }
+.loanCalcBox .resultBox label { font-size:14px;}
+.loanCalcBox .resultBox span { display:block; color:#8a1529;padding-top: 0px;float: right;}
+.loanCalcBox .resultBox-f { margin:0 0 0 5%;}
+.loanCalcBox .resultBox-l { border-right:0;}
+.loanCalcBox .resultMessage { clear:both; text-align:left; line-height:24px; font-size:12px; padding:4% 0 0 0;}
+.loanCalcBox .resultMessage2 { clear:both; text-align:left; line-height:24px; font-size:12px; padding:2% 0 0 0;}
+.loanCalcBox .resultMessage3 { clear:both; text-align:left; line-height:24px; font-size:12px; padding:0 0 0% 0;}
+.loanCalcBox .relatedLink{position: absolute;width: 220px;right: 0px;top: 20px;text-indent: 24px;border-left: solid 1px #cdcdcd;height: 300px;}
+.loanCalcBox .relatedLink h4{color: #363636;font-weight: bold;margin: 20px 0;}
+.loanCalcBox .relatedLink a{color: #363636;display: block;margin: 20px 0;position: relative;}
+.loanCalcBox .relatedLink span{width: 7px;height: 10px;background: url(../images/arrowRed.png);position: absolute;top: 2px; left: 8px;display: none;}
+.loanCalcBox .relatedLink a:hover span{display: block;}
+
+.loanCalcBox .loadResultCount{position: absolute;left: 380px;top: 0px;width: 260px; border-top:1px solid #464647; display: none;}
+
+/*预约试驾弹出层*/
+.driveLayout{width: 100%;height: 100%;position: fixed;top: 0;left: 0;display: none;}
+.driveLayout .bg{width: 100%;height: 100%;position: absolute;top: 0;left: 0;z-index: 9;background: #fff;opacity: 0.9;filter:alpha(opacity=90);}
+.driveLayout .bd{font-size: 18px;color: #000;line-height: 30px;position: absolute;width: 300px;height: 200px;top: 50%;margin-top: -150px;left: 50%;margin-left: -150px;z-index: 10;text-align: center;}
+.driveLayout a.driveSuccess{width: 128px;height: 49px;background: url(../images/driveSuccess.png);display: block;margin: 0 auto;}
+
+/* 订阅CT6最新资讯*/
+.dingyueCon{ width: 960px; padding: 35px 0 80px; margin: 0 auto;color: #363636; }
+.dingyueCon h3{ font-size: 1.2em; font-weight: normal;}
+.dingyueCon p{ line-height: 26px;}
+.dingyueCon dl{ padding-top: 22px;font-size: 0.9em; overflow: hidden; zoom:1;}
+.dingyueCon dl dt{ width: 65px; float: left; position: relative; top: 4px;text-align: justify; text-justify:inter-ideograph;}
+.dingyueCon dl .txt{ width: 270px; padding: 0 5px; height: 26px; line-height: 26px; background: #b3b3b3; border: none;}
+.dingyueCon .btnSub{display: block;width: 128px;height: 34px; margin-top: 30px; background-image: url(../images/ct6sunBtn.jpg);}
+.dingyueCon dl label,.dingyueCon dl .checkTxt{ vertical-align: middle;}
+.dingyueCon dl label{ margin-right: 20px;}
+
+/*历史与传承*/
+.historyCon{ width: 960px; margin: 3px auto 0 auto; border-bottom: 1px solid #cbcbcb;}
+.desCon { width:960px; height:466px; background:url(../images/plus/history/bg.jpg) no-repeat; overflow:hidden; position:relative}
+.historyDes { width:960px; height:366px; background:url(../images/plus/history/history.jpg) no-repeat;}
+.btnHisEnter { width:121px; height:23px; margin-left:-60px; background:url(../images/plus/history/explore.png) no-repeat; display:block; position:absolute; top:250px; left:50%; z-index:10}
+
+.historyCar { width:960px; height:366px; overflow:hidden;}
+.scrollbar { position:absolute; top:20px; left:20px; z-index: 10}
+.scrollCon { display:none}
+.scrollCon h6 { padding-bottom:10px;}
+.scrollList { width:498px; height:106px;}
+.scrollCon { position: absolute;}
+.scrollCon p { width:480px; font-size:13px; color:#333; line-height:18px;}
+
+.imgShow { width:960px; height:366px; overflow:hidden; position: relative; z-index:1}
+.historyCar li { width:960px; height:366px; overflow:hidden; position: absolute; display:none}
+.historyCar li.history00 { background:url(../images/plus/history/history00.jpg) no-repeat right bottom;}
+.historyCar li.history01 { background:url(../images/plus/history/history01.jpg) no-repeat right bottom;}
+.historyCar li.history02 { background:url(../images/plus/history/history02.jpg) no-repeat right bottom;}
+.historyCar li.history03 { background:url(../images/plus/history/history03.jpg) no-repeat right bottom;}
+.historyCar li.history04 { background:url(../images/plus/history/history04.jpg) no-repeat right bottom;}
+.historyCar li.history05 { background:url(../images/plus/history/history05.jpg) no-repeat right bottom;}
+.historyCar li.history06 { background:url(../images/plus/history/history06.jpg) no-repeat right bottom;}
+.historyCar li.history07 { background:url(../images/plus/history/history07.jpg) no-repeat right bottom;}
+.historyCar li.history08 { background:url(../images/plus/history/history08.jpg) no-repeat right bottom;}
+.historyCar li.history09 { background:url(../images/plus/history/history09.jpg) no-repeat right bottom;}
+.historyCar li.history10 { background:url(../images/plus/history/history10.jpg) no-repeat right bottom;}
+
+.navBtn { height:100px; padding:0 0 0 1px; background:url(../images/plus/history/nav_bg.jpg) repeat-x; overflow:hidden; position:relative}
+.navBtn .focus { height:100px; overflow:hidden; position:absolute; z-index:2}
+.navBtn .focus span { width:87px; height:100px; display:block; float:left; cursor:pointer}
+.navBtn .focus span.nav1 { background:url(../images/plus/history/nav1.png) no-repeat;}
+.navBtn .focus span.nav2 { background:url(../images/plus/history/nav2.png) no-repeat;}
+.navBtn .focus span.nav3 { background:url(../images/plus/history/nav3.png) no-repeat;}
+.navBtn .focus span.nav4 { background:url(../images/plus/history/nav4.png) no-repeat;}
+.navBtn .focus span.nav5 { background:url(../images/plus/history/nav5.png) no-repeat;}
+.navBtn .focus span.nav6 { background:url(../images/plus/history/nav6.png) no-repeat;}
+.navBtn .focus span.nav7 { background:url(../images/plus/history/nav7.png) no-repeat;}
+.navBtn .focus span.nav8 { background:url(../images/plus/history/nav8.png) no-repeat;}
+.navBtn .focus span.nav9 { background:url(../images/plus/history/nav9.png) no-repeat;}
+.navBtn .focus span.nav10 { background:url(../images/plus/history/nav10.png) no-repeat;}
+.navBtn .focus span.nav11 { background:url(../images/plus/history/nav11.png) no-repeat;}
+.navBtn .focus span.nav1.current,.focus span.nav1:hover { background:url(../images/plus/history/nav1_on.png) no-repeat;}
+.navBtn .focus span.nav2.current,.focus span.nav2:hover { background:url(../images/plus/history/nav2_on.png) no-repeat;}
+.navBtn .focus span.nav3.current,.focus span.nav3:hover { background:url(../images/plus/history/nav3_on.png) no-repeat;}
+.navBtn .focus span.nav4.current,.focus span.nav4:hover { background:url(../images/plus/history/nav4_on.png) no-repeat;}
+.navBtn .focus span.nav5.current,.focus span.nav5:hover { background:url(../images/plus/history/nav5_on.png) no-repeat;}
+.navBtn .focus span.nav6.current,.focus span.nav6:hover { background:url(../images/plus/history/nav6_on.png) no-repeat;}
+.navBtn .focus span.nav7.current,.focus span.nav7:hover { background:url(../images/plus/history/nav7_on.png) no-repeat;}
+.navBtn .focus span.nav8.current,.focus span.nav8:hover { background:url(../images/plus/history/nav8_on.png) no-repeat;}
+.navBtn .focus span.nav9.current,.focus span.nav9:hover { background:url(../images/plus/history/nav9_on.png) no-repeat;}
+.navBtn .focus span.nav10.current,.focus span.nav10:hover { background:url(../images/plus/history/nav10_on.png) no-repeat;}
+.navBtn .focus span.nav11.current,.focus span.nav11:hover { background:url(../images/plus/history/nav11_on.png) no-repeat;}
+.navBtn .activeBg { position:absolute; z-index:1}
+
+.hisBottom { margin: 0 auto; padding: 25px 0 25px 20px;}
+.hisBottom h6 { padding-bottom:18px;}
+.hisBottom p { width:88%; line-height:20px;}
+
+
+/*新车上市*/
+.detailConNewCar{color: #363636;}
+.detailConNewCar img{width: 100%;margin: 20px 0;}
+.detailConNewCar h1{text-align: center;padding: 15px 0;}
+.detailConNewCar p{text-align: left;text-indent: 28px;font-size: 14px;line-height: 24px;padding: 5px 0;}
+
+/* 滚动条美化 */
+*:focus {outline: none;}
+.jspContainer{overflow: hidden;position: relative;}
+.jspPane{position: absolute;}
+.jspVerticalBar{width:4px;height: 100%; position:absolute;top:0;right:0;} /*设置宽度*/
+.jspTrack{background: url(../images/plus/history/scrollbar_bg.jpg) no-repeat; border-bottom:solid 1px #ccc; position: relative;} /*滚动条下面的背景色*/
+.jspDrag{ background:#c91515;position: relative;top:0;left:0;cursor: pointer;} /*中间的滚动条，页面中调用插件时给的verticalDragMinHeight值为中间滚动条的高度值*/
+
+/*搜索框联想功能样式*/
+#searchLX{position:absolute;width: 100px;font-size:14px;background:#fff;z-index:20;border-left:solid 1px #cdcdcd;border-right:solid 1px #cdcdcd;}
+#searchLX li{border-bottom:solid 1px #cdcdcd;cursor:pointer;padding:6px 2px;font-size:14px;}
+#searchLX li:hover{background: #cdcdcd;}
+
+/*在线客服弹出层样式更改*/
+.onlineLayOut{width: 589px;height: 360px;position: fixed;top: 50%;left: 50%;margin-top: -180px;margin-left: -295px;z-index: 999;background: #fff;}
+.onlineLayOut .title{font-size: 22px;position: absolute;top: 50px;left: 120px;}
+.onlineLayOut .tips{font-size: 14px;position: absolute;top: 85px;left: 120px;}
+.onlineLayOut .putBg{position: absolute;top: 123px;left: 120px;line-height: 41px;}
+.onlineLayOut .putBg input[type="text"]{width: 264px;height: 41px;position: absolute;top: 0;left: 80px;font-size: 14px;border:solid 1px #333;color: #333;}
+.onlineLayOut a.onlineSub{width:186px;height: 43px;background: #88172a;font-size: 14px;text-align: center;line-height: 43px;color: #fff;display: block;position: absolute;top: 260px;left: 111px;}
+.onlineLayOut a.visitLogin{width: 186px;height: 43px;background: #7e7e7e;font-size: 14px;text-align: center;line-height: 43px;color: #fff;display: block;position: absolute;top: 260px;left: 321px;}
+.onlineLayOut .closeLayout{width: 43px;height: 43px;background: url(../images/closeLayout.jpg);position: absolute;right: 0px;top: 0px;z-index: 11;cursor: pointer;}
+
+
+.escaladeTips{width:100%;height:60px;line-height:60px;background:#f3f3f3;font-size:18px;text-align: center;position: fixed;bottom: 0;left: 0;z-index:20;}
+
+/*musicCenterCon*/
+.musicCenterCon{ width: 960px; margin: 0 auto;border-bottom: solid 1px #cbcbcb;padding-top: 15px;padding-bottom: 50px;}
+
+
+.ichatBox { position:fixed;width:325px;height:531px;bottom:0;right:45px;background-color:#fff;display:none;
+	border:1px solid #cecece;border-top:0;border-bottom:0;z-index:19;overflow:hidden; box-sizing: border-box;
+	-webkit-transition:height 0.4s ease; transition:height 0.4s ease; }
+.ichatBox .ichatTitle { width:100%;height:31px;background-color:#252f32; }
+.ichatBox .ichatTitleTxt { padding:7px 0 0 16px;color:#fff;display:block;font-size:14px; }
+.ichatBox .ichatIconMin { position:absolute;cursor:pointer;top:0;right:34px;display:block; }
+.ichatBox .ichatIconClose { position:absolute;cursor:pointer;top:0;right:0;display:block; }
+.ichatBox .iChatFrame { height:500px; }
+
+
+.in_ichatBox { -webkit-animation:in_ichatBox 0.4s ease both; animation:in_ichatBox 0.4s ease both; }
+@keyframes in_ichatBox {  0% { height:1px } 100% { height:531px; }  }
+@-webkit-keyframes in_ichatBox {  0% { height:1px } 100% { height:531px; }  }
+
+/*! normalize.css v2.0.1 | MIT License | git.io/normalize */
+/* 内外边距通常让各个浏览器样式的表现位置不同 */ 
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { 
+margin:0; 
+padding:0; 
+} 
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+
+/*
+ * Corrects `block` display not defined in IE 8/9.
+ */
+
+
+
+
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+    display: block;
+}
+
+/*
+ * Corrects `inline-block` display not defined in IE 8/9.
+ */
+
+audio,
+canvas,
+video {
+    display: inline-block;
+}
+
+/*
+ * Prevents modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+/*
+ * Addresses styling for `hidden` attribute not present in IE 8/9.
+ */
+
+[hidden] {
+    display: none;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+/*
+ * 1. Sets default font family to sans-serif.
+ * 2. Prevents iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+
+html {
+    -webkit-text-size-adjust: 100%; /* 2 */
+    -ms-text-size-adjust: 100%; /* 2 */
+}
+
+/*
+ * Removes default margin.
+ */
+
+body {
+    margin: 0;
+}
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+
+/*
+ * Addresses `outline` inconsistency between Chrome and other browsers.
+ */
+
+a:focus {
+    outline: thin dotted;
+}
+
+/*
+ * Improves readability when focused and also mouse hovered in all browsers.
+ */
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+
+/*
+ * Addresses `h1` font sizes within `section` and `article` in Firefox 4+,
+ * Safari 5, and Chrome.
+ */
+
+h1 {
+    font-size: 2em;
+}
+
+/*
+ * Addresses styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+/*
+ * Addresses style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+
+b,
+strong {
+    font-weight: bold;
+}
+
+/*
+ * Addresses styling not present in Safari 5 and Chrome.
+ */
+
+dfn {
+    font-style: italic;
+}
+
+/*
+ * Addresses styling not present in IE 8/9.
+ */
+
+mark {
+    background: #ff0;
+    color: #000;
+}
+
+
+/*
+ * Corrects font family set oddly in Safari 5 and Chrome.
+ */
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, serif;
+    font-size: 1em;
+}
+
+/*
+ * Improves readability of pre-formatted text in all browsers.
+ */
+
+pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+/*
+ * Sets consistent quote types.
+ */
+
+q {
+    quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/*
+ * Addresses inconsistent and variable font size in all browsers.
+ */
+
+small {
+    font-size: 80%;
+}
+
+/*
+ * Prevents `sub` and `sup` affecting `line-height` in all browsers.
+ */
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.5em;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+
+/*
+ * Removes border when inside `a` element in IE 8/9.
+ */
+
+img {
+    border: 0;
+}
+
+/*
+ * Corrects overflow displayed oddly in IE 9.
+ */
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+
+/*
+ * Addresses margin not present in IE 8/9 and Safari 5.
+ */
+
+figure {
+    margin: 0;
+}
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+
+/*
+ * Define consistent border, margin, and padding.
+ */
+
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+
+/*
+ * 1. Corrects color not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+
+legend {
+    border: 0; /* 1 */
+    padding: 0; /* 2 */
+}
+
+/*
+ * 1. Corrects font family not being inherited in all browsers.
+ * 2. Corrects font size not being inherited in all browsers.
+ * 3. Addresses margins set differently in Firefox 4+, Safari 5, and Chrome
+ */
+
+button,
+select {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 2 */
+    margin: 0; /* 3 */
+}
+
+input,
+textarea { 
+    font-family: inherit; /* 1 */
+    font-size: 80%; /* 2 */
+    margin: 0; /* 3 */
+	padding:5px;
+	}
+/*
+ * Addresses Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+
+button,
+input {
+    line-height: normal;
+}
+
+/*
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Corrects inability to style clickable `input` types in iOS.
+ * 3. Improves usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+
+button,
+html input[type="button"], /* 1 */
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button; /* 2 */
+    cursor: pointer; /* 3 */
+}
+
+/*
+ * Re-set default cursor for disabled elements.
+ */
+
+button[disabled],
+input[disabled] {
+    cursor: default;
+}
+
+/*
+ * 1. Addresses box sizing set to `content-box` in IE 8/9.
+ * 2. Removes excess padding in IE 8/9.
+ */
+
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+}
+
+/*
+ * 1. Addresses `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+
+input[type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box; /* 2 */
+    box-sizing: content-box;
+}
+
+/*
+ * Removes inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+/*
+ * Removes inner padding and border in Firefox 4+.
+ */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+/*
+ * 1. Removes default vertical scrollbar in IE 8/9.
+ * 2. Improves readability and alignment in all browsers.
+ */
+
+textarea {
+    overflow: auto; /* 1 */
+    vertical-align: top; /* 2 */
+}
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+
+/*
+ * Remove most spacing between table cells.
+ */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* 去掉列表前的标识, li 会继承 */ 
+ol,ul { 
+list-style:none; 
+} 
+
+/* 设置内联, 减少浮动带来的bug */ 
+.fl { 
+float:left; 
+display:inline; 
+} 
+.fr { 
+float:right; 
+display:inline; 
+} 
+
+/* 默认不显示下划线，保持页面简洁 */ 
+ins,a { 
+text-decoration:none; 
+} 
+
+/* 让链接在 hover 状态下显示下划线 */ 
+a:hover { 
+text-decoration:none; 
+} 
+/* 清除浮动 */ 
+.clear{ 
+clear:both; 
+display:block; 
+overflow:hidden; 
+height:0; 
+line-height:0; 
+font-size:0; 
+} 
+
+
+a {outline: none;}
+a:active {star:expression(this.onFocus=this.blur());}
+a:focus { outline:0; }

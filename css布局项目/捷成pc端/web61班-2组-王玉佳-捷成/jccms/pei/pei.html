@@ -1,0 +1,420 @@
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>汽配管理软件</title>
+    <meta name="description" content="捷成软件-专业研发汽配管理软件,汽配管理系统" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="../css/bootstrap.css">
+	<link rel="stylesheet" href="pei.css">
+	<script src="jquery-1.11.3.min.js"></script>	
+	<script src="bootstrap.min.js"></script>
+	<style>
+		body{
+			padding-top:50px;
+		}
+		.navbar-default{
+			background-color:white;
+			border-color:white;
+		}
+		.navbar-brand{
+			padding:5px;
+		}
+		#brief{
+			padding-top:50px;
+			padding-bottom:50px;
+		}
+		#brief_title
+		{
+    		color: #0d3172;
+   		    margin: 0 0 .5em;
+    		font-size: 30px;
+		}
+		#brief_title2
+	 	{
+			font-weight: 400;
+			padding-bottom:40px;
+			padding-top:5px;
+			font-size: 18px;
+		}
+		.brief_item_title{
+			color: #000000;
+    		font-size: 1.4em;
+    		letter-spacing: 1px;
+    		font-weight: 400;
+			margin-bottom:20px;
+		}
+		.brief_item_p{
+    		font-size: 14px;
+    		line-height: 1.6em;
+		}
+		.brief_icon{
+			font-size:34px;
+			padding-bottom:20px;
+			color: #0d3172;	
+		}
+		#introduce{
+		    background-color: #f7f7f7;
+			padding-top:50px;
+			padding-bottom:50px;
+		}
+		#introduce_title{
+		    color: #323232;
+    		font-size: 30px;
+			margin-bottom: 50px;
+			margin-top:0px;
+    		font-weight: 400;
+		}
+		.introduce_item{
+			padding-top:15px;
+			padding-bottom:15px;
+			background-color: white;
+			height:100%;
+		}
+		.introduce_item_title
+		{
+			font-size: 24px;
+    		font-weight: 400;
+    		padding-bottom: 5px;
+		}
+		.introduce_item_content{
+			font-size: 16px;
+    		color: grey;
+    		line-height: 24px;	
+		}
+		.introduce_icon{
+			font-size:34px;
+			color: #0d3172;	
+		}
+		#morecheap{
+			background: #055999;
+			padding-top:50px;
+			padding-bottom:50px;
+			color:white;
+		}
+		#morecheap_title{
+			font-size:30px;
+			padding-bottom:10px;
+		}
+		.morecheap_p{
+		    font-size:18px;
+		}
+		#jc_bottom{
+			padding-top:10px;
+			padding-bottom:10px;
+			background: #2a2730;
+			color:#fff;		
+		}
+	</style>
+</head>
+<body>
+
+<!--导航菜单-->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+    	<div class="navbar-header">
+      		<a class="navbar-brand" href="http://www.jccms.com">
+      			<img alt="捷成软件logo" src="images/logo.png" height="100%">
+     		 </a>
+        	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynavbar" aria-expanded="false">
+        		<span class="sr-only">Toggle navigation</span>
+        		<span class="icon-bar"></span>
+        		<span class="icon-bar"></span>
+        		<span class="icon-bar"></span>
+      		</button>
+        </div>
+		<div class="collapse navbar-collapse" id="mynavbar">
+        	<ul class="nav navbar-nav"><!--左侧菜单-->
+            	<li><a href="../index.html">首页</a></li>
+                <li><a href="../dian/dian.html">汽车4S店管理软件</a></li>
+                <li><a href="../xiu.html/xiu.html">汽修管理软件</a></li>
+                <li><a href="pei.html">汽配管理软件</a></li>
+                <li><a href="../gua/gua.html">汽车挂靠管理软件</a></li>
+                <li class="dropdown">
+                	<a href="" class="dropdown-toggle" data-toggle="dropdown">
+                    	<span>客户案例<span class="caret"></span></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                    	<li><a href="">汽修汽配</a></li>
+                    	<li><a href="http://www.jccms.com/4sal/">汽车4S店</a></li>
+                    	<li><a href="http://www.jccms.com/zkal/">重卡汽车4S店</a></li>
+                        <li><a href="http://www.jccms.com/mral/">汽车美容装饰店</a></li>
+                        <li><a href="http://www.jccms.com/gdkh/">更多客户</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                	<a href="../news.html" class="dropdown-toggle" data-toggle="dropdown">
+                    	<span>咨询动态<span class="caret"></span></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                    	<li><a href="http://www.jccms.com/gsdt/">公司动态</a></li>
+                    	<li><a href="http://www.jccms.com/cjwt/">常见问题</a></li>
+                    </ul>
+                </li>
+				<li><a href="http://www.jccms.com/jcrj/">关于捷成</a></li>
+            </ul>
+            <p class="navbar-text navbar-right" ><strong><span class="glyphicon glyphicon-earphone"></span>400-678-7358</strong></p>
+            <button type="button" class="btn btn-primary navbar-btn navbar-right" id="btntry">立即试用</button>
+        </div> 
+    </div>
+</nav>
+<!--导航菜单结束--> 
+
+<!--幻灯片-->
+<div id='mycarousel' class="carousel slide" data-ride='carousel'><!--幻灯片容器-->
+	<!--幻灯片图片-->
+    <div class="carousel-inner">
+    	<div class="item active">
+        	<img  src="images/carTop3.png">
+        </div>
+        <div class="item">
+        	<img  src="images/carTop2.png">
+        </div>
+    </div>
+    <!--左右箭头-->
+    <a class="left carousel-control" href="#mycarousel" data-slide="prev">
+    	<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+  	</a>
+  	<a class="right carousel-control" href="#mycarousel" data-slide="next">
+    	<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+  	</a>
+</div>
+<!--幻灯片结束-->
+
+<!--软件简介-->
+<div id="brief" class="container">
+	<h3 class="text-center" id="brief_title">捷成软件是如何帮您管理汽配商店的？</h3>
+    <p class="text-center" id="brief_title2">包含一汽备品60年汽配管理经验的汽配软件，能全面满足您精细化管理汽配商店的需求！</p>
+    <div class="row">
+    	<div class="col-md-3 brief_item">
+        	<span class="glyphicon glyphicon-search text-center center-block brief_icon"></span>
+            <h4 class="text-center brief_item_title">全方位监管备件</h4>
+            <p class="text-center brief_item_p">商品的来源、去处、每一个货品的出入库记录都有据可查，再也没有丢件、少件、卖错价的情况。</p>
+        </div>
+        <div class="col-md-3 brief_item">
+        	<span class="glyphicon glyphicon-hourglass text-center center-block brief_icon"></span>
+            <h4 class="text-center brief_item_title">清晰的财务</h4>
+            <p class="text-center brief_item_p">无论是营业额、成本、利润、收入、支出、还是各项水电杂费均可计算，各项财务报表一键生成。</p>
+        </div>
+        <div class="col-md-3 brief_item">
+        	<span class="glyphicon glyphicon-piggy-bank text-center center-block brief_icon"></span>
+            <h4 class="text-center brief_item_title">详尽的客户档案</h4>
+            <p class="text-center brief_item_p">客户的历史消费一键查询，客户二次购买同一商品时，可自动填充上次销价，自动生成与客户之间的账务。</p>
+        </div>
+        <div class="col-md-3 brief_item">
+        	<span class="glyphicon glyphicon-usd text-center center-block brief_icon"></span>
+            <h4 class="text-center brief_item_title">全面的仓库功能</h4>
+            <p class="text-center brief_item_p">商品库存警戒线自动提醒，并且支持库存调拨、库存盘点、报损、备件拆分合并、进销存统计等功能。</p>
+        </div>
+    </div>
+</div>
+<!--软件简介结束-->
+
+<!--功能模块-->
+<div id="morecheap" class="row">
+	<div class="container">
+	<div class="col-md-6">
+    	<h4 id="morecheap_title">用捷成软件,做甩手掌柜!</h4>
+        <p class="morecheap_p">1.借鉴一汽经验：一汽工程师，更懂您的需求，专注17年，为汽配商店的管理量身定做的汽配软件。</p>
+        <p class="morecheap_p">2.管理门店业务：每次查询、盘点库存忙忙碌碌，丢了件也无法追查原因，有了捷成节省大量时间！</p>
+        <p class="morecheap_p">3.统计财务报表：财务数据太繁杂，无法精准核算利润，雇一个会计又得不偿失，有了捷成自己也可以精准算账了！</p>
+        <p class="morecheap_p">4.解决管理难题：与客户、供应商之间的往来账算不清，现在所有账务自动计算，一目了然。</p>
+    </div>
+    <div class="col-md-6">
+    	<img src="images/moreCheap.jpg" class="img-responsive">
+    </div>   
+    </div>
+</div>
+<!--功能模块结束-->
+
+<!--功能简介-->
+<div id="introduce">
+	<div class="container">
+		<h3 class="text-center" id="introduce_title">功能简介</h3>
+    	<div class="row">
+    		<div class="col-md-4 introduce_item">
+        		<div class="col-md-2">
+                	<span class="glyphicon glyphicon-star introduce_icon"></span>
+                </div>
+                <div class="col-md-10">
+                	<h6 class="introduce_item_title">采购入库</h6>
+                    <p class="introduce_item_content">支持预付款采购，欠款采购等多种方式。支持用Excel直接入库。自动生成与供应商之间的账务。</p>
+                </div>
+        	</div>
+    		<div class="col-md-4 introduce_item">
+        		<div class="col-md-2">
+                	<span class="glyphicon glyphicon-road introduce_icon"></span>
+                </div>
+                <div class="col-md-10">
+                	<h6 class="introduce_item_title">备件销售</h6>
+                    <p class="introduce_item_content">客户历次购买记录一键查询。二次购买同一商品，可直接显示上次销售价。批发和零售采用不同售价。</p>
+                </div>
+        	</div>
+    		<div class="col-md-4 introduce_item">
+        		<div class="col-md-2">
+                	<span class="glyphicon glyphicon-calendar introduce_icon"></span>
+                </div>
+                <div class="col-md-10">
+                	<h6 class="introduce_item_title">会员卡</h6>
+                    <p class="introduce_item_content">全面灵活的会员功能，客户只要办理一张卡，便可实现储值，购买套餐，充值，积分兑换商品等功能。</p>
+                </div>
+        	</div>
+    	</div>
+        <div class="row">
+    		<div class="col-md-4 introduce_item">
+        		<div class="col-md-2">
+                    <span class="glyphicon glyphicon-record introduce_icon"></span>
+                </div>
+                <div class="col-md-10">
+                	<h6 class="introduce_item_title">历史库存查询</h6>
+                    <p class="introduce_item_content">可查询任意时间点的库存，例如上个月一号时XX商品的库存数量是多少，总金额是多少。</p>
+                </div>
+        	</div>
+    		<div class="col-md-4 introduce_item">
+        		<div class="col-md-2">
+                	<span class="glyphicon glyphicon-flag introduce_icon"></span>
+                </div>
+                <div class="col-md-10">
+                	<h6 class="introduce_item_title">电子目录</h6>
+                    <p class="introduce_item_content">每一种商品都可以绑定图片，后续查询库存的同时，可直接查看已绑定的图片，方便快捷。</p>
+                </div>
+        	</div>
+    		<div class="col-md-4 introduce_item">
+        		<div class="col-md-2">
+                	<span class="glyphicon glyphicon-heart introduce_icon"></span>
+                </div>
+                <div class="col-md-10">
+                	<h6 class="introduce_item_title">库存警戒线</h6>
+                    <p class="introduce_item_content">每一种商品，都可设置库存上限和下限，低于下限或者高于上限，都会自动提醒。</p>
+                </div>
+        	</div>
+    	</div>
+        <div class="row">
+    		<div class="col-md-4 introduce_item">
+        		<div class="col-md-2">
+                	<span class="glyphicon glyphicon-shopping-cart introduce_icon"></span>
+                </div>
+                <div class="col-md-10">
+                	<h6 class="introduce_item_title">库存管理</h6>
+                    <p class="introduce_item_content">对库存的管理，提供库存的盘点功能，调拨功能，报损功能，拆分合并功能。</p>
+                </div>
+        	</div>
+    		<div class="col-md-4 introduce_item">
+        		<div class="col-md-2">
+                	<span class="glyphicon glyphicon-grain introduce_icon"></span>
+                </div>
+                <div class="col-md-10">
+                	<h6 class="introduce_item_title">财务功能</h6>
+                    <p class="introduce_item_content">自动生成与供应商之间的账务，与客户之间的账务，哪些客户还有欠款，一目了然。</p>
+                </div>
+        	</div>
+    		<div class="col-md-4 introduce_item">
+        		<div class="col-md-2">
+                	<span class="glyphicon glyphicon-lock introduce_icon"></span>
+                </div>
+                <div class="col-md-10">
+                	<h6 class="introduce_item_title">客户管理</h6>
+                    <p class="introduce_item_content">客户的电话等资料查询，历次购买记录和退货记录的查询，客户的生日提醒，群发短信功能。</p>
+                </div>
+        	</div>
+    	</div>
+        <div class="row">
+    		<div class="col-md-4 introduce_item">
+        		<div class="col-md-2">
+                	<span class="glyphicon glyphicon-tasks introduce_icon"></span>
+                </div>
+                <div class="col-md-10">
+                	<h6 class="introduce_item_title">营业报表</h6>
+                    <p class="introduce_item_content">每一天的营业额，成本，利润，收入，支出一目了然，还可横向对比多天的营业状况。</p>
+                </div>
+        	</div>
+    		<div class="col-md-4 introduce_item">
+        		<div class="col-md-2">
+                	<span class="glyphicon glyphicon-duplicate introduce_icon"></span>
+                </div>
+                <div class="col-md-10">
+                	<h6 class="introduce_item_title">客户分析</h6>
+                    <p class="introduce_item_content">按新增客户，忠诚客户，流失客户，大客户，客户来源等多个维度分析，及时跟踪回访客户。</p>
+                </div>
+        	</div>
+    		<div class="col-md-4 introduce_item">
+        		<div class="col-md-2">
+                	<span class="glyphicon glyphicon-user introduce_icon"></span>
+                </div>
+                <div class="col-md-10">
+                	<h6 class="introduce_item_title">库存报表</h6>
+                    <p class="introduce_item_content">库存统计，收发存明细，收发存汇总，滞销统计等功能，全面掌控库存的状况。</p>
+                </div>
+        	</div>
+    	</div>
+    </div>
+</div>
+<!--功能简介结束-->
+
+<!--功能对比-->
+<!--<div id="compare2" class="container">
+	<div class="col-md-6">
+    	<h3 class="text-center">同行软件</h3>
+		<div class="alert alert-danger" role="alert">
+        	<p>1.每辆车只能固定绑定几张图片，经常不够用。</p>
+            <p>2.岗位和权限不够明确，已经填写的车辆信息被同事修改。</p>
+            <p>3.仅支持办理2种保险，无法计算保险净费，无法录入交强险的税额，无法通过两种返利率的差值计算利润。</p>
+            <p>4.仅支持10种左右的业务提醒，不包含GPS年费，危险灯到期，安全责任书到期，罐车检验到期，强制报废到期，危货变普货到期等业务的提醒。</p>
+            <p>5.仅支持车主信息的录入，无法录入车辆的驾驶员，押运员，五险缴纳人的信息。</p>
+            <p>6.无进销存功能，对灭火器，危险灯，ETC卡片，ETC充值宝等商品没有入库和出库的记录，经常出现丢失的情况。</p>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+    	<h3 class="text-center">捷成软件</h3>
+		<div class="alert alert-info" role="alert">
+        	<p>1.每辆车可以自定义要绑定的图片，并且对数量无限制。</p>
+        	<p>2.各岗位只能维护自己有权限的信息，责任划分明确。</p>
+            <p>3.支持商业险，交强险，货物险，超赔险，雇主险，承运人险六种保险，并且可以设置两种返利率，精准计算利润。</p>
+            <p>4.支持24种提醒，覆盖更全面的业务，并且可自行设定提醒周期，挂靠收费时自动筛选到期项目。</p>
+            <p>5.支持多个人员的录入，并且支持对驾驶员从业证等相关证件信息的录入。</p>
+            <p>6.支持全面的进销存功能，对库存进行监管，对危险灯还可以录入危险灯号，并且超过使用年限后提醒。</p>
+        </div>
+    </div>
+</div>-->
+<!--功能对比结束-->
+
+<!--底部-->
+<div id="jc_bottom">
+	<div class="container">
+    	<div class="col-md-4">
+        	<h4>联系方式</h5>
+            <p>销售电话：13166812077,400-678-7358,0431-87097920</p>
+            <p>售后电话：0431-85191288,13500897465</p>
+        	<p>地址：吉林省长春市汽车产业开发区西环城路7255号</p>
+            <p>Q Q: 983115094，1335680740</p>
+        </div>
+        <div class="col-md-4">
+			<img alt="捷成软件微信" src="images/qrcode.png" class="img-responsive center-block">
+        </div>
+    	<div class="col-md-4">
+		    <p>长春市捷成车信软件有限公司 版权所有</p>
+            <p><a href="http://www.beian.miit.gov.cn" style='color:White'>[吉ICP备12006052号-1]</a></p>
+            <p>主营业务：汽车服务站管理软件、汽修管理软件、汽配管理软件、汽车挂靠管理软件、汽车销售管理软件、快修美容店管理软件</p>
+        </div>      
+    </div>
+</div>
+<!--底部结束--> 
+
+</body>
+</html>
+<script>
+//百度
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?a33a1ce1e464f452cc255249ebc65872";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+
+//立即试用
+$('#btntry').on('click',function(){
+     window.open("http://od58htzbw86rbb86.mikecrm.com/C027ElW");
+  })
+</script>

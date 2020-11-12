@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页图片</title>
+    <!--引入jquery的js，EasyUI的执行需要依赖于jQuery  -->
+    <script type="text/javascript" src="../../jquery-1.8.3.min.js"></script>
+    <!--easyUI的js主文件  -->
+    <script type="text/javascript" src="../../jquery.easyui.min.js"></script>
+    <!--国际化的js文件  -->
+    <script type="text/javascript" src="../../locale/easyui-lang-zh_CN.js"></script>
+    <!--引入easyUI的样式  -->
+    <link rel="stylesheet" type="text/css" href="../../themes/icon.css" />
+    <link rel="stylesheet" type="text/css" href="../../themes/default/easyui.css" />
+</head>
+<script type="text/javascript">
+    $(function () {
+        //为按钮添加点击事件
+        $(".btn5").bind("click", function () {
+            var r = confirm("是否确认删除");
+            var x;
+            if (r == true) {
+                x = "你按下了\"确定\"按钮!";
+                this.parentNode.remove();
+            }
+            else {
+                x = "你按下了\"取消\"按钮!";
+            }
+            console.log(confirm);
+        });
+        //为按钮添加点击事件
+        $("#btn2").bind("click", function () {
+            $("#msg").append($("<div></div>"));
+            // $("#msg>div").append($("<a></a>"));
+            // $("#msg").append($("#msg1"));
+
+        });
+    })
+</script>
+<style>
+    #msg>div {
+        width: 840px;
+        border: 1px solid #F1678D;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+
+    #msg>div>img {
+        width: 600px;
+    }
+
+    .btn>a {
+        height: 50px;
+        line-height: 50px;
+        width: 78px;
+    }
+
+    .btn>a .l-btn-text {
+        height: 50px;
+        line-height: 50px;
+    }
+</style>
+
+<body>
+    <div id="msg">
+        <a id="btn2" href="#" class="easyui-linkbutton btn2" data-options="iconCls:'icon-add'">新增</a>
+        <div id="msg1">
+            <h5>2020-09-10</h5>
+            <h5>时时努力，刻刻用心，华泰教育自考贴心服务！</h5>
+            <span>华泰教育自创办以来一直秉承“以学生为中心，用心服务，超越期望”的服务理念。致力于减轻学员的报考压力，让广大学员安心备考，早日拿证，希望更多学员能通过继续教育成就美好的人生。在每一名学子报名、报考、学习、成绩、论文、毕业的背后，是一群专业的教学管理人员的默默付出。从报名到毕业的每一环节，一年四季，服务从不间断。9月7日，广东省2020年10月份自学考试报考开始。本次华泰教育报</span>
+            <a id="btn5" href="#" class="easyui-linkbutton btn5" data-options="iconCls:'icon-remove'">移除</a>
+        </div>
+        <div id="msg2">
+            <h5>2020-08-18</h5>
+            <h5>乘风破浪 未来可期——2020年8月份华泰教育集训圆满结束</h5>
+            <span>2020年华泰教育集团中高职人员的综合招生能力、教务系统队伍的综合业务技能以及管理技能培训课程集训于8月10-15日在集团总部开展。招生工作是集团发展的生命线，尤其是在今年新型冠状病毒疫情防控的特殊时期，集团与合作的中高职院校领导都高度重视招生宣传工作，从前期校内宣传，到集中宣讲，再到咨询回访都是招生必不可少的环节，我们在此次集训中，我们开展小组团队赛，采用了逐个考核过关的方式，让中高职招生人员一</span>
+            <a id="btn5" href="#" class="easyui-linkbutton btn5" data-options="iconCls:'icon-remove'">移除</a>
+        </div>
+        <div>
+            <div class="text1">
+                <a>关于广东机电职业技术学院高技能人才学历提升计划2020年春季学期期末考试安排的通知</a>
+                <p>根据广东机电职业技术学院2020年春季学期期末考试的安排，现将高职扩招期末考试有关工作具体安排如下：一、期末考试对象及考试资格1.考试对象：高技能人才学历提升计划2020年春季入学学生。2.考试资格：完全线上自学的课程，学生应至少完成学习任务进度的90%，方可获得该科目的考试资格。二、期末考试组织形式根据《关于2019年第二批扩招学生2020年春季入学教学组织实施方案的通知》的要求，本学期期末考试
+                </p>
+                <a id="btn5" href="#" class="easyui-linkbutton btn5" data-options="iconCls:'icon-remove'">移除</a>
+            </div>
+            <div class="text2">
+                <span>19</span>
+                <p>2020-09</p>
+            </div>
+            <a id="btn5" href="#" class="easyui-linkbutton btn5" data-options="iconCls:'icon-remove'">移除</a>
+        </div>
+        <div>
+            <div class="text1">
+                <a> 关于2020年秋季学期广东科技学院成教及高技能人才学历提升计划网络课程学习安排的通知</a>
+                <p>根据高校工作安排，现将广东科技学院“成教”和“高技能人才学历提升计划”学生网络课程学习安排如下：一、学习对象：19级、20级成教学生、20春高技能人才学历提升计划学生20秋高技能人才学历提升计划学生的学习安排另行通知二、学习平台广东科技学院跟青书学堂合作，网上学习均在青书学堂完成。1、电脑端：登录广东科技学院学院平台：https://degree.q
+                </p>
+                <a id="btn5" href="#" class="easyui-linkbutton btn5" data-options="iconCls:'icon-remove'">移除</a>
+            </div>
+            <div class="text2">
+                <span>19</span>
+                <p>2020-09</p>
+                <a id="btn5" href="#" class="easyui-linkbutton btn5" data-options="iconCls:'icon-remove'">移除</a>
+            </div>
+        </div>
+        <div>
+            <div class="text1">
+                <a>关于广东省2020年下半年中小学教师资格认定公告</a>
+                <p> 为做好广东省2020年下半年中小学（含中等职业学校和幼儿园）教师资格认定工作，根据《教师法》和《教师资格条例》有关规定，现将有关事项公告如下：一、认定范围（一）户籍在广东省的社会人员（含在职、待业人员）。（二）持有广东省居住证且在有效期内的外省市户籍人员。（三）广东省普通高等学校在读研究生。（四）持港澳台居民居住证或港澳居民来往内地通行证或五年有效期台湾居民来往大陆通行证的港澳台居民。（五）驻粤部
+                </p>
+                <a id="btn5" href="#" class="easyui-linkbutton btn5" data-options="iconCls:'icon-remove'">移除</a>
+            </div>
+            <div class="text2">
+                <span>18</span>
+                <p>2020-09</p>
+                <a id="btn5" href="#" class="easyui-linkbutton btn5" data-options="iconCls:'icon-remove'">移除</a>
+            </div>
+        </div>
+        <div>
+            <div class="text1">
+                <a>关于中国石油大学（华东）2020春季学期补考学位课程重修预约的通知</a>
+                <p>根据高校通知，中国石油大学（华东）2020春季学期补考将于2020年10月10日10:00-10月12日18:00举行。请各分校务必提醒学生按时完成此工作，否则不能参加考试。一、预约时间：2020年9月10日00:00-9月13日23:59二、预约条件：学位课程总评成绩已及格，但小于70分，且当批次考试已预约课程与重修学位课程的考试场次无冲突。三、具体操作步骤：学生在规定时间内进入学生个人工作室（
+                </p>
+                <a id="btn5" href="#" class="easyui-linkbutton btn5" data-options="iconCls:'icon-remove'">移除</a>
+            </div>
+            <div class="text2">
+                <span>18</span>
+                <p>2020-09</p>
+                <a id="btn5" href="#" class="easyui-linkbutton btn5" data-options="iconCls:'icon-remove'">移除</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
