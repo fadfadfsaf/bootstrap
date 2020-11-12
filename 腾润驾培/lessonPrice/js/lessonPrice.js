@@ -60,33 +60,3 @@ $(function () {
         }
     })
 })
-
-// $(function () {
-    // $.ajax({
-    //     url: "http://www.qhdlink-student.top/student/coacha.php",
-    //     type: "post",
-    //     dataType: "json",
-    //     data: {
-    //         "username": "lyx", "userpwd": "12345678", "userclass": 61, "type": 2,
-    //     },
-    //     success: function (data) {
-    //         // console.log(data);
-    //         var str = '';
-    //         var str1 = '';
-    //         for (var i = 1; i < 7; i++) {
-    //             str1 += '<li>' + i + '</li>'
-    //         }
-    //         $(".ul").append($(str1));
-    //         $(".ul>li").on("click", function () {
-    //             console.log($(this).index());
-    //             var index = $(this).index();
-    //             $(".right1").eq(index).show().siblings().hide();
-    //         })
-    //         $.each(data, function (i, v) {
-    //             console.log(v);
-    //             str += '<div class="right1"><div class="right_img"><img src="http://www.qhdlink-student.top/' + v.path_coach + '"></div><div class="right_text"><h3>C1</h3><p>精英班/8:00~12:00 13:00~17:00</p><a href="">详细了解>></a></div><div class="right_button"><a href="" class="sign">网上报名</a></div></div>'
-    //         })
-    //         $(".right").append($(str));
-    //     }
-    // })
-// })
