@@ -1,0 +1,261 @@
+.onav{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 70px;
+    z-index: 99;
+}
+.onav.bga {
+    background: #F2F6FA;
+}
+.ologo,.otext,.ochange{
+    float: left;
+}
+.ologo{
+    width: 150px;
+    margin-top: 27px;
+    margin-left: 3%;
+}
+.otext{
+    width: 75%;
+}
+ul{
+    list-style: none;
+}
+.otext>ul>li{
+    float: left;
+    margin-left: 3%;
+    margin-top: 27px;
+}
+.otext>ul>li>ul {
+    position: absolute;
+    /* background: #f00; */
+    width: 100%;
+    list-style-type: none;
+    display: none;
+}
+.otext>ul>li>ul.bg {
+    background: #E6EAED;
+}
+.otext>ul>li>ul.ula>li {
+    float: left;
+    width: 150px;
+    height: auto;
+    line-height: 50px;
+}
+.otext>ul>li>ul.ulc>li {
+    float: left;
+    width: 150px;
+    height: auto;
+    line-height: 50px;
+}
+.otext>ul>li>ul.ulc>li>img {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.otext>ul>li>ul>li>a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 1em;
+}
+.otext>ul>li>ul>li>a:link,.otext>ul>li>ul>li>a:visited {
+    color: #5E6164;
+}
+.otext>ul>li>ul>li>a:hover {
+    color: #337ab7;
+}
+.otext .lis1{
+    margin-left: 15%;
+}
+.otext>ul>li>a{
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.otext>ul>li>a:link,.otext>ul>li>a:visited {
+    color: #fff;
+}
+.otext>ul>li>a:hover{
+    font-size: 16px;
+    color:#337ab7;
+    text-decoration: none;
+}
+.ochange{
+    position: fixed;
+    z-index: 99;
+    width: 100px;
+    height: auto;
+    right: 0%;
+    top: 0%;
+}
+.ochange>.zhu2{
+    position: absolute;
+    right: 0px;
+    top: 78px;
+    opacity: 0.9;
+    width: 100px;
+    /* margin-top: 2px; */
+    background: #cccccc;
+    display: none;
+}
+.ochange>.zhu2 li{
+    width: 100px;
+}
+.ochange>.zhu2 li>a {
+    display: block;
+    margin-right: 55px;
+    font-size: 0.8em;
+}
+.ochange>.zhu2 p{
+    text-align: center;
+}
+div.footer {
+    background: #F6F6F6;
+    position: relative;
+}
+div.footer ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+div.footer .ula {
+    margin-left: 30px;
+    margin-top: 50px;
+}
+div.footer .ula>li {
+    height: 20px;
+    line-height: 25px;
+    color: #8d898c;
+}
+div.footer .ula>li>a {
+    text-decoration: none;
+    font-size: 12px;
+}
+div.footer .ula>li>a:link,div.footer .ula>li>a:visited {
+    color: #8d898c;
+}
+div.footer .ula>li>a:hover {
+    color: #00f;
+}
+div.footer .ulb {
+    margin-top: 50px;
+    margin-left: -20px;
+}
+div.footer .ulb>li {
+    height: 20px;
+    line-height: 25px;
+    color: #8d898c;
+}
+div.footer .ulb>li>a {
+    text-decoration: none;
+    font-size: 12px;
+}
+div.footer .ulb>li>a:link,div.footer .ulb>li>a:visited {
+    color: #8d898c;
+}
+div.footer .ulb>li>a:hover {
+    color: #00f;
+}
+div.footer .ulc {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+div.footer .ulc>li {
+    height: 20px;
+    line-height: 25px;
+    color: #8d898c;
+}
+div.footer .ulc>li>a {
+    text-decoration: none;
+    font-size: 12px;
+}
+div.footer .ulc>li>a:link,div.footer .ulc>li>a:visited {
+    color: #8d898c;
+}
+div.footer .ulc>li>a:hover {
+    color: #00f;
+}
+div.footer .imga {
+    width: 192px;
+    height: 26px;
+    margin-top: 50px;
+}
+div.footer .imgb {
+    width: 192px;
+    height: 43px;
+    margin-top: 20px;
+}
+div.footer .pa {
+    font-size: 14px;
+    color: #8d898c;
+    margin-top: 20px;
+}
+div.footer .pb {
+    font-size: 25px;
+    color: #8d898c;
+    margin-top: 10px;
+}
+div.footer span {
+    font-size: 14px;
+    color: #8d898c;
+    clear: both;
+}
+div.footer img.dh {
+    display: none;
+    position: absolute;
+    margin-top: -200px;
+    z-index:999;
+}
+div.footer span>img {
+    width: 23px;
+    height: 23px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+div.footer .pc {
+    font-size: 14px;
+    color: #8d898c;
+    margin-top: 10px;
+}
+div.footera {
+    background: #F6F6F6;
+    height: 150px;
+    position: relative;
+}
+div.footera .uld {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+div.footera .uld>li {
+    float: left;
+    margin-right: 4px;
+}
+div.footera .uld>li.dd {
+    width: 3px;
+}
+div.footera .uld>li>a {
+    text-decoration: none;
+    font-size: 13px;
+}
+div.footera .uld>li>a:link,div.footera .uld>li>a:visited {
+    color: #8d898c;
+}
+div.footera .uld>li>a:hover {
+    color: #00f;
+}
+div.footera .pc {
+    font-size: 12px;
+    color: #8d898c;
+}
+div.footera .pd {
+    font-size: 12px;
+    color: #8d898c;
+    float: right;
+    margin-right: 180px;
+}
+
+
+
+
