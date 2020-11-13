@@ -1,0 +1,173 @@
+	/* 特色服务 */
+/* pc */
+.service{
+    position: relative;
+    height: 565px;
+    margin: 0px;
+    padding: 0px;
+}
+.ser{
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.ser_header{
+    position: relative;
+    height: 12%;
+    background: url(../img/service.png) center center no-repeat;
+}
+.ser_header h2{
+    text-align: center;
+    color: #bf3232;
+    font-size: 2em;
+    font-weight: bold;
+}
+.ser_header h4{
+    margin-top: 18px;
+    color: #5f5f5f;
+    font-size: 18px;
+    letter-spacing: 4px;
+    font-family: inherit;
+    font-weight: 500;
+}
+#service{
+    position: relative;
+    width: 100%;
+    height: 436.72px;
+}
+.imgbox{
+    width: 1170px;
+    height: 436.72px;
+    background-color: #fff;
+}
+.imgbox img{
+    float: left;
+    margin-left:0px;
+    width: 195px;
+    height: 436.72px;
+    /* margin-top: -20px; */
+}
+.aaa{
+    width: 100%;
+    top: 260px;
+    height: 30px;
+    position: absolute;
+    z-index: 999;
+}
+._search{
+    width: 16.6%;
+    height: 30px;
+    position: relative;
+    float: left;  
+    text-align: center; 
+    
+}
+._search>a{
+    display:inline-block;
+    width:60px;
+    font-size: 14px;
+    height: 19px;
+    line-height: 19px;
+    border: 2px solid #999;
+    text-decoration: none;
+    color: #fff;
+}
+/* 移动端 */
+#a_phone{
+    width: 100%;
+    height: 390px;
+    position: absolute;
+    z-index: 999;
+    top: 0px;
+}
+#a_phone>a{
+    display: block;
+    width: 100%;
+    height: 65px;
+
+}
+/* 新闻模块 */
+/*.news是最外层模块*/
+.news{ 
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    z-index: 999;
+    clear: both;
+}
+/*#news是新闻模块*/
+#news>h3{
+    width: 156px;
+    height: 44px;
+    font-size: 24px;
+    color: #333;
+    text-align: right;
+    line-height: 44px;
+    background: url(../img/newsBg.png) left top no-repeat;
+}
+#news>img{
+    width: 52%;
+    height: auto;   
+    float: left;
+}
+.newsInfo{
+    width: 43%;
+    height:300px;
+    overflow: auto;
+    float: left;
+    margin-left: 11px;
+
+}
+.newsInfo>a{
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 3px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #262626;
+    text-indent:30px;
+    border-bottom: 1px #666 dashed;
+}
+/* 地图模块 */
+#map{
+    width: 50%;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    z-index: 999;
+    background-color: #fff;
+}
+#map>h3{
+    width: 28%;
+    margin-left: 10%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: url(../img/indexMap.png)left center no-repeat;
+
+}
+#map_phone{
+    width: 95%;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    z-index: 999;
+    background-color: #fff;
+}
+#map_phone>h3{
+    width: 48%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: url(../img/indexMap.png)left center no-repeat;
+
+}
+#map>p,#map_phone>p{
+    height: 20px;
+    clear: both;
+    color: #333;
+    margin-left: 10%;
+}

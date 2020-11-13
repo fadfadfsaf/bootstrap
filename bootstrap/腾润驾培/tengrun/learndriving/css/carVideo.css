@@ -1,0 +1,175 @@
+@media (min-width: 768px){
+
+/*carVideo start*/
+.smallCarV,.bigCarV{
+	width: 100%;
+	height: auto;
+}
+.carVideol{
+	width: 70%;
+	height: auto;
+	float: left;
+}
+.carVideoTitle{
+	width: 100%;
+	height: 50px;
+	font-size: 0;
+}
+.carVideoTitle span{
+	width: 49.5%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	display: inline-block;
+	background: #eaeaea;
+	font-size: 20px;
+	color: #000;
+}
+.carVideoTitle span:first-child{
+	margin-right: 1%;
+}
+.carVideoTitle span.smallshow,.carVideoTitle1 span.bigshow{
+	color: #fff;
+	background: #ffba14;
+}
+.carVideoV{
+	width: 100%;
+	height: 300px;
+	background:#333;
+}
+.carVideoV video{
+	width: 100%;
+	height: 300px;
+	/*background: #00f;*/
+}
+.carVideol p{
+	line-height: 24px;
+	font-size: 14px;
+	letter-spacing: 1px;
+	text-align: left;
+	text-indent: 30px;
+	color: #636363;
+}
+/* 小车视频结束 */
+
+/* 大车视频开始 */
+.carVideol1{
+	width: 70%;
+	height: auto;
+	float: left;
+}
+.carVideoTitle1{
+	width: 100%;
+	height: 50px;
+	font-size: 0;
+}
+.carVideoTitle1 span{
+	width: 49.5%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	display: inline-block;
+	background: #eaeaea;
+	font-size: 20px;
+	color: #000;
+}
+.carVideoTitle1 span:first-child{
+	margin-right: 1%;
+}
+.carVideoV1{
+	width: 100%;
+	height: 300px;
+	background:#333;
+}
+.carVideoV1 video{
+	width: 100%;
+	height: 300px;
+	/*background: #00f;*/
+}
+.carVideol1 p{
+	line-height: 24px;
+	font-size: 14px;
+	letter-spacing: 1px;
+	text-align: left;
+	text-indent: 30px;
+	color: #636363;
+}
+/* 大车视频结束 */
+
+
+/* 轮播图开始 大小共用 */
+.carVideoSwipe{
+	width: 29%;
+	height: 800px;
+	float: right;
+	position: relative;
+	/*background: #00f;*/
+}
+.videoSwipeContianer{
+	height: 630px;
+	float: right;
+}
+
+#marquee2,#marquee1{
+	width:100%;
+	height:470px;
+	overflow:hidden;
+	position: absolute;
+	top:50px!important;
+	left: 0px;
+	z-index: 999;
+	/*background: rgba(0,0,0,.1);*/
+}
+#marquee2 ul,#marquee1 ul{
+	margin-left: -40px;
+	/*height: 800px;
+	overflow: hidden;*/
+}
+#marquee2 ul li,#marquee1 ul li{
+	margin-top: 0px;
+	list-style-type: none;
+	float:left;
+	height:160px;
+}
+#marquee2 ul li video,#marquee1 ul li video{
+	display:block;
+	height: 100px;
+	width: 100%;
+	margin-bottom: 7px;
+}
+.carVideoSwipe p{
+	font-size: 14px;
+	color: #636363;
+	height: 20px;
+	margin:0;
+	line-height: 20px;
+	text-align: center;
+}
+
+.control{
+	position: absolute;
+	width: 100%;
+	height: 550px;
+	z-index: 99;
+	/*border:1px solid #00f;*/
+}
+.control a{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	display: block;
+	position: relative;
+}
+.control a img{
+	margin-left:40%;
+}
+
+.goU{
+	top: 5px;
+}
+.goD{
+	top: 480px;
+}
+
+/*carVideo end*/
+}

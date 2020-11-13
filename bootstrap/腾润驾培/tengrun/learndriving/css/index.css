@@ -1,0 +1,87 @@
+.learnGuide{
+    height: 740px;
+}
+.learnSvideo{
+    width: 100%;
+    height: 340px;
+}
+.car-attention{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #aaa;
+}
+.car-attention>h4{
+    font-size: 18px;
+    line-height: 30px;
+}
+.car-attention>h4>span{
+    float: right;
+}
+.car-attention>h4>span>a{
+    font-size: 16px;
+}
+.small-cran{
+    width: 100%;
+    height: 300px;
+}
+.small-cran-top{
+    width: 36%;
+    height: 300px;
+    position: relative;
+    float: left;
+}
+.small-cran-top>img{
+    width: 300px;
+    height: auto;
+}
+.small-cran-top>h4{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 30px;
+}
+.small-cran-top>p{
+    font-size: 12px;
+    color: #aaa;
+    line-height: 20px;
+}
+.small-cran-top>p>a{
+    float: right;
+}
+.small-cran-tr{
+    width: 60%;
+    height: 170px;
+    margin-left: 39%;
+    position: relative;
+    border-bottom: 1px #aaa dashed;
+}
+.small-cran-tr>h4{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 16px;
+}
+.small-cran-tr>p{
+    font-size: 14px;
+    color: #aaa;
+    line-height: 22px;
+}
+.small-cran-tr>p>a{
+    float: right;
+}
+.small-cran-bottom{
+    width: 60%;
+    height: 100px;
+    position: relative;
+    margin-left: 39%;
+}
+.small-cran-bottom>ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.small-cran-bottom>ul>li{
+    line-height: 25px;
+}
+.small-cran-bottom>ul>li>a{
+    font-size: 12px;
+}

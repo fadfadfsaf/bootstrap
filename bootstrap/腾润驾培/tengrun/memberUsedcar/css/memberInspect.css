@@ -1,0 +1,36 @@
+
+@media (min-width: 768px){
+.col-sm-12 {
+    width: 100%;
+}
+}
+.pagination {
+    display: inline-block;
+    padding-left: 0;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+.page>li {
+    float: left;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.page li.pageItemDisable {
+    border: solid thin #ff9914;
+    background-color: #ff9914;
+    color: white;
+    margin: 5px;
+}
+.page .pageItem {
+    border: solid thin #DDDDDD;
+    margin: 5px;
+    border: solid thin #ff9914;
+    background-color: #ff9914;
+    color: white;
+}
+.page .pageItemActive {
+    border: solid thin #ff9914;
+    margin: 5px;
+    background-color: #fff;
+    color: #ff9914;
+}

@@ -1,0 +1,72 @@
+.right{
+	height: 877px;	
+}
+.right>.right1{
+	margin-top: 20px;
+	padding: 20px 0px;
+	height: 232px;
+	border-top: 1px solid #CCCACA;
+	border-bottom: 1px solid #CCCACA;
+}
+.right>.right1>.right_img{
+    float: left;
+}
+.right>.right1>.right_img>img{
+	width: 254px;
+	padding-right: 20px;
+}
+
+.right>.right1>.right_text{
+	width: 400px;
+	float: left;
+}
+.right>.right1>.right_text>h3{
+	padding-bottom: 30px;
+	margin: 0px;
+}
+.right>.right1>.right_text>p{
+	padding-bottom: 30px;
+}
+.right>.right1>.right_text>a{
+	color: #999;
+	font-size: 12px;
+}
+.right>.right1>.right_button{
+	float: left;
+}
+.right>.right1>.right_button>a{
+    display: inline-block;
+    padding: 6px 12px;
+	margin-bottom: 0;
+	margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+	background: #FF9914;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+} 
+.introDuceBannerpc img {
+	width: 100%;
+}
+.introDuceBanner img{
+	width: 100%;
+}
+/* .pagination>.active>li{
+	margin-right: 20px;
+} */
+.pagination a{
+	margin-right: 20px;
+	
+}
+.pagination>.active>a{
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #FF9914;
+	border-color: #FF9914;
+	margin-right: 20px;
+}
+:root {
+	--swiper-theme-color: #fff;
+}

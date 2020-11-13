@@ -1,0 +1,60 @@
+.freebus{
+    margin-top: 50px;
+    height: 500px;
+}
+.freebusMap{
+    border-top: 1px solid #aaa;
+}
+@media (max-width: 768px) { 
+    .freebusMap{
+        border: 0px;
+        margin: 30px;
+        margin-bottom: 0px;
+        margin-top: 150px;
+    }
+    .word{
+        display: none;
+    }
+    .freebus{
+        margin-top: 30px;
+        height: 780px;
+    }
+}
+.freebusPaths{
+    border: none;
+    background-image: url(../img/left.jpg);
+    height: 170px;
+    background-repeat: no-repeat;
+    background-size: 100% 170px;
+    color: #fff;
+    font-size: 18px;
+    padding: 20px;
+}
+.freebusPaths>p{
+    font-size: 14px;
+    float: right;
+    padding-right: 75px;
+    padding-top: 10px;
+}
+.word{
+    line-height: 60px;
+    text-align: center;
+    color: rgb(63, 63, 63);
+    font-size: 23px;
+}
+.busPaths{
+    height: 170px;
+    margin: 30px;
+    background-image: url(../img/iphone.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 170px;
+    font-size: 18px;
+    padding: 30px;
+}
+.busPaths>p{
+    padding-right: 80px;
+    float: right;
+    color: rgb(83, 83, 83);
+    font-size: 14px;
+    padding-top: 10px;
+}

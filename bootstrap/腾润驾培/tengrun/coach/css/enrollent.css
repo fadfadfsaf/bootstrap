@@ -1,0 +1,119 @@
+/* breadcrumb面包屑导航 */
+/* pc */
+.breadcrumblimit ul {
+	overflow: hidden;
+	margin-bottom: 17px;
+	margin-top: 10px;
+	padding: 0;
+}
+
+.breadcrumblimit ul li {
+	float: left;
+	color: #777777;
+
+}
+/* PC端banner图片 */
+.pcBanner img {
+    width: 100%;
+} 
+/* PC端banner图片*/
+
+/* md */
+@media (max-width: 768px) {
+	.breadcrumblimit {
+		display: none;
+	}
+}
+
+
+.EnrollmentCCentermid { 
+    width:1000px;
+    height:auto;
+    position: relative;
+    margin-top: 1px;
+    padding-top: 1px;
+    background:#f8f9fa;
+    margin:auto;
+}
+
+.EnrollmentSubmitOne{
+    margin-top: 60px;
+    height: 100px;
+}
+
+.EnrollmentXuzhi {
+margin: 20px;
+background: #fff;
+color: #777777;
+padding: 20px;
+line-height: 35px;
+height: 500px;
+overflow:auto;
+}
+.clic{
+    margin-left:450px;
+}
+.EnrollmentForm{
+    margin-top: 50px;
+ 
+
+}
+@media(max-width: 770px){
+.EnrollmentForm{
+    margin-top: 50px;
+
+
+        }  }
+/* .EnrollmentFormP{
+    height: 50px;
+    margin-left: 50px;
+    padding-top: 20px;
+} */
+/* .EnrollmentFormX{
+    color: #f00;
+} */
+.EnrollmentSubmit{
+    width:120px;
+    height: 40px;
+    background: #ffa311;
+    border:#ffa311 1px solid;
+    color: #fff;
+    margin-top:30px;
+}
+.username{
+    margin-bottom:20px;
+    margin-top:20px;
+}
+
+
+/*移动端响应式*/
+@media (max-width: 768px) {/* 最大宽度为768 */
+	.EnrollmentCCentermid {
+		width: 100%;
+		height: auto;
+		position: relative;
+		margin-top: 10em;
+        text-align: center;
+        z-index: 444;
+	}
+
+	.EnrollmentXuzhi {
+		width: 90%;
+        height: 50em;
+		padding: 3px;
+        margin-top: 3em;
+        display: block;
+       
+	}
+
+	.clic{
+        z-index: 999;
+        display:block;
+        margin-left:38% ;
+ }
+
+.row{width:1170px;
+     height:auto;
+     position: relative;
+     margin: auto;
+     }}

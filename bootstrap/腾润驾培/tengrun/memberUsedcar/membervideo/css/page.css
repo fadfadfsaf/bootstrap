@@ -1,0 +1,41 @@
+.page{
+    list-style: none;
+    margin-top: 25px;
+}
+.page>li{
+    float: left;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.page .pageItem{
+    /*border: solid thin #DDDDDD;*/
+    margin: 5px;
+    border: solid thin #ff9914;
+    background-color: #ff9914;
+    color: white;
+}
+.page .pageItemActive{
+    border: solid thin #ff9914;
+    margin: 5px;
+    background-color: #fff;
+    color: #ff9914;
+}
+.page .pageItem:hover{
+    border: solid thin #ff9914;
+    background-color: #fff;
+    color: #ff9914;
+}
+.page.pageItemDisable{
+    border: solid thin #DDDDDD;
+    margin: 5px;
+    background-color: #DDDDDD;   
+}
+.page li.pageItemDisable{
+	border: solid thin #ff9914;
+    background-color: #ff9914;
+    color: white;
+    margin: 5px;
+}
+.page li.pageItemDisable:hover{
+	cursor:not-allowed;
+}

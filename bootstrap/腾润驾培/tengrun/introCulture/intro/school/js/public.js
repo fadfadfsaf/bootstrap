@@ -1,0 +1,10 @@
+		$(".Introduce").click(function(){
+             $(this).children("ul").css("display","block");
+		})
+	$(document).ready(function(){
+		window.onload=function(){
+			 $(".lefticon").click(function(){
+          $(".Introduce").children("ul").css("display","none");
+    		})
+		}
+	})

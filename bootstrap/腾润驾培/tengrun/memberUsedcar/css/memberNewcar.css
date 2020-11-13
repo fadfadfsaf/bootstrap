@@ -1,0 +1,130 @@
+
+.div_1{
+    margin-left: 52px;
+    padding: 0px;
+}
+@media (max-width: 768px){
+    .div_1{
+        margin: 0px;
+        padding: 0px;
+    }
+    }
+.img1{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.img2{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.div_ul ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.div_ul>ul>li{
+    float: left;
+}
+.div_ul>ul>li img{
+  width: 100%;
+  border: solid 1px #c7c7c7;
+}
+.div_ul p{
+    text-align: center;
+}
+
+@media (min-width: 768px){
+.col-sm-1-7 {
+    width: 14.2%;
+    min-height:1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+}
+@media (max-width: 768px){
+.col-xs-1-5 {
+    width: 20%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+}
+.col-xs-1-5, .col-sm-1-7 {
+    position: relative;
+}
+/* form表单部分 */
+.member_form {
+    clear: both;
+    width: 100%;
+    height: auto;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.member_form_text h3 {
+    font-size: 20px;
+    color: #d50707;
+    text-align: left;
+}
+.member_form_text p{
+    font-size: 16px;
+    color: #535353;
+    text-align: left;
+}
+.member_form_input {
+    width: 100%;
+    height: 400px;
+}
+.member_textArae {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 30px;
+}
+.member_textArae textarea {
+    width: 99%;
+    max-width: 99%;
+    height: 100px;
+    font-size: 15px;
+}
+.member_textAraeSize {
+    bottom: 10px;
+    right: 10px;
+    position: absolute;
+}
+.member_fi {
+    width: 100%;
+    margin-bottom: 40px;
+}
+.member_form_input p {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 16px;
+}
+.member_form_input p span {
+    float: left;
+    width: 28%;
+    height: 34px;
+    margin-right: 2%;
+    letter-spacing: 5px;
+}
+.member_form_input p input {
+    width: 55%;
+    float: left;
+}
+.member_form_input button {
+    width: 30%;
+    height: 40px;
+    display: block;
+    margin-left: 35%;
+    margin-top: 20px;
+    display: block;
+    background: #ff9914;
+    line-height: 40px;
+    border: 0;
+    color: #fff;
+}
