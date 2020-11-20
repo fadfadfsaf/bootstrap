@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../easyui/themes/gray/easyui.css">
+    <link rel="stylesheet" type="text/css" href="../easyui/themes/icon.css">
 </head>
 <style>
     .banner {
@@ -19,29 +21,42 @@
     }
 
     p {
+        float: left;
+        width: 322px;
         margin: 20px;
         padding: 20px;
         border: 1px solid #a90000;
     }
 
     img {
-        width: 440px;
-        height: 250px;
+        width: 280px;
+        height: 130px;
     }
 </style>
 
 <body>
-    <button id="btn1">增加</button>
-    <button id="btn2">全部删除</button>
     <div class="banner">
+        <input type="file" class="add">
+        <button class="easyui-linkbutton " data-options="iconCls:'icon-add'" id="add"> 添加</button>
+      
         <div id="msg">
             <p>
-                <img src="../images/pp1.gif" alt="">
+                id <span>图片名称</span>
+                <img src="../img/plan.png" alt="">
+                <button class="but0">修改</button>
+                <button class="but1">删除</button>
+            </p>
+            <p>
+                id <span>图片名称</span>
+                <img src="../img/plan.png" alt="">
+                <button class="but0">修改</button>
+                <button class="but1">删除</button>
             </p>
         </div>
     </div>
     <script type="text/javascript" src="../js/jquery-1.8.3.min.js"></script>
     <script type="text/javascript" src="js/banner.js"></script>
+    <script type="text/javascript" src="../easyui/jquery.easyui.min.js"></script>
 </body>
 
 </html>
