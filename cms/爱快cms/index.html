@@ -1,11 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="easyui/themes/gray/easyui.css">
+    <link rel="stylesheet" type="text/css" href="easyui/themes/icon.css">
 </head>
+<style>
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+    #admin{
+        margin-right: 600px;
+    }
+    
+    #btn{
+        border: 0px;
+        width: 100px;
+        height: 40px;
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+</style>
+
 <body>
-    sadkjaskjsadbksajdbsadojbdsa
+    <div id="cc" class="easyui-layout" style="width: 100%;height:900px;">
+
+        <!-- split:true是否可调整大小 -->
+        <!-- 顶部header start-->
+
+        <div data-options="region:'north',title:'爱快cms管理系统'," style="height:130px;">
+            <img src="img/logo2.png" alt="" style="float: left;">
+            <p id="admin" style="text-align: right; color: #a90000; font-size: 22px;"></p>
+            <p style="text-align:right"><button id="btn" name="btn">安全退出</button></p>
+        </div>
+
+        <!-- 顶部header end-->
+        <!-- 底部footer start-->
+
+        <div data-options="region:'south',title:'版权信息'" style="height:200px;">
+            <div style="width: 48%; float: left; line-height: 40px; color: #fff; margin-top: 10px; margin-left: 20px;">
+                地址：秦皇岛市海港区柳村限速桥东行50米路南<br>
+                招生热线：0335-7913777 7913788 3030400 <br>
+                Copyright©秦皇岛市腾润机动车驾驶员培训有限公司 冀ICP备17031293号-1
+            </div>
+            <div style="width: 50%; float: right; margin-top: 10px;">
+                <img src="images/erweima.jpg" alt="" style="width: 140px; height: 140px; margin-right: 30px;">
+                <img src="images/erweimatext.png" alt="">
+            </div>
+        </div>
+
+        <!-- 底部footer end-->
+        <!-- 右侧nav start-->
+        <!-- <div data-options="region:'east',title:'East'" style="width:100px;"></div> -->
+        <!-- 右侧nav end-->
+        <!-- 左侧导航nav start-->
+
+        <div data-options="region:'west',title:'导肮菜单'" style="width:260px;">
+            <div class="easyui-accordion">
+                <div id="" title="cms管理">
+                    <!-- 创建菜单 -->
+                    <ul id="treeMenu" class="easyui-tree">
+                        <li>
+                            <span>banner管理</span>
+                            <!-- 二级导航 -->
+                            <ul>
+                                <li data-options="attributes:{url:'admin/banner.html'}">banner</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>班级管理</span>
+                            <ul>
+                                <li data-options="attributes:{url:'admin/cp.html'}">班级管理</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>教练管理</span>
+                            <ul>
+                                <li data-options="attributes:{url:'admin/teacher.html'}">teacher</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>新闻管理</span>
+                            <ul>
+                                <li data-options="attributes:{url:'admin/news.html'}">news</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- <div id="" title="账号管理">
+                    菜单二
+                </div> -->
+            </div>
+        </div>
+        <!-- 左侧导航nav end-->                                                                                                                                                                     
+
+        <!-- 中间contents信息 start -->
+		<div data-options="region:'center'">
+			<!--选项卡使用-->
+			<div id="div_tabs" class="easyui-tabs" data-options="fit:true,border:false">
+				<!--首页-->
+				<div id="" title="首页">
+                    <img src="img/plan.png" alt="" style="width: 100%; height: auto;">
+				</div>
+			</div>
+		</div>
+
+        <!-- 中间contents信息 end -->
+
+    </div>
+
+    <!-- js引入 -->
+
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="easyui/jquery.easyui.min.js">  </script>
+    <script type="text/javascript" src="js/index.js"></script>
 </body>
+
 </html>
