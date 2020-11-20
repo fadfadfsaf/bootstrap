@@ -14,12 +14,13 @@ $(function () {
                 console.log(data);
                 if(data="ok"){
                     location.href="index.html";
+                    localStorage.setItem("linkname",names);
+                    
                 }else{
                     alert("账号或密码不正确")
                 }
             }
         })
-        // location.href="index.html";
     })
 })
 
