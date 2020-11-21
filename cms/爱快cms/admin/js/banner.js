@@ -30,35 +30,47 @@ $(function () {
             })
         }
     })
-    $("#add").click(function () {
-        alert("add")
-        $(".add").change(function () {
-            if (window.FileReader) {
-                var fr = new FileReader();
-                fr.readAsDataURL(file);
-                fr.onload = function () {
-                    showimg.src = this.result; // 图片可显示出来
-                };
-            } else {
-                alert('添加失败');
-            };
-        })
-    })
 
 
     $(".add").change(function () {
-        // console.log($(this));
-        var showimg = document.getElementsByClassName('showimg')[0];
-        $(".test").children("img").remove();
+        console.log($(this))
         var file = this.files[0];
+        var imgs=document.createElement("img");
         if (window.FileReader) {
             var fr = new FileReader();
             fr.readAsDataURL(file);
+           
             fr.onload = function () {
-                showimg.src = this.result; // 图片可显示出来
+                console.log(this);
+                imgs.src = this.result; // 图片可显示出来
             };
+            
+            $("#add").one("click",function () {
+
+                alert("添加成功")
+                $("#msg").append($(imgs));
+            })
         } else {
-            alert('修改失败');
+            alert('添加失败');
         };
+
+
     })
+
+
+    // $(".add").change(function () {
+    //     // console.log($(this));
+    //     var showimg = document.getElementsByClassName('showimg')[0];
+    //     $(".test").children("img").remove();
+    //     var file = this.files[0];
+    //     if (window.FileReader) {
+    //         var fr = new FileReader();
+    //         fr.readAsDataURL(file);
+    //         fr.onload = function () {
+    //             showimg.src = this.result; // 图片可显示出来
+    //         };
+    //     } else {
+    //         alert('修改失败');
+    //     };
+    // })
 })
