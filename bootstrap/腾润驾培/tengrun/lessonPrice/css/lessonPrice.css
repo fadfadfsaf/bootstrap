@@ -1,40 +1,42 @@
 .right{
-	height: 877px;	
+	height: auto;	
+	display: none;
 }
-.right>.right1{
+.right>.right_1{
 	margin-top: 20px;
 	padding: 20px 0px;
 	height: 232px;
 	border-top: 1px solid #CCCACA;
 	border-bottom: 1px solid #CCCACA;
 }
-.right>.right1>.right_img{
+.right>.right_1>.right_img{
     float: left;
 }
-.right>.right1>.right_img>img{
+.right>.right_1>.right_img>img{
 	width: 254px;
-	padding-right: 20px;
+	height: 200px;
+	padding-right: 20px;	
 }
 
-.right>.right1>.right_text{
+.right>.right_1>.right_text{
 	width: 400px;
 	float: left;
 }
-.right>.right1>.right_text>h3{
+.right>.right_1>.right_text>h3{
 	padding-bottom: 30px;
 	margin: 0px;
 }
-.right>.right1>.right_text>p{
+.right>.right_1>.right_text>p{
 	padding-bottom: 30px;
 }
-.right>.right1>.right_text>a{
+.right>.right_1>.right_text>a{
 	color: #999;
 	font-size: 12px;
 }
-.right>.right1>.right_button{
+.right>.right_1>.right_button{
 	float: left;
 }
-.right>.right1>.right_button>a{
+.right>.right_1>.right_button>a{
     display: inline-block;
     padding: 6px 12px;
 	margin-bottom: 0;
@@ -52,21 +54,27 @@
 .introDuceBanner img{
 	width: 100%;
 }
-/* .pagination>.active>li{
-	margin-right: 20px;
-} */
-.pagination a{
-	margin-right: 20px;
-	
+
+#uls{
+	margin: 50px 0px;
+	text-align: center;
 }
-.pagination>.active>a{
-    z-index: 3;
-    color: #fff;
-    cursor: default;
-    background-color: #FF9914;
-	border-color: #FF9914;
-	margin-right: 20px;
+#uls ul {
+	padding: 0px;
+	margin: 0px;
+	margin-left:50% ;
+	position:relative;
+	left: -200px;
+
 }
-:root {
-	--swiper-theme-color: #fff;
+
+#uls li {
+	background: #FF9914;
+	border: 1px #FF9914 solid;
+	color: aliceblue;
+	float: left;
+    padding: 5px 10px;
+	cursor: pointer;
+	font-size: 16px;
+	margin-right: 15px;
 }

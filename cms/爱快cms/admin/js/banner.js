@@ -19,25 +19,22 @@ $(function () {
             $(".but0").click(function () {
                 $('#w').window('open')
                 var img = $(this).siblings("img");
-                // img.remove();
-                console.log(img[0].src);
-
-                //    img[0].src='';
                 $("#fil").change(function () {
                     var file = this.files[0];
-                    console.log(file);
                     var fr = new FileReader();
                     fr.readAsDataURL(file);
                     fr.onload = function () {
-                        console.log(this.result);
                         img[0].src = this.result; // 图片可显示出来
                     }
                 })
                 $("#btn3").click(function () {
-                    console.log(this);
                     var id = $("#w").children("#tex").val();
                     var name = $("#w").children("#name").val();
-                    $("#msg p").children()         
+                    var i= $("#msg p").children("i").html();
+                    var s= $("#msg p").children("span").html();
+
+                    i=id;    
+                    s=name;
                 })
 
             })
@@ -52,7 +49,7 @@ $(function () {
                 else {
                     x = "你按下了\"取消\"按钮!";
                 }
-                console.log(confirm);
+
             })
         }
     })
@@ -60,13 +57,13 @@ $(function () {
     var a = 2;
     $(".add").change(function () {
         var file = this.files[0];
-        console.log(file);
+
         var imgs = $("<img>");
         if (window.FileReader) {
             var fr = new FileReader();
             fr.readAsDataURL(file);
             fr.onload = function () {
-                console.log(this);
+
                 imgs.attr("src", this.result); // 图片可显示出来
             };
 
@@ -83,17 +80,13 @@ $(function () {
                 $(".but2").on("click", function () {
                     $('#w').window('open')
                     var img = $(this).siblings("img");
-                    // img.remove();
-                    console.log(img[0].src);
-    
-                    //    img[0].src='';
                     $("#fil").change(function () {
                         var file = this.files[0];
-                        console.log(file);
+
                         var fr = new FileReader();
                         fr.readAsDataURL(file);
                         fr.onload = function () {
-                            console.log(this.result);
+
                             img[0].src = this.result; // 图片可显示出来
                         }
                     })
@@ -108,7 +101,6 @@ $(function () {
                     else {
                         x = "你按下了\"取消\"按钮!";
                     }
-                    console.log(confirm);
                 })
             })
 

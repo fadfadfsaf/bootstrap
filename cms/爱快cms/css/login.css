@@ -1,5 +1,7 @@
 body{
-    background-color: #000;
+    background:url(../img/5.jpg);
+    background-size:100% 150%;
+    background-repeat:no-repeat;
 }
 div{
     position: relative;
