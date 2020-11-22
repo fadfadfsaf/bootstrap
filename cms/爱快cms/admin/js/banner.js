@@ -1,3 +1,4 @@
+
 $(function () {
     $.ajax({
         url: "http://mock.shtodream.cn/mock/5fb25b208e13766542114e13/ikuai/banners",
@@ -10,18 +11,34 @@ $(function () {
             var str = '';
             $.each(data, function (i, v) {
                 // console.log(v);
-                str += '<p>id：' + v.id_b + ';<span> name :' + v.name_b + '</span><img src="' + v.img_b + '"><button class="but0">修改</button><button class="but1">删除</button></p>'
+                str += '<p><i>id：' + v.id_b + ';</i><span> name :' + v.name_b + '</span><img src="' + v.img_b + '"><button class="but0" >修改</button><button class="but1">删除</button></p>'
             })
             $("#msg").append($(str));
 
 
             $(".but0").click(function () {
-                var img = $(this).prev();
+                $('#w').window('open')
+                var img = $(this).siblings("img");
                 // img.remove();
                 console.log(img[0].src);
-                // var fi= $("<input type='file'>")
-                // console.log(fi);
-                   img[0].src='';
+
+                //    img[0].src='';
+                $("#fil").change(function () {
+                    var file = this.files[0];
+                    console.log(file);
+                    var fr = new FileReader();
+                    fr.readAsDataURL(file);
+                    fr.onload = function () {
+                        console.log(this.result);
+                        img[0].src = this.result; // 图片可显示出来
+                    }
+                })
+                $("#btn3").click(function () {
+                    console.log(this);
+                    var id = $("#w").children("#tex").val();
+                    var name = $("#w").children("#name").val();
+                    $("#msg p").children()         
+                })
 
             })
 
@@ -43,15 +60,14 @@ $(function () {
     var a = 2;
     $(".add").change(function () {
         var file = this.files[0];
+        console.log(file);
         var imgs = $("<img>");
         if (window.FileReader) {
             var fr = new FileReader();
             fr.readAsDataURL(file);
-
             fr.onload = function () {
                 console.log(this);
                 imgs.attr("src", this.result); // 图片可显示出来
-
             };
 
             $("#add").one("click", function () {
@@ -65,7 +81,22 @@ $(function () {
                 alert("添加成功")
 
                 $(".but2").on("click", function () {
-                    alert(this);
+                    $('#w').window('open')
+                    var img = $(this).siblings("img");
+                    // img.remove();
+                    console.log(img[0].src);
+    
+                    //    img[0].src='';
+                    $("#fil").change(function () {
+                        var file = this.files[0];
+                        console.log(file);
+                        var fr = new FileReader();
+                        fr.readAsDataURL(file);
+                        fr.onload = function () {
+                            console.log(this.result);
+                            img[0].src = this.result; // 图片可显示出来
+                        }
+                    })
                 })
                 $(".but3").one("click", function () {
                     var r = confirm("是否确认删除");

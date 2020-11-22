@@ -7,6 +7,12 @@
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="../easyui/themes/gray/easyui.css">
     <link rel="stylesheet" type="text/css" href="../easyui/themes/icon.css">
+    <script type="text/javascript" src="../js/jquery-1.8.3.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="../easyui/demo/demo.css">
+    <script type="text/javascript" src="../easyui/jquery.min.js"></script>
+    <script type="text/javascript" src="../easyui/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="js/banner.js"></script>
 </head>
 <style>
     .banner {
@@ -56,9 +62,20 @@
             </p> -->
         </div>
     </div>
-    <script type="text/javascript" src="../js/jquery-1.8.3.min.js"></script>
-    <script type="text/javascript" src="js/banner.js"></script>
-    <script type="text/javascript" src="../easyui/jquery.easyui.min.js"></script>
+
+    <!--     
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="$('#w').window('open')">Open</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="$('#w').window('close')">Close</a> -->
+
+    <!-- 修改模态框 -->
+    <div id="w" class="easyui-window" title="Modal Window" data-options="modal:true,closed:true,iconCls:'icon-save'"
+        style="width:500px;height:200px;padding:10px;">
+        i d &nbsp; &nbsp;：<input type="text" placeholder="请输入内容" id="tex" /><br>
+        name：<input type="text" placeholder="请输入内容" id="name" /><br>
+        <input type="file" id="fil" />
+        <br>
+        <button id="btn3">添加</button>
+    </div>
 </body>
 
 </html>

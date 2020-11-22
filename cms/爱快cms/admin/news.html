@@ -5,35 +5,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../easyui/themes/gray/easyui.css">
+    <link rel="stylesheet" type="text/css" href="../easyui/themes/icon.css">
+    <script type="text/javascript" src="../js/jquery-1.8.3.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="../easyui/demo/demo.css">
+    <script type="text/javascript" src="../easyui/jquery.min.js"></script>
+    <script type="text/javascript" src="../easyui/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="js/banner.js"></script>
 </head>
+<style>
+    .banner {
+        width: 100%;
+        height: auto;
+    }
+
+    #msg {
+        position: relative;
+        left: 0px;
+        top: 0px;
+    }
+
+    p {
+        float: left;
+        width: 322px;
+        margin: 20px;
+        padding: 20px;
+        border: 1px solid #a90000;
+    }
+
+    img {
+        width: 280px;
+        height: 130px;
+    }
+</style>
 
 <body>
-    <div class="right">
-        <h3>新闻信息</h3>
-        <p>测试：标题[<a href="news_info.html?id=2">详细信息</a>]</p>
-        <div id="msg"></div>
+    <div class="banner">
 
+        <input type="file" class="add">
+
+        <button class="easyui-linkbutton " data-options="iconCls:'icon-add'" id="add"> 添加</button>
+
+        <div id="msg">
+
+        </div>
     </div>
-    <script type="text/javascript" src="../js/jquery-1.8.3.min.js"></script>
-    <script type="text/javascript">
-        $(function () {
-            $.ajax({
-                url: "http://www.qhdlink-student.top/student/newsa.php",
-                type: "post",
-                data: "username=lyx&userpwd=12345678&userclass=61&type=2",
-                dataType: "json",
-                success: function (data) {
-                    console.log(data);
-                    var str = "";
-                    $.each(data, function (i, v) {
-                        console.log(v)
-                        str += '<p>'+v.title_news+'[<a href="news_info.html?id='+v.id_news+'">详细信息</a>]</p>';
-                    })
-                    $("#msg").append($(str))
-                }
-            })
-        })
-    </script>
+
+    <!-- 修改模态框 -->
+    <div id="w" class="easyui-window" title="Modal Window" data-options="modal:true,closed:true,iconCls:'icon-save'"
+        style="width:500px;height:200px;padding:10px;">
+        i d &nbsp; &nbsp;：<input type="text" placeholder="请输入内容" id="tex" /><br>
+        name：<input type="text" placeholder="请输入内容" id="name" /><br>
+        <input type="file" id="fil" />
+        <br>
+        <button id="btn3">添加</button>
+    </div>
 </body>
 
 </html>
