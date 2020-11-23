@@ -1,4 +1,4 @@
-
+1
 $(function () {
     $.ajax({
         url: "http://mock.shtodream.cn/mock/5fb25b208e13766542114e13/ikuai/banners",
@@ -17,9 +17,13 @@ $(function () {
 
 
             $(".but0").click(function () {
+
                 $('#w').window('open')
+
                 var img = $(this).siblings("img");
+                console.log(img);
                 $("#fil").change(function () {
+
                     var file = this.files[0];
                     var fr = new FileReader();
                     fr.readAsDataURL(file);
@@ -27,6 +31,8 @@ $(function () {
                         img[0].src = this.result; // 图片可显示出来
                     }
                 })
+
+
                 $("#btn3").click(function () {
                     var id = $("#w").children("#tex").val();
                     var name = $("#w").children("#name").val();
